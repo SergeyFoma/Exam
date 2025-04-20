@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class Questions(models.Model):
+    name=models.CharField(max_length=255)
+
+class Answers(models.Model):
+    name=models.CharField(max_length=255)
+    ques=models.ForeignKey(Questions, on_delete=models.CASCADE)
