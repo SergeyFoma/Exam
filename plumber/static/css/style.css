@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: row;
+   
+}
+.sideleft {
+    width: 20%;
+    height: 2000px;
+    background-color: rgb(255, 127, 244);
+}
+.sideright {
+    width: 80%;
+    height: 2000px;
+    background-color: rgb(208, 247, 158);
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
