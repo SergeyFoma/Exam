@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     "plumber.apps.PlumberConfig",
-    
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

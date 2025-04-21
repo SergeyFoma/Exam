@@ -1,0 +1,10 @@
+notTrueTruenotFalseFalseFalseradio3:Trueradio3:Trueradio2:Falseradio1:Falseradio4:Falseradio1:False
+radio2:False
+radio3:True
+radio4:False
+radio4:False
+radio1:False
+radio3:True
+radio3:True
+radio3:True
+radio3:True
