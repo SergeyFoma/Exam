@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     "plumber.apps.PlumberConfig",
+    "users.apps.UsersConfig",
+    
     'django_extensions',
 ]
 
@@ -125,3 +127,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_REDIRECT_URL="plumber:testing"
+#LOGOUT_REDIRECT_URL="women:index"
+LOGIN_URL="users:login_user" #если пользователь не авторизован

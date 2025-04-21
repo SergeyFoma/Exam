@@ -1,5 +1,5 @@
 from django.contrib import admin
-from plumber.models import Questions, Answers
+from plumber.models import Questions, Answers, AnswerUser
 
 @admin.register(Questions)
 class QuestionsAdmin(admin.ModelAdmin):
@@ -8,3 +8,7 @@ class QuestionsAdmin(admin.ModelAdmin):
 @admin.register(Answers)
 class AnswersAdmin(admin.ModelAdmin):
     display_list=['answer', 'ques']
+
+@admin.register(AnswerUser)
+class AnswerUserAdmin(admin.ModelAdmin):
+    display_list=['question', 'answer_num', 'answer', 'active']
