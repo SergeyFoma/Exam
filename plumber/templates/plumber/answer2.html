@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block sideright %}
+{{request.user.username}}
+
+<p>Всего вопросов {{que_num}}</p>
+<p>Решённых {{ques_res}} - {{variance}}%</p>
+{% if percent > 0 %}
+    <p>Правильных ответов - {{answertrue}} - {{percent}}%</p>
+{% endif %}
+<p>Не правильных oтветов - {{answerfalse}}</p>
+{% if percent < 80 %}
+    <p>Тест не пройден. Правильных ответов должно быть не менее 80%.</p>
+{% else %}
+    <p>Тест пройден</p>
+{% endif %}
+<hr>
+    {% for a in ans %}
+        {% if a.answer == "Верно" %}
+            <p style="color:red">{{a.question}}{{a.answer}}</p>
+        {% else %}
+            <p>{{a.question}}{{a.answer}}</p>
+        {% endif %}
+    {% endfor %}
+
+<hr>
+
+{%for q in que%}
+    <h3 style="margin_bottom:10px">{{q.name}}</h3>
+    {% for a in answers %}
+        {% if a.ques.pk == q.pk %}
+            {% if a.active %}
+                <p style="color:red"> {{a.num}}. {{a.answer}}</p>
+            {% else %}
+                <p>{{a.num}}. {{a.answer}}</p>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+{%endfor%}
+    
+
+{%endblock%}

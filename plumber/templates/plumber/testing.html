@@ -10,7 +10,7 @@
         <h2 style="margin-bottom:10px">{{i.name}}{{i.text}}</h2>
        
 
-    <form action=""method='get'>
+    <form action="{%url 'plumber:answer'%}"method='get'>
     {% for q in ans %}
     
         {%if q.ques.name == i.name%}

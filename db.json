@@ -1,0 +1,1216 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-04-20T13:31:26.014Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Questions object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-04-20T13:31:46.437Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Questions object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-04-20T13:32:18.929Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Answers object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-04-20T13:32:30.169Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Answers object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-04-20T13:32:37.080Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Answers object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-04-20T13:32:45.449Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Answers object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-04-20T13:38:11.613Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Answers object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-04-20T13:38:19.441Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Answers object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-04-20T13:38:28.289Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Answers object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-04-20T13:38:36.438Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Answers object (4)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-04-20T14:04:04.531Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Answers object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-04-20T14:04:11.831Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Answers object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-04-20T14:04:19.501Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Answers object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-04-20T14:04:25.417Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Answers object (4)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-04-21T05:49:03.013Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Answers object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-04-21T05:49:15.081Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Answers object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-04-21T05:49:26.942Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Answers object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-04-21T05:49:37.041Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Answers object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-04-21T05:54:19.402Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "SERG1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-04-21T14:28:04.825Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Answers object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-04-21T14:28:12.917Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Answers object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-04-21T14:28:20.314Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Answers object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-04-21T14:28:26.799Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Answers object (4)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-04-21T14:28:34.097Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Answers object (5)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-04-21T14:28:41.924Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Answers object (6)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-04-21T14:28:48.479Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Answers object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-04-21T14:28:54.681Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Answers object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-04-21T14:40:56.559Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Answers object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-04-21T14:41:04.192Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Answers object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-04-21T14:41:11.686Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Answers object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-04-21T14:41:21.930Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Answers object (4)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-04-21T14:42:48.855Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Answers object (5)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-04-21T14:42:56.263Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Answers object (6)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-04-21T14:43:03.746Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Answers object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-04-21T14:43:10.677Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Answers object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-04-21T14:57:00.105Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "SERG4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-04-21T15:01:48.564Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Questions object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-04-21T15:02:33.974Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Answers object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-04-21T15:02:50.082Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Answers object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-04-21T15:03:03.829Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Answers object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-04-21T15:03:16.136Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Answers object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add questions",
+    "content_type": 7,
+    "codename": "add_questions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change questions",
+    "content_type": 7,
+    "codename": "change_questions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete questions",
+    "content_type": 7,
+    "codename": "delete_questions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view questions",
+    "content_type": 7,
+    "codename": "view_questions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add answers",
+    "content_type": 8,
+    "codename": "add_answers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change answers",
+    "content_type": 8,
+    "codename": "change_answers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete answers",
+    "content_type": 8,
+    "codename": "delete_answers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view answers",
+    "content_type": 8,
+    "codename": "view_answers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add answer user",
+    "content_type": 9,
+    "codename": "add_answeruser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change answer user",
+    "content_type": 9,
+    "codename": "change_answeruser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete answer user",
+    "content_type": 9,
+    "codename": "delete_answeruser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view answer user",
+    "content_type": 9,
+    "codename": "view_answeruser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add answers user",
+    "content_type": 10,
+    "codename": "add_answersuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change answers user",
+    "content_type": 10,
+    "codename": "change_answersuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete answers user",
+    "content_type": 10,
+    "codename": "delete_answersuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view answers user",
+    "content_type": 10,
+    "codename": "view_answersuser"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$wnTTZuO9zMWR3zNhWmaSRX$y3Rmbd8vK632/lU2esQPjSAyHMH7wRbSbbQx4Zy4dT4=",
+    "last_login": "2025-04-23T13:50:49.750Z",
+    "is_superuser": true,
+    "username": "SERGO",
+    "first_name": "",
+    "last_name": "",
+    "email": "asdfg2105@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-04-20T13:29:45.010Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$bjAJQwDfod07AcBSuL3PnL$gP/nmSuTP/MyZ5/QNBk8qCRZIhuj8E1kjzkIuWPHQd8=",
+    "last_login": "2025-04-23T01:15:11.152Z",
+    "is_superuser": false,
+    "username": "SERG1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-21T05:54:17.465Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$66KuiAogyN0ZBkm8mNNKyj$tXr9WNT6aRodMRQMtcu7smuHS1sWLAgE7G3V5S8msx8=",
+    "last_login": "2025-04-23T13:37:31.174Z",
+    "is_superuser": false,
+    "username": "SERG2",
+    "first_name": "serg2",
+    "last_name": "serg22",
+    "email": "asdfg2105@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-21T08:26:24.183Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$URZrl0xLTIDqeb9ofZLM60$CJ6Ic5wwZIy8KNXfqmY6Z/mGN5t0IcsA4E89ZUX2cKk=",
+    "last_login": "2025-04-21T13:28:45.057Z",
+    "is_superuser": false,
+    "username": "SERG3",
+    "first_name": "sr2",
+    "last_name": "ssr2",
+    "email": "user1@user1.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-21T13:28:15.530Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$sLqT8r5ZtJ6nxxV5i8hMCs$d2tpPoOpmhl5i2LjZowoCfMIoDeqMDg//jeOcISj3+Q=",
+    "last_login": "2025-04-21T15:04:47.542Z",
+    "is_superuser": false,
+    "username": "SERG4",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-21T14:56:58.097Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "plumber",
+    "model": "questions"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "plumber",
+    "model": "answers"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "plumber",
+    "model": "answeruser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "plumber",
+    "model": "answersuser"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9kvcl3clrw7lrvzg2dsa5p6fyyxc2khy",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBgWqe4dN8zkGEYpGpoUtqV8e7apAvd_vfef6lA21rC1mQJU1IXZdXpd4vED6k7SHeqt1nzXNdlinpX9EGbHuckz-vh_h0UauVb-w7JGjf07izAwNkjW0JmpJzAWMlkpAeMaFlwcIlyBw6MeGER8Or9AeUrOF8:1u7aUz:Y8fZKEt_rrQmWQpvqEUcfmn0B0j5SjZkNEoudrXk-WQ",
+    "expire_date": "2025-05-07T13:50:49.769Z"
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 1,
+  "fields": {
+    "name": "Вопрос 1",
+    "text": "Как Checkboxes let a user select ZERO or MORE options of a limited number of choices."
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 2,
+  "fields": {
+    "name": "Вопрос 2",
+    "text": "Где Checkboxes let a user select ZERO or MORE options of a limited number of choices."
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 3,
+  "fields": {
+    "name": "Вопрос 3",
+    "text": "В случае использования переключателей (radiobutton), может быть отмечен только один элемент группы, для флажков (checkbox) допустимо пометить хоть все элементы. Синтаксис. HTML."
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 1,
+  "fields": {
+    "num": 1,
+    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
+    "active": false,
+    "ques": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 2,
+  "fields": {
+    "num": 2,
+    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
+    "active": false,
+    "ques": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 3,
+  "fields": {
+    "num": 3,
+    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
+    "active": true,
+    "ques": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 4,
+  "fields": {
+    "num": 4,
+    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
+    "active": false,
+    "ques": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 5,
+  "fields": {
+    "num": 1,
+    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
+    "active": false,
+    "ques": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 6,
+  "fields": {
+    "num": 2,
+    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
+    "active": true,
+    "ques": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 7,
+  "fields": {
+    "num": 3,
+    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
+    "active": false,
+    "ques": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 8,
+  "fields": {
+    "num": 4,
+    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
+    "active": false,
+    "ques": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 9,
+  "fields": {
+    "num": 1,
+    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "active": false,
+    "ques": 3
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 10,
+  "fields": {
+    "num": 2,
+    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "active": false,
+    "ques": 3
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 11,
+  "fields": {
+    "num": 3,
+    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "active": false,
+    "ques": 3
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 12,
+  "fields": {
+    "num": 4,
+    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "active": true,
+    "ques": 3
+  }
+}
