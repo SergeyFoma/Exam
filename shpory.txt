@@ -1,0 +1,18 @@
+------------Переход на Postgresql--------------------
+1. Установить Postgresql
+2. Создание fixtures
+    python -Xutf8 dumpdata --indent=2 > db.json
+3. settings.py
+        DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "USER": "exam",
+            "NAME": "exam_db",
+            "PASSWORD": "11111qqqqq",
+            "HOST": "localhost",
+            "PORT": "5432",
+        }
+    }
+4. Elfktybt sqlite
+5. Перенос фикстур в Postgresql
+    python manage.py loaddata db.json
