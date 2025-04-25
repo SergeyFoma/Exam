@@ -79,10 +79,21 @@ WSGI_APPLICATION = 'exam.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "USER": "exam",
+        "NAME": "exam_db",
+        "PASSWORD": "11111qqqqq",
+        "HOST": "localhost",
+        "PORT": "5432",
     }
 }
 
@@ -128,6 +139,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL="plumber:testing"
+LOGIN_REDIRECT_URL="users:profile"
 #LOGOUT_REDIRECT_URL="women:index"
 LOGIN_URL="users:login_user" #если пользователь не авторизован
