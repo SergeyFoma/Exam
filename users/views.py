@@ -6,6 +6,7 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
 from plumber.models import AnswersUser
+
 def register(request):
     if request.method=="POST":
         form=RegisterUserForm(request.POST)
@@ -40,9 +41,11 @@ def login_user(request):
     }
     return render(request, "users/login_user.html", context)
 
+@login_required
 def profile(request):
+    
     context={
-
+        
     }
     return render(request, "users/profile.html", context)
 

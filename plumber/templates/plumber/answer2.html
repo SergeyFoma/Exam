@@ -1,9 +1,15 @@
 {% extends "base.html" %}
 
 {% block sideright %}
-{{request.user.username}}
 
-<p>Всего вопросов {{que_num}}</p>
+
+Username-{{request.user.username}}
+{{que.answers_set.count}}
+
+    <p>Всего вопросов {{que_count}}</p>
+
+
+
 <p>Решённых {{ques_res}} - {{variance}}%</p>
 {% if percent > 0 %}
     <p>Правильных ответов - {{answertrue}} - {{percent}}%</p>
@@ -15,7 +21,10 @@
     <p>Тест пройден</p>
 {% endif %}
 <hr>
+
+<h2>Ответы пользователя</h2>
     {% for a in ans %}
+    
         {% if a.answer == "Верно" %}
             <p style="color:red">{{a.question}}{{a.answer}}</p>
         {% else %}
@@ -25,7 +34,9 @@
 
 <hr>
 
+<h2>Правильные ответы выделены красным</h2>
 {%for q in que%}
+{%comment%}{{q.answers_set.count}}=====ответы{%endcomment%}
     <h3 style="margin_bottom:10px">{{q.name}}</h3>
     {% for a in answers %}
         {% if a.ques.pk == q.pk %}
@@ -39,5 +50,5 @@
 
 {%endfor%}
     
-
+<a href="{% url 'users:logout_user' %}">ВЫход(Logout)</a>
 {%endblock%}

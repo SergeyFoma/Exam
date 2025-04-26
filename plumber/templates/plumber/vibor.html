@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block sideright %}
+asdfasdfasdf
+{% for i in mashine %}
+    <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
+{% endfor %}
+
+{% endblock %}

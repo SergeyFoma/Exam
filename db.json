@@ -3,9 +3,9 @@
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
-    "action_time": "2025-04-20T13:31:26.014Z",
+    "action_time": "2025-04-23T14:21:52.674Z",
     "user": 1,
-    "content_type": 7,
+    "content_type": 8,
     "object_id": "1",
     "object_repr": "Questions object (1)",
     "action_flag": 1,
@@ -16,9 +16,9 @@
   "model": "admin.logentry",
   "pk": 2,
   "fields": {
-    "action_time": "2025-04-20T13:31:46.437Z",
+    "action_time": "2025-04-23T14:21:52.760Z",
     "user": 1,
-    "content_type": 7,
+    "content_type": 8,
     "object_id": "2",
     "object_repr": "Questions object (2)",
     "action_flag": 1,
@@ -29,451 +29,35 @@
   "model": "admin.logentry",
   "pk": 3,
   "fields": {
-    "action_time": "2025-04-20T13:32:18.929Z",
+    "action_time": "2025-04-23T14:22:09.731Z",
     "user": 1,
     "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Answers object (1)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "object_id": "2",
+    "object_repr": "Questions object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 4,
   "fields": {
-    "action_time": "2025-04-20T13:32:30.169Z",
+    "action_time": "2025-04-23T14:22:09.865Z",
     "user": 1,
     "content_type": 8,
     "object_id": "2",
-    "object_repr": "Answers object (2)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "object_repr": "Questions object (2)",
+    "action_flag": 2,
+    "change_message": "[]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 5,
   "fields": {
-    "action_time": "2025-04-20T13:32:37.080Z",
+    "action_time": "2025-04-23T14:22:24.812Z",
     "user": 1,
     "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Answers object (3)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2025-04-20T13:32:45.449Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Answers object (4)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2025-04-20T13:38:11.613Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Answers object (1)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2025-04-20T13:38:19.441Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Answers object (2)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2025-04-20T13:38:28.289Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Answers object (3)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2025-04-20T13:38:36.438Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Answers object (4)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2025-04-20T14:04:04.531Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Answers object (1)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2025-04-20T14:04:11.831Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Answers object (2)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2025-04-20T14:04:19.501Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Answers object (3)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2025-04-20T14:04:25.417Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Answers object (4)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2025-04-21T05:49:03.013Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Answers object (5)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2025-04-21T05:49:15.081Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "6",
-    "object_repr": "Answers object (6)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2025-04-21T05:49:26.942Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "7",
-    "object_repr": "Answers object (7)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2025-04-21T05:49:37.041Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "8",
-    "object_repr": "Answers object (8)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2025-04-21T05:54:19.402Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "SERG1",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2025-04-21T14:28:04.825Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Answers object (1)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2025-04-21T14:28:12.917Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Answers object (2)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 22,
-  "fields": {
-    "action_time": "2025-04-21T14:28:20.314Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Answers object (3)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 23,
-  "fields": {
-    "action_time": "2025-04-21T14:28:26.799Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Answers object (4)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 24,
-  "fields": {
-    "action_time": "2025-04-21T14:28:34.097Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Answers object (5)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 25,
-  "fields": {
-    "action_time": "2025-04-21T14:28:41.924Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "6",
-    "object_repr": "Answers object (6)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 26,
-  "fields": {
-    "action_time": "2025-04-21T14:28:48.479Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "7",
-    "object_repr": "Answers object (7)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 27,
-  "fields": {
-    "action_time": "2025-04-21T14:28:54.681Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "8",
-    "object_repr": "Answers object (8)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 28,
-  "fields": {
-    "action_time": "2025-04-21T14:40:56.559Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Answers object (1)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 29,
-  "fields": {
-    "action_time": "2025-04-21T14:41:04.192Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Answers object (2)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 30,
-  "fields": {
-    "action_time": "2025-04-21T14:41:11.686Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Answers object (3)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 31,
-  "fields": {
-    "action_time": "2025-04-21T14:41:21.930Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Answers object (4)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Answer\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 32,
-  "fields": {
-    "action_time": "2025-04-21T14:42:48.855Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Answers object (5)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 33,
-  "fields": {
-    "action_time": "2025-04-21T14:42:56.263Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "6",
-    "object_repr": "Answers object (6)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 34,
-  "fields": {
-    "action_time": "2025-04-21T14:43:03.746Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "7",
-    "object_repr": "Answers object (7)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 35,
-  "fields": {
-    "action_time": "2025-04-21T14:43:10.677Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "8",
-    "object_repr": "Answers object (8)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Num\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 36,
-  "fields": {
-    "action_time": "2025-04-21T14:57:00.105Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "5",
-    "object_repr": "SERG4",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 37,
-  "fields": {
-    "action_time": "2025-04-21T15:01:48.564Z",
-    "user": 1,
-    "content_type": 7,
     "object_id": "3",
     "object_repr": "Questions object (3)",
     "action_flag": 1,
@@ -482,11 +66,115 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 38,
+  "pk": 6,
   "fields": {
-    "action_time": "2025-04-21T15:02:33.974Z",
+    "action_time": "2025-04-23T14:23:52.586Z",
     "user": 1,
-    "content_type": 8,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Answers object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-04-23T14:25:55.908Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Answers object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-04-23T14:26:10.933Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Answers object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-04-23T14:26:23.601Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Answers object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-04-23T14:37:22.570Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Answers object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-04-23T14:37:44.948Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Answers object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-04-23T14:38:04.454Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Answers object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-04-23T14:38:18.798Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Answers object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-04-23T14:38:44.613Z",
+    "user": 1,
+    "content_type": 9,
     "object_id": "9",
     "object_repr": "Answers object (9)",
     "action_flag": 1,
@@ -495,11 +183,11 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 39,
+  "pk": 15,
   "fields": {
-    "action_time": "2025-04-21T15:02:50.082Z",
+    "action_time": "2025-04-23T14:38:58.417Z",
     "user": 1,
-    "content_type": 8,
+    "content_type": 9,
     "object_id": "10",
     "object_repr": "Answers object (10)",
     "action_flag": 1,
@@ -508,11 +196,11 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 40,
+  "pk": 16,
   "fields": {
-    "action_time": "2025-04-21T15:03:03.829Z",
+    "action_time": "2025-04-23T14:39:21.225Z",
     "user": 1,
-    "content_type": 8,
+    "content_type": 9,
     "object_id": "11",
     "object_repr": "Answers object (11)",
     "action_flag": 1,
@@ -521,13 +209,572 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 41,
+  "pk": 17,
   "fields": {
-    "action_time": "2025-04-21T15:03:16.136Z",
+    "action_time": "2025-04-23T14:39:35.228Z",
     "user": 1,
-    "content_type": 8,
+    "content_type": 9,
     "object_id": "12",
     "object_repr": "Answers object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-04-24T14:59:50.627Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "SERG1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-04-24T16:07:31.756Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "AnswersUser object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-04-24T16:07:31.756Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "AnswersUser object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-04-24T16:07:31.756Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "AnswersUser object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-04-24T16:07:31.756Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "AnswersUser object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-04-24T16:07:31.756Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "AnswersUser object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-04-24T16:07:31.756Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "AnswersUser object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-04-24T17:11:04.880Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Questions object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-04-24T17:11:23.638Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Questions object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-04-24T17:12:04.652Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Questions object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-04-24T17:12:21.301Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Questions object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-04-24T17:12:36.358Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Questions object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-04-24T17:12:52.359Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Questions object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-04-24T17:13:05.152Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Questions object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-04-24T17:13:25.309Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Questions object (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-04-24T17:19:42.119Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Answers object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-04-24T17:19:56.109Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Answers object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-04-24T17:20:11.040Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Answers object (15)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-04-24T17:20:24.848Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Answers object (16)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-04-24T17:20:44.970Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Answers object (17)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-04-24T17:20:59.240Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Answers object (18)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-04-24T17:21:09.976Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Answers object (19)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-04-24T17:21:23.665Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Answers object (20)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-04-24T17:21:37.113Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Answers object (21)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-04-24T17:21:47.207Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Answers object (22)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-04-24T17:21:59.628Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Answers object (23)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-04-24T17:22:10.724Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Answers object (24)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-04-24T17:22:22.308Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "Answers object (25)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-04-24T17:22:33.033Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Answers object (26)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-04-24T17:22:42.843Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "Answers object (27)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-04-24T17:22:56.844Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "28",
+    "object_repr": "Answers object (28)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-04-24T17:23:13.616Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": "Answers object (29)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-04-24T17:23:23.187Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "30",
+    "object_repr": "Answers object (30)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-04-24T17:23:34.750Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Answers object (31)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-04-24T17:23:44.990Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Answers object (32)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-04-24T17:23:55.716Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Answers object (33)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-04-24T17:24:06.442Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "34",
+    "object_repr": "Answers object (34)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-04-24T17:24:18.205Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "35",
+    "object_repr": "Answers object (35)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-04-24T17:24:30.516Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "36",
+    "object_repr": "Answers object (36)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-04-24T17:24:42.247Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "37",
+    "object_repr": "Answers object (37)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-04-24T17:24:54.720Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "38",
+    "object_repr": "Answers object (38)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-04-24T17:25:05.369Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "39",
+    "object_repr": "Answers object (39)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-04-24T17:25:22.122Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "40",
+    "object_repr": "Answers object (40)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -752,152 +999,116 @@
   "model": "auth.permission",
   "pk": 25,
   "fields": {
-    "name": "Can add questions",
+    "name": "Can add answers user",
     "content_type": 7,
-    "codename": "add_questions"
+    "codename": "add_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 26,
   "fields": {
-    "name": "Can change questions",
+    "name": "Can change answers user",
     "content_type": 7,
-    "codename": "change_questions"
+    "codename": "change_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 27,
   "fields": {
-    "name": "Can delete questions",
+    "name": "Can delete answers user",
     "content_type": 7,
-    "codename": "delete_questions"
+    "codename": "delete_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 28,
   "fields": {
-    "name": "Can view questions",
+    "name": "Can view answers user",
     "content_type": 7,
-    "codename": "view_questions"
+    "codename": "view_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 29,
   "fields": {
-    "name": "Can add answers",
+    "name": "Can add questions",
     "content_type": 8,
-    "codename": "add_answers"
+    "codename": "add_questions"
   }
 },
 {
   "model": "auth.permission",
   "pk": 30,
   "fields": {
-    "name": "Can change answers",
+    "name": "Can change questions",
     "content_type": 8,
-    "codename": "change_answers"
+    "codename": "change_questions"
   }
 },
 {
   "model": "auth.permission",
   "pk": 31,
   "fields": {
-    "name": "Can delete answers",
+    "name": "Can delete questions",
     "content_type": 8,
-    "codename": "delete_answers"
+    "codename": "delete_questions"
   }
 },
 {
   "model": "auth.permission",
   "pk": 32,
   "fields": {
-    "name": "Can view answers",
+    "name": "Can view questions",
     "content_type": 8,
-    "codename": "view_answers"
+    "codename": "view_questions"
   }
 },
 {
   "model": "auth.permission",
   "pk": 33,
   "fields": {
-    "name": "Can add answer user",
+    "name": "Can add answers",
     "content_type": 9,
-    "codename": "add_answeruser"
+    "codename": "add_answers"
   }
 },
 {
   "model": "auth.permission",
   "pk": 34,
   "fields": {
-    "name": "Can change answer user",
+    "name": "Can change answers",
     "content_type": 9,
-    "codename": "change_answeruser"
+    "codename": "change_answers"
   }
 },
 {
   "model": "auth.permission",
   "pk": 35,
   "fields": {
-    "name": "Can delete answer user",
+    "name": "Can delete answers",
     "content_type": 9,
-    "codename": "delete_answeruser"
+    "codename": "delete_answers"
   }
 },
 {
   "model": "auth.permission",
   "pk": 36,
   "fields": {
-    "name": "Can view answer user",
+    "name": "Can view answers",
     "content_type": 9,
-    "codename": "view_answeruser"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 37,
-  "fields": {
-    "name": "Can add answers user",
-    "content_type": 10,
-    "codename": "add_answersuser"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 38,
-  "fields": {
-    "name": "Can change answers user",
-    "content_type": 10,
-    "codename": "change_answersuser"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 39,
-  "fields": {
-    "name": "Can delete answers user",
-    "content_type": 10,
-    "codename": "delete_answersuser"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 40,
-  "fields": {
-    "name": "Can view answers user",
-    "content_type": 10,
-    "codename": "view_answersuser"
+    "codename": "view_answers"
   }
 },
 {
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$wnTTZuO9zMWR3zNhWmaSRX$y3Rmbd8vK632/lU2esQPjSAyHMH7wRbSbbQx4Zy4dT4=",
-    "last_login": "2025-04-23T13:50:49.750Z",
+    "password": "pbkdf2_sha256$1000000$3rCzn8aqXuimxguAy2T3rH$Mnvd6wBqFpkvbvNjVsJACpmDADLpVanQQ4/UUfvrPyE=",
+    "last_login": "2025-04-25T01:17:48.405Z",
     "is_superuser": true,
     "username": "SERGO",
     "first_name": "",
@@ -905,25 +1116,7 @@
     "email": "asdfg2105@mail.ru",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2025-04-20T13:29:45.010Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$bjAJQwDfod07AcBSuL3PnL$gP/nmSuTP/MyZ5/QNBk8qCRZIhuj8E1kjzkIuWPHQd8=",
-    "last_login": "2025-04-23T01:15:11.152Z",
-    "is_superuser": false,
-    "username": "SERG1",
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2025-04-21T05:54:17.465Z",
+    "date_joined": "2025-04-23T14:18:34.392Z",
     "groups": [],
     "user_permissions": []
   }
@@ -932,16 +1125,16 @@
   "model": "auth.user",
   "pk": 3,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$66KuiAogyN0ZBkm8mNNKyj$tXr9WNT6aRodMRQMtcu7smuHS1sWLAgE7G3V5S8msx8=",
-    "last_login": "2025-04-23T13:37:31.174Z",
+    "password": "pbkdf2_sha256$1000000$ovf6uQ0vsBgVOCwjNbjXIe$zb1fST3YaBBONLfpBFc6SjhnEsF36DdLOKs4podxP7s=",
+    "last_login": "2025-04-24T14:53:32.734Z",
     "is_superuser": false,
     "username": "SERG2",
-    "first_name": "serg2",
-    "last_name": "serg22",
-    "email": "asdfg2105@mail.ru",
+    "first_name": "",
+    "last_name": "",
+    "email": "user2@user2.ru",
     "is_staff": false,
     "is_active": true,
-    "date_joined": "2025-04-21T08:26:24.183Z",
+    "date_joined": "2025-04-24T14:25:49.557Z",
     "groups": [],
     "user_permissions": []
   }
@@ -950,34 +1143,16 @@
   "model": "auth.user",
   "pk": 4,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$URZrl0xLTIDqeb9ofZLM60$CJ6Ic5wwZIy8KNXfqmY6Z/mGN5t0IcsA4E89ZUX2cKk=",
-    "last_login": "2025-04-21T13:28:45.057Z",
+    "password": "pbkdf2_sha256$1000000$tqVZNiLK49brnzjpg9Iha3$/btCQ7+ii6iyREetLE/y6zNEPIlJb70lFdC37n4VdnI=",
+    "last_login": "2025-04-24T17:25:50.734Z",
     "is_superuser": false,
-    "username": "SERG3",
-    "first_name": "sr2",
-    "last_name": "ssr2",
+    "username": "SERG1",
+    "first_name": "",
+    "last_name": "",
     "email": "user1@user1.ru",
     "is_staff": false,
     "is_active": true,
-    "date_joined": "2025-04-21T13:28:15.530Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 5,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$sLqT8r5ZtJ6nxxV5i8hMCs$d2tpPoOpmhl5i2LjZowoCfMIoDeqMDg//jeOcISj3+Q=",
-    "last_login": "2025-04-21T15:04:47.542Z",
-    "is_superuser": false,
-    "username": "SERG4",
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2025-04-21T14:56:58.097Z",
+    "date_joined": "2025-04-24T15:00:36.043Z",
     "groups": [],
     "user_permissions": []
   }
@@ -1035,7 +1210,7 @@
   "pk": 7,
   "fields": {
     "app_label": "plumber",
-    "model": "questions"
+    "model": "answersuser"
   }
 },
 {
@@ -1043,7 +1218,7 @@
   "pk": 8,
   "fields": {
     "app_label": "plumber",
-    "model": "answers"
+    "model": "questions"
   }
 },
 {
@@ -1051,23 +1226,23 @@
   "pk": 9,
   "fields": {
     "app_label": "plumber",
-    "model": "answeruser"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 10,
-  "fields": {
-    "app_label": "plumber",
-    "model": "answersuser"
+    "model": "answers"
   }
 },
 {
   "model": "sessions.session",
-  "pk": "9kvcl3clrw7lrvzg2dsa5p6fyyxc2khy",
+  "pk": "76wx48dlv1q0hm8tf69xhrsjmov2nsd0",
   "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hBgWqe4dN8zkGEYpGpoUtqV8e7apAvd_vfef6lA21rC1mQJU1IXZdXpd4vED6k7SHeqt1nzXNdlinpX9EGbHuckz-vh_h0UauVb-w7JGjf07izAwNkjW0JmpJzAWMlkpAeMaFlwcIlyBw6MeGER8Or9AeUrOF8:1u7aUz:Y8fZKEt_rrQmWQpvqEUcfmn0B0j5SjZkNEoudrXk-WQ",
-    "expire_date": "2025-05-07T13:50:49.769Z"
+    "session_data": ".eJxVjEEOwiAQRe_C2hAsw7S4dO8ZyDBMpWogKe3KeHfbpAvd_vfef6tA65LD2mQOU1IXZdXpd4vETyk7SA8q96q5lmWeot4VfdCmbzXJ63q4fweZWt5qBAcdGCQWitYYjINnJAPpjBR73w1swZmRGdFj3PQEo3ifejYo7NTnC87sN6k:1u7xxE:q_1dUjk5THDmzfi8ZHwPll6vEhkuxxu1AIiMyC2rU4A",
+    "expire_date": "2025-05-08T14:53:32.750Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hqfl6d9zfwy4k3gxuxajwxax1yb9ejhk",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnB8W8p6XMGa-1d4wCypTipEHeHSCmgfTPzXiLgtpawdV7CTOIizuL0u0VMD647oDvWW5Op1XWZo9wVedAup0b8vB7u30HBXr71qI0CyjhCZvYwaKIUc0KGTNaYCNplBYNRzlNSlrwx2aEnYtRoNYj3BwV_OL0:1u87hM:fS-q0YBrIcYqxwEGgfVVtQkPpfebUEv1zv_dywni-t4",
+    "expire_date": "2025-05-09T01:17:48.422Z"
   }
 },
 {
@@ -1075,7 +1250,7 @@
   "pk": 1,
   "fields": {
     "name": "Вопрос 1",
-    "text": "Как Checkboxes let a user select ZERO or MORE options of a limited number of choices."
+    "text": "Если True, Django сохранит пустые значения, как NULLв базе данных. По умолчанию False."
   }
 },
 {
@@ -1083,7 +1258,7 @@
   "pk": 2,
   "fields": {
     "name": "Вопрос 2",
-    "text": "Где Checkboxes let a user select ZERO or MORE options of a limited number of choices."
+    "text": "Если True, Django сохранит пустые значения, как NULLв базе данных. По умолчанию False."
   }
 },
 {
@@ -1091,7 +1266,63 @@
   "pk": 3,
   "fields": {
     "name": "Вопрос 3",
-    "text": "В случае использования переключателей (radiobutton), может быть отмечен только один элемент группы, для флажков (checkbox) допустимо пометить хоть все элементы. Синтаксис. HTML."
+    "text": "Если True, Django сохранит пустые значения, как NULLв базе данных. По умолчанию False."
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 4,
+  "fields": {
+    "name": "Вопрос 4",
+    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 5,
+  "fields": {
+    "name": "Вопрос 5",
+    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 6,
+  "fields": {
+    "name": "Вопрос 6",
+    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 7,
+  "fields": {
+    "name": "Вопрос 7",
+    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 8,
+  "fields": {
+    "name": "Вопрос 8",
+    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 9,
+  "fields": {
+    "name": "Вопрос 9",
+    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 10,
+  "fields": {
+    "name": "Вопрос 10",
+    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
   }
 },
 {
@@ -1099,7 +1330,7 @@
   "pk": 1,
   "fields": {
     "num": 1,
-    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": false,
     "ques": 1
   }
@@ -1109,8 +1340,8 @@
   "pk": 2,
   "fields": {
     "num": 2,
-    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
-    "active": false,
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "active": true,
     "ques": 1
   }
 },
@@ -1119,8 +1350,8 @@
   "pk": 3,
   "fields": {
     "num": 3,
-    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
-    "active": true,
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "active": false,
     "ques": 1
   }
 },
@@ -1129,7 +1360,7 @@
   "pk": 4,
   "fields": {
     "num": 4,
-    "answer": "Иногда модели из ваших собственных приложений и приложений других людей имеют конфликтующие имена, или вы можете захотеть полностью пропустить загрузку моделей приложения. Вот несколько примеров того, как это сделать.",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": false,
     "ques": 1
   }
@@ -1139,7 +1370,7 @@
   "pk": 5,
   "fields": {
     "num": 1,
-    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": false,
     "ques": 2
   }
@@ -1149,8 +1380,8 @@
   "pk": 6,
   "fields": {
     "num": 2,
-    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
-    "active": true,
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "active": false,
     "ques": 2
   }
 },
@@ -1159,8 +1390,8 @@
   "pk": 7,
   "fields": {
     "num": 3,
-    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
-    "active": false,
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "active": true,
     "ques": 2
   }
 },
@@ -1169,7 +1400,7 @@
   "pk": 8,
   "fields": {
     "num": 4,
-    "answer": "чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте):\r\nБазовая таблица Петрова.\r\nНа устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": false,
     "ques": 2
   }
@@ -1179,7 +1410,7 @@
   "pk": 9,
   "fields": {
     "num": 1,
-    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": false,
     "ques": 3
   }
@@ -1189,7 +1420,7 @@
   "pk": 10,
   "fields": {
     "num": 2,
-    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": false,
     "ques": 3
   }
@@ -1199,7 +1430,7 @@
   "pk": 11,
   "fields": {
     "num": 3,
-    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": false,
     "ques": 3
   }
@@ -1209,8 +1440,369 @@
   "pk": 12,
   "fields": {
     "num": 4,
-    "answer": "Обязательно учтите поведение Python, если исключение возникает во время setUpClass(). Если это произойдет, ни тесты в классе, ни не tearDownClass()будут запущены. В случае django.test.TestCaseэто приведет к утечке транзакции, созданной в , super() что приведет к различным симптомам, включая ошибку сегментации на некоторых платформах (сообщается на macOS). Если вы хотите намеренно вызвать исключение, например, unittest.SkipTestв",
+    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
     "active": true,
     "ques": 3
   }
+},
+{
+  "model": "plumber.answers",
+  "pk": 13,
+  "fields": {
+    "num": 1,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": true,
+    "ques": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 14,
+  "fields": {
+    "num": 2,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 15,
+  "fields": {
+    "num": 3,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 16,
+  "fields": {
+    "num": 4,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 17,
+  "fields": {
+    "num": 1,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 5
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 18,
+  "fields": {
+    "num": 2,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": true,
+    "ques": 5
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 19,
+  "fields": {
+    "num": 3,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 5
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 20,
+  "fields": {
+    "num": 4,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 5
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 21,
+  "fields": {
+    "num": 1,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 6
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 22,
+  "fields": {
+    "num": 2,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 6
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 23,
+  "fields": {
+    "num": 3,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": true,
+    "ques": 6
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 24,
+  "fields": {
+    "num": 4,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 6
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 25,
+  "fields": {
+    "num": 1,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 7
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 26,
+  "fields": {
+    "num": 2,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 7
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 27,
+  "fields": {
+    "num": 3,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 7
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 28,
+  "fields": {
+    "num": 4,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": true,
+    "ques": 7
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 29,
+  "fields": {
+    "num": 1,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": true,
+    "ques": 8
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 30,
+  "fields": {
+    "num": 2,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 8
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 31,
+  "fields": {
+    "num": 3,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 8
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 32,
+  "fields": {
+    "num": 4,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 8
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 33,
+  "fields": {
+    "num": 1,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 9
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 34,
+  "fields": {
+    "num": 2,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": true,
+    "ques": 9
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 35,
+  "fields": {
+    "num": 3,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 9
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 36,
+  "fields": {
+    "num": 4,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 9
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 37,
+  "fields": {
+    "num": 1,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 10
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 38,
+  "fields": {
+    "num": 2,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": true,
+    "ques": 10
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 39,
+  "fields": {
+    "num": 3,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 10
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 40,
+  "fields": {
+    "num": 4,
+    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "active": false,
+    "ques": 10
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 72,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 1 Ответ-1",
+    "answer": "Не верно",
+    "date": "2025-04-25T01:18:17.225Z"
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 73,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 2 Ответ-1",
+    "answer": "Не верно",
+    "date": "2025-04-25T01:18:17.285Z"
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 74,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 3 Ответ-4",
+    "answer": "Верно",
+    "date": "2025-04-25T01:18:17.333Z"
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 75,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 4 Ответ-1",
+    "answer": "Верно",
+    "date": "2025-04-25T01:18:17.376Z"
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 76,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 5 Ответ-2",
+    "answer": "Верно",
+    "date": "2025-04-25T01:18:17.420Z"
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 77,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 6 Ответ-3",
+    "answer": "Верно",
+    "date": "2025-04-25T01:18:17.464Z"
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 78,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 9 Ответ-2",
+    "answer": "Верно",
+    "date": "2025-04-25T01:18:17.519Z"
+  }
+},
+{
+  "model": "plumber.answersuser",
+  "pk": 79,
+  "fields": {
+    "name_user": "SERGO",
+    "question": "Вопрос 10 Ответ-3",
+    "answer": "Не верно",
+    "date": "2025-04-25T01:18:17.583Z"
+  }
 }
+]
