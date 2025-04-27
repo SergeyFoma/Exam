@@ -3,7 +3,72 @@
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
-    "action_time": "2025-04-23T14:21:52.674Z",
+    "action_time": "2025-04-26T15:12:46.000Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Mashine object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-04-26T15:13:02.679Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Mashine object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-04-26T15:13:18.032Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Mashine object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-04-26T15:13:32.109Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Mashine object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-04-26T15:13:46.651Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Mashine object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-04-26T15:14:35.417Z",
     "user": 1,
     "content_type": 8,
     "object_id": "1",
@@ -14,9 +79,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 2,
+  "pk": 7,
   "fields": {
-    "action_time": "2025-04-23T14:21:52.760Z",
+    "action_time": "2025-04-26T15:14:53.096Z",
     "user": 1,
     "content_type": 8,
     "object_id": "2",
@@ -27,35 +92,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 3,
+  "pk": 8,
   "fields": {
-    "action_time": "2025-04-23T14:22:09.731Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Questions object (2)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2025-04-23T14:22:09.865Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Questions object (2)",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2025-04-23T14:22:24.812Z",
+    "action_time": "2025-04-26T15:15:06.932Z",
     "user": 1,
     "content_type": 8,
     "object_id": "3",
@@ -66,256 +105,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2025-04-23T14:23:52.586Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "1",
-    "object_repr": "Answers object (1)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2025-04-23T14:25:55.908Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "2",
-    "object_repr": "Answers object (2)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2025-04-23T14:26:10.933Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "3",
-    "object_repr": "Answers object (3)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
   "pk": 9,
   "fields": {
-    "action_time": "2025-04-23T14:26:23.601Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "4",
-    "object_repr": "Answers object (4)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2025-04-23T14:37:22.570Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "5",
-    "object_repr": "Answers object (5)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2025-04-23T14:37:44.948Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "6",
-    "object_repr": "Answers object (6)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2025-04-23T14:38:04.454Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "7",
-    "object_repr": "Answers object (7)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2025-04-23T14:38:18.798Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "8",
-    "object_repr": "Answers object (8)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2025-04-23T14:38:44.613Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "9",
-    "object_repr": "Answers object (9)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2025-04-23T14:38:58.417Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "10",
-    "object_repr": "Answers object (10)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2025-04-23T14:39:21.225Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "11",
-    "object_repr": "Answers object (11)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2025-04-23T14:39:35.228Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "12",
-    "object_repr": "Answers object (12)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2025-04-24T14:59:50.627Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "SERG1",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2025-04-24T16:07:31.756Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "9",
-    "object_repr": "AnswersUser object (9)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2025-04-24T16:07:31.756Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "8",
-    "object_repr": "AnswersUser object (8)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2025-04-24T16:07:31.756Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "AnswersUser object (7)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 22,
-  "fields": {
-    "action_time": "2025-04-24T16:07:31.756Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "6",
-    "object_repr": "AnswersUser object (6)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 23,
-  "fields": {
-    "action_time": "2025-04-24T16:07:31.756Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "AnswersUser object (5)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 24,
-  "fields": {
-    "action_time": "2025-04-24T16:07:31.756Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "AnswersUser object (4)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 25,
-  "fields": {
-    "action_time": "2025-04-24T17:11:04.880Z",
+    "action_time": "2025-04-26T15:15:22.728Z",
     "user": 1,
     "content_type": 8,
     "object_id": "4",
@@ -326,9 +118,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 26,
+  "pk": 10,
   "fields": {
-    "action_time": "2025-04-24T17:11:23.638Z",
+    "action_time": "2025-04-26T15:15:38.673Z",
     "user": 1,
     "content_type": 8,
     "object_id": "5",
@@ -339,9 +131,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 27,
+  "pk": 11,
   "fields": {
-    "action_time": "2025-04-24T17:12:04.652Z",
+    "action_time": "2025-04-26T15:15:50.962Z",
     "user": 1,
     "content_type": 8,
     "object_id": "6",
@@ -352,9 +144,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 28,
+  "pk": 12,
   "fields": {
-    "action_time": "2025-04-24T17:12:21.301Z",
+    "action_time": "2025-04-26T15:16:13.087Z",
     "user": 1,
     "content_type": 8,
     "object_id": "7",
@@ -365,9 +157,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 29,
+  "pk": 13,
   "fields": {
-    "action_time": "2025-04-24T17:12:36.358Z",
+    "action_time": "2025-04-26T15:16:27.319Z",
     "user": 1,
     "content_type": 8,
     "object_id": "8",
@@ -378,9 +170,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 30,
+  "pk": 14,
   "fields": {
-    "action_time": "2025-04-24T17:12:52.359Z",
+    "action_time": "2025-04-26T15:16:41.902Z",
     "user": 1,
     "content_type": 8,
     "object_id": "9",
@@ -391,9 +183,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 31,
+  "pk": 15,
   "fields": {
-    "action_time": "2025-04-24T17:13:05.152Z",
+    "action_time": "2025-04-26T15:16:56.352Z",
     "user": 1,
     "content_type": 8,
     "object_id": "10",
@@ -404,22 +196,295 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 32,
+  "pk": 16,
   "fields": {
-    "action_time": "2025-04-24T17:13:25.309Z",
+    "action_time": "2025-04-26T15:17:28.746Z",
     "user": 1,
     "content_type": 8,
-    "object_id": "10",
-    "object_repr": "Questions object (10)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    "object_id": "11",
+    "object_repr": "Questions object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-04-26T15:17:40.519Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Questions object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-04-26T15:17:54.059Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Questions object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-04-26T15:18:21.523Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Questions object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-04-26T15:18:32.326Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Questions object (15)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-04-26T15:18:43.691Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Questions object (16)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-04-26T15:18:59.972Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Questions object (17)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-04-26T15:19:13.454Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Questions object (18)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-04-26T15:19:28.744Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Questions object (19)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-04-26T15:19:43.010Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Questions object (20)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-04-26T15:20:59.439Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Answers object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-04-26T15:21:17.810Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Answers object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-04-26T15:21:37.972Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Answers object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-04-26T15:21:52.621Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Answers object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-04-26T15:22:13.453Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Answers object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-04-26T15:22:32.332Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Answers object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-04-26T15:22:55.256Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Answers object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 33,
   "fields": {
-    "action_time": "2025-04-24T17:19:42.119Z",
+    "action_time": "2025-04-26T15:23:12.354Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Answers object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-04-26T15:25:14.794Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Answers object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-04-26T15:25:47.127Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Answers object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-04-26T15:26:09.461Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Answers object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-04-26T15:26:25.440Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Answers object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-04-26T15:26:50.425Z",
     "user": 1,
     "content_type": 9,
     "object_id": "13",
@@ -430,9 +495,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 34,
+  "pk": 39,
   "fields": {
-    "action_time": "2025-04-24T17:19:56.109Z",
+    "action_time": "2025-04-26T15:27:06.325Z",
     "user": 1,
     "content_type": 9,
     "object_id": "14",
@@ -443,9 +508,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 35,
+  "pk": 40,
   "fields": {
-    "action_time": "2025-04-24T17:20:11.040Z",
+    "action_time": "2025-04-26T15:27:23.218Z",
     "user": 1,
     "content_type": 9,
     "object_id": "15",
@@ -456,9 +521,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 36,
+  "pk": 41,
   "fields": {
-    "action_time": "2025-04-24T17:20:24.848Z",
+    "action_time": "2025-04-26T15:27:42.751Z",
     "user": 1,
     "content_type": 9,
     "object_id": "16",
@@ -469,9 +534,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 37,
+  "pk": 42,
   "fields": {
-    "action_time": "2025-04-24T17:20:44.970Z",
+    "action_time": "2025-04-26T15:28:03.784Z",
     "user": 1,
     "content_type": 9,
     "object_id": "17",
@@ -482,9 +547,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 38,
+  "pk": 43,
   "fields": {
-    "action_time": "2025-04-24T17:20:59.240Z",
+    "action_time": "2025-04-26T15:28:27.617Z",
     "user": 1,
     "content_type": 9,
     "object_id": "18",
@@ -495,9 +560,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 39,
+  "pk": 44,
   "fields": {
-    "action_time": "2025-04-24T17:21:09.976Z",
+    "action_time": "2025-04-26T15:28:46.869Z",
     "user": 1,
     "content_type": 9,
     "object_id": "19",
@@ -508,9 +573,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 40,
+  "pk": 45,
   "fields": {
-    "action_time": "2025-04-24T17:21:23.665Z",
+    "action_time": "2025-04-26T15:29:01.570Z",
     "user": 1,
     "content_type": 9,
     "object_id": "20",
@@ -521,9 +586,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 41,
+  "pk": 46,
   "fields": {
-    "action_time": "2025-04-24T17:21:37.113Z",
+    "action_time": "2025-04-26T15:29:18.849Z",
     "user": 1,
     "content_type": 9,
     "object_id": "21",
@@ -534,9 +599,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 42,
+  "pk": 47,
   "fields": {
-    "action_time": "2025-04-24T17:21:47.207Z",
+    "action_time": "2025-04-26T15:29:32.223Z",
     "user": 1,
     "content_type": 9,
     "object_id": "22",
@@ -547,9 +612,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 43,
+  "pk": 48,
   "fields": {
-    "action_time": "2025-04-24T17:21:59.628Z",
+    "action_time": "2025-04-26T15:29:46.183Z",
     "user": 1,
     "content_type": 9,
     "object_id": "23",
@@ -560,9 +625,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 44,
+  "pk": 49,
   "fields": {
-    "action_time": "2025-04-24T17:22:10.724Z",
+    "action_time": "2025-04-26T15:29:59.977Z",
     "user": 1,
     "content_type": 9,
     "object_id": "24",
@@ -573,9 +638,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 45,
+  "pk": 50,
   "fields": {
-    "action_time": "2025-04-24T17:22:22.308Z",
+    "action_time": "2025-04-26T15:30:17.778Z",
     "user": 1,
     "content_type": 9,
     "object_id": "25",
@@ -586,9 +651,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 46,
+  "pk": 51,
   "fields": {
-    "action_time": "2025-04-24T17:22:33.033Z",
+    "action_time": "2025-04-26T15:30:55.432Z",
     "user": 1,
     "content_type": 9,
     "object_id": "26",
@@ -599,9 +664,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 47,
+  "pk": 52,
   "fields": {
-    "action_time": "2025-04-24T17:22:42.843Z",
+    "action_time": "2025-04-26T15:31:11.132Z",
     "user": 1,
     "content_type": 9,
     "object_id": "27",
@@ -612,9 +677,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 48,
+  "pk": 53,
   "fields": {
-    "action_time": "2025-04-24T17:22:56.844Z",
+    "action_time": "2025-04-26T15:31:25.543Z",
     "user": 1,
     "content_type": 9,
     "object_id": "28",
@@ -625,9 +690,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 49,
+  "pk": 54,
   "fields": {
-    "action_time": "2025-04-24T17:23:13.616Z",
+    "action_time": "2025-04-26T15:31:41.004Z",
     "user": 1,
     "content_type": 9,
     "object_id": "29",
@@ -638,9 +703,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 50,
+  "pk": 55,
   "fields": {
-    "action_time": "2025-04-24T17:23:23.187Z",
+    "action_time": "2025-04-26T15:31:57.761Z",
     "user": 1,
     "content_type": 9,
     "object_id": "30",
@@ -651,9 +716,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 51,
+  "pk": 56,
   "fields": {
-    "action_time": "2025-04-24T17:23:34.750Z",
+    "action_time": "2025-04-26T15:32:14.042Z",
     "user": 1,
     "content_type": 9,
     "object_id": "31",
@@ -664,9 +729,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 52,
+  "pk": 57,
   "fields": {
-    "action_time": "2025-04-24T17:23:44.990Z",
+    "action_time": "2025-04-26T15:32:32.263Z",
     "user": 1,
     "content_type": 9,
     "object_id": "32",
@@ -677,9 +742,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 53,
+  "pk": 58,
   "fields": {
-    "action_time": "2025-04-24T17:23:55.716Z",
+    "action_time": "2025-04-26T15:32:54.342Z",
     "user": 1,
     "content_type": 9,
     "object_id": "33",
@@ -690,9 +755,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 54,
+  "pk": 59,
   "fields": {
-    "action_time": "2025-04-24T17:24:06.442Z",
+    "action_time": "2025-04-26T15:33:12.900Z",
     "user": 1,
     "content_type": 9,
     "object_id": "34",
@@ -703,9 +768,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 55,
+  "pk": 60,
   "fields": {
-    "action_time": "2025-04-24T17:24:18.205Z",
+    "action_time": "2025-04-26T15:33:27.871Z",
     "user": 1,
     "content_type": 9,
     "object_id": "35",
@@ -716,9 +781,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 56,
+  "pk": 61,
   "fields": {
-    "action_time": "2025-04-24T17:24:30.516Z",
+    "action_time": "2025-04-26T15:33:44.405Z",
     "user": 1,
     "content_type": 9,
     "object_id": "36",
@@ -729,9 +794,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 57,
+  "pk": 62,
   "fields": {
-    "action_time": "2025-04-24T17:24:42.247Z",
+    "action_time": "2025-04-26T15:34:00.615Z",
     "user": 1,
     "content_type": 9,
     "object_id": "37",
@@ -742,9 +807,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 58,
+  "pk": 63,
   "fields": {
-    "action_time": "2025-04-24T17:24:54.720Z",
+    "action_time": "2025-04-26T15:34:14.962Z",
     "user": 1,
     "content_type": 9,
     "object_id": "38",
@@ -755,9 +820,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 59,
+  "pk": 64,
   "fields": {
-    "action_time": "2025-04-24T17:25:05.369Z",
+    "action_time": "2025-04-26T15:34:29.387Z",
     "user": 1,
     "content_type": 9,
     "object_id": "39",
@@ -768,13 +833,676 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 60,
+  "pk": 65,
   "fields": {
-    "action_time": "2025-04-24T17:25:22.122Z",
+    "action_time": "2025-04-26T15:34:46.121Z",
     "user": 1,
     "content_type": 9,
     "object_id": "40",
     "object_repr": "Answers object (40)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-04-26T15:37:45.624Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Answers object (18)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Mash\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-04-27T03:12:02.504Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "41",
+    "object_repr": "Answers object (41)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-04-27T03:12:39.858Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "42",
+    "object_repr": "Answers object (42)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-04-27T03:13:00.241Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "43",
+    "object_repr": "Answers object (43)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-04-27T03:13:17.681Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "44",
+    "object_repr": "Answers object (44)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-04-27T03:13:33.707Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "45",
+    "object_repr": "Answers object (45)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-04-27T03:13:53.503Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "46",
+    "object_repr": "Answers object (46)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-04-27T03:14:08.112Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "47",
+    "object_repr": "Answers object (47)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-04-27T03:14:21.426Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "48",
+    "object_repr": "Answers object (48)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-04-27T03:14:39.256Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "49",
+    "object_repr": "Answers object (49)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-04-27T03:14:55.749Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "50",
+    "object_repr": "Answers object (50)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-04-27T03:15:11.410Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "51",
+    "object_repr": "Answers object (51)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-04-27T03:15:27.108Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "52",
+    "object_repr": "Answers object (52)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-04-27T03:15:43.163Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "53",
+    "object_repr": "Answers object (53)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-04-27T03:15:55.037Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "54",
+    "object_repr": "Answers object (54)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-04-27T03:16:07.339Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "55",
+    "object_repr": "Answers object (55)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-04-27T03:16:21.503Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "56",
+    "object_repr": "Answers object (56)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-04-27T03:16:35.333Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "57",
+    "object_repr": "Answers object (57)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-04-27T03:16:47.882Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "58",
+    "object_repr": "Answers object (58)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-04-27T03:17:02.170Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "59",
+    "object_repr": "Answers object (59)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-04-27T03:17:21.215Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "60",
+    "object_repr": "Answers object (60)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-04-27T03:17:41.052Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "61",
+    "object_repr": "Answers object (61)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-04-27T03:17:55.423Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "62",
+    "object_repr": "Answers object (62)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-04-27T03:18:08.466Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "63",
+    "object_repr": "Answers object (63)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-04-27T03:18:27.774Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "64",
+    "object_repr": "Answers object (64)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-04-27T03:18:44.410Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "65",
+    "object_repr": "Answers object (65)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-04-27T03:19:08.220Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "66",
+    "object_repr": "Answers object (66)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-04-27T03:19:22.033Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "67",
+    "object_repr": "Answers object (67)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-04-27T03:19:34.035Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "68",
+    "object_repr": "Answers object (68)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-04-27T03:19:52.606Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "69",
+    "object_repr": "Answers object (69)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-04-27T03:20:06.542Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "70",
+    "object_repr": "Answers object (70)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-04-27T03:20:18.560Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "71",
+    "object_repr": "Answers object (71)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-04-27T03:20:33.195Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "72",
+    "object_repr": "Answers object (72)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-04-27T03:20:54.212Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "73",
+    "object_repr": "Answers object (73)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-04-27T03:21:07.120Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "74",
+    "object_repr": "Answers object (74)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-04-27T03:21:19.910Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "75",
+    "object_repr": "Answers object (75)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-04-27T03:21:31.347Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "76",
+    "object_repr": "Answers object (76)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-04-27T03:21:46.533Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "77",
+    "object_repr": "Answers object (77)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-04-27T03:22:01.685Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "78",
+    "object_repr": "Answers object (78)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-04-27T03:22:14.389Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "79",
+    "object_repr": "Answers object (79)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-04-27T03:22:27.650Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "80",
+    "object_repr": "Answers object (80)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-04-27T03:28:25.673Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Questions object (21)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-04-27T03:28:43.388Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Questions object (22)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-04-27T03:30:21.348Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "81",
+    "object_repr": "Answers object (81)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-04-27T03:30:34.265Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "82",
+    "object_repr": "Answers object (82)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-04-27T03:30:48.263Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "83",
+    "object_repr": "Answers object (83)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-04-27T03:31:00.965Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "84",
+    "object_repr": "Answers object (84)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-04-27T03:31:15.544Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "85",
+    "object_repr": "Answers object (85)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-04-27T03:31:27.837Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "86",
+    "object_repr": "Answers object (86)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-04-27T03:31:41.822Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "87",
+    "object_repr": "Answers object (87)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-04-27T03:31:57.203Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "88",
+    "object_repr": "Answers object (88)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -891,144 +1619,144 @@
   "model": "auth.permission",
   "pk": 13,
   "fields": {
-    "name": "Can add user",
+    "name": "Can add content type",
     "content_type": 4,
-    "codename": "add_user"
+    "codename": "add_contenttype"
   }
 },
 {
   "model": "auth.permission",
   "pk": 14,
   "fields": {
-    "name": "Can change user",
+    "name": "Can change content type",
     "content_type": 4,
-    "codename": "change_user"
+    "codename": "change_contenttype"
   }
 },
 {
   "model": "auth.permission",
   "pk": 15,
   "fields": {
-    "name": "Can delete user",
+    "name": "Can delete content type",
     "content_type": 4,
-    "codename": "delete_user"
+    "codename": "delete_contenttype"
   }
 },
 {
   "model": "auth.permission",
   "pk": 16,
   "fields": {
-    "name": "Can view user",
+    "name": "Can view content type",
     "content_type": 4,
-    "codename": "view_user"
+    "codename": "view_contenttype"
   }
 },
 {
   "model": "auth.permission",
   "pk": 17,
   "fields": {
-    "name": "Can add content type",
+    "name": "Can add session",
     "content_type": 5,
-    "codename": "add_contenttype"
+    "codename": "add_session"
   }
 },
 {
   "model": "auth.permission",
   "pk": 18,
   "fields": {
-    "name": "Can change content type",
+    "name": "Can change session",
     "content_type": 5,
-    "codename": "change_contenttype"
+    "codename": "change_session"
   }
 },
 {
   "model": "auth.permission",
   "pk": 19,
   "fields": {
-    "name": "Can delete content type",
+    "name": "Can delete session",
     "content_type": 5,
-    "codename": "delete_contenttype"
+    "codename": "delete_session"
   }
 },
 {
   "model": "auth.permission",
   "pk": 20,
   "fields": {
-    "name": "Can view content type",
+    "name": "Can view session",
     "content_type": 5,
-    "codename": "view_contenttype"
+    "codename": "view_session"
   }
 },
 {
   "model": "auth.permission",
   "pk": 21,
   "fields": {
-    "name": "Can add session",
+    "name": "Can add answers user",
     "content_type": 6,
-    "codename": "add_session"
+    "codename": "add_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 22,
   "fields": {
-    "name": "Can change session",
+    "name": "Can change answers user",
     "content_type": 6,
-    "codename": "change_session"
+    "codename": "change_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 23,
   "fields": {
-    "name": "Can delete session",
+    "name": "Can delete answers user",
     "content_type": 6,
-    "codename": "delete_session"
+    "codename": "delete_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 24,
   "fields": {
-    "name": "Can view session",
+    "name": "Can view answers user",
     "content_type": 6,
-    "codename": "view_session"
+    "codename": "view_answersuser"
   }
 },
 {
   "model": "auth.permission",
   "pk": 25,
   "fields": {
-    "name": "Can add answers user",
+    "name": "Can add mashine",
     "content_type": 7,
-    "codename": "add_answersuser"
+    "codename": "add_mashine"
   }
 },
 {
   "model": "auth.permission",
   "pk": 26,
   "fields": {
-    "name": "Can change answers user",
+    "name": "Can change mashine",
     "content_type": 7,
-    "codename": "change_answersuser"
+    "codename": "change_mashine"
   }
 },
 {
   "model": "auth.permission",
   "pk": 27,
   "fields": {
-    "name": "Can delete answers user",
+    "name": "Can delete mashine",
     "content_type": 7,
-    "codename": "delete_answersuser"
+    "codename": "delete_mashine"
   }
 },
 {
   "model": "auth.permission",
   "pk": 28,
   "fields": {
-    "name": "Can view answers user",
+    "name": "Can view mashine",
     "content_type": 7,
-    "codename": "view_answersuser"
+    "codename": "view_mashine"
   }
 },
 {
@@ -1104,57 +1832,75 @@
   }
 },
 {
-  "model": "auth.user",
-  "pk": 1,
+  "model": "auth.permission",
+  "pk": 37,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$3rCzn8aqXuimxguAy2T3rH$Mnvd6wBqFpkvbvNjVsJACpmDADLpVanQQ4/UUfvrPyE=",
-    "last_login": "2025-04-25T01:17:48.405Z",
-    "is_superuser": true,
-    "username": "SERGO",
-    "first_name": "",
-    "last_name": "",
-    "email": "asdfg2105@mail.ru",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2025-04-23T14:18:34.392Z",
-    "groups": [],
-    "user_permissions": []
+    "name": "Can add user",
+    "content_type": 10,
+    "codename": "add_user"
   }
 },
 {
-  "model": "auth.user",
-  "pk": 3,
+  "model": "auth.permission",
+  "pk": 38,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$ovf6uQ0vsBgVOCwjNbjXIe$zb1fST3YaBBONLfpBFc6SjhnEsF36DdLOKs4podxP7s=",
-    "last_login": "2025-04-24T14:53:32.734Z",
-    "is_superuser": false,
-    "username": "SERG2",
-    "first_name": "",
-    "last_name": "",
-    "email": "user2@user2.ru",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2025-04-24T14:25:49.557Z",
-    "groups": [],
-    "user_permissions": []
+    "name": "Can change user",
+    "content_type": 10,
+    "codename": "change_user"
   }
 },
 {
-  "model": "auth.user",
-  "pk": 4,
+  "model": "auth.permission",
+  "pk": 39,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$tqVZNiLK49brnzjpg9Iha3$/btCQ7+ii6iyREetLE/y6zNEPIlJb70lFdC37n4VdnI=",
-    "last_login": "2025-04-24T17:25:50.734Z",
-    "is_superuser": false,
-    "username": "SERG1",
-    "first_name": "",
-    "last_name": "",
-    "email": "user1@user1.ru",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2025-04-24T15:00:36.043Z",
-    "groups": [],
-    "user_permissions": []
+    "name": "Can delete user",
+    "content_type": 10,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 10,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 11,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 11,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 11,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 11,
+    "codename": "view_user"
   }
 },
 {
@@ -1185,21 +1931,13 @@
   "model": "contenttypes.contenttype",
   "pk": 4,
   "fields": {
-    "app_label": "auth",
-    "model": "user"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 5,
-  "fields": {
     "app_label": "contenttypes",
     "model": "contenttype"
   }
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 6,
+  "pk": 5,
   "fields": {
     "app_label": "sessions",
     "model": "session"
@@ -1207,10 +1945,18 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 7,
+  "pk": 6,
   "fields": {
     "app_label": "plumber",
     "model": "answersuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "plumber",
+    "model": "mashine"
   }
 },
 {
@@ -1230,19 +1976,59 @@
   }
 },
 {
-  "model": "sessions.session",
-  "pk": "76wx48dlv1q0hm8tf69xhrsjmov2nsd0",
+  "model": "contenttypes.contenttype",
+  "pk": 10,
   "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hAsw7S4dO8ZyDBMpWogKe3KeHfbpAvd_vfef6tA65LD2mQOU1IXZdXpd4vETyk7SA8q96q5lmWeot4VfdCmbzXJ63q4fweZWt5qBAcdGCQWitYYjINnJAPpjBR73w1swZmRGdFj3PQEo3ifejYo7NTnC87sN6k:1u7xxE:q_1dUjk5THDmzfi8ZHwPll6vEhkuxxu1AIiMyC2rU4A",
-    "expire_date": "2025-05-08T14:53:32.750Z"
+    "app_label": "users",
+    "model": "user"
   }
 },
 {
-  "model": "sessions.session",
-  "pk": "hqfl6d9zfwy4k3gxuxajwxax1yb9ejhk",
+  "model": "contenttypes.contenttype",
+  "pk": 11,
   "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGlnB8W8p6XMGa-1d4wCypTipEHeHSCmgfTPzXiLgtpawdV7CTOIizuL0u0VMD647oDvWW5Op1XWZo9wVedAup0b8vB7u30HBXr71qI0CyjhCZvYwaKIUc0KGTNaYCNplBYNRzlNSlrwx2aEnYtRoNYj3BwV_OL0:1u87hM:fS-q0YBrIcYqxwEGgfVVtQkPpfebUEv1zv_dywni-t4",
-    "expire_date": "2025-05-09T01:17:48.422Z"
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 1,
+  "fields": {
+    "name": "Насосы типа ЦНС - ППД",
+    "slug": "nasosy-tipa-cns-ppd"
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 2,
+  "fields": {
+    "name": "Насосы типа ЦНС - ДНС",
+    "slug": "nasosy-tipa-cns-dns"
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 3,
+  "fields": {
+    "name": "Насосы полупогружные(НВ, НВД, 12НА)",
+    "slug": "nasosy-polupogruzhnyenv-nvd-12na"
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 4,
+  "fields": {
+    "name": "Насосы типа Д",
+    "slug": "nasosy-tipa-d"
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 5,
+  "fields": {
+    "name": "Насосы НД, НМШ, К",
+    "slug": "nasosy-nd-nmsh-k"
   }
 },
 {
@@ -1250,7 +2036,8 @@
   "pk": 1,
   "fields": {
     "name": "Вопрос 1",
-    "text": "Если True, Django сохранит пустые значения, как NULLв базе данных. По умолчанию False."
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1258,7 +2045,8 @@
   "pk": 2,
   "fields": {
     "name": "Вопрос 2",
-    "text": "Если True, Django сохранит пустые значения, как NULLв базе данных. По умолчанию False."
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1266,7 +2054,8 @@
   "pk": 3,
   "fields": {
     "name": "Вопрос 3",
-    "text": "Если True, Django сохранит пустые значения, как NULLв базе данных. По умолчанию False."
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1274,7 +2063,8 @@
   "pk": 4,
   "fields": {
     "name": "Вопрос 4",
-    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1282,7 +2072,8 @@
   "pk": 5,
   "fields": {
     "name": "Вопрос 5",
-    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1290,7 +2081,8 @@
   "pk": 6,
   "fields": {
     "name": "Вопрос 6",
-    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1298,7 +2090,8 @@
   "pk": 7,
   "fields": {
     "name": "Вопрос 7",
-    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1306,7 +2099,8 @@
   "pk": 8,
   "fields": {
     "name": "Вопрос 8",
-    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1314,7 +2108,8 @@
   "pk": 9,
   "fields": {
     "name": "Вопрос 9",
-    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
   }
 },
 {
@@ -1322,7 +2117,116 @@
   "pk": 10,
   "fields": {
     "name": "Вопрос 10",
-    "text": "Если какой-либо аргумент является числом с плавающей точкой и есть дробные микросекунды,"
+    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 11,
+  "fields": {
+    "name": "Вопрос 1",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 12,
+  "fields": {
+    "name": "Вопрос 2",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 13,
+  "fields": {
+    "name": "Вопрос 3",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 14,
+  "fields": {
+    "name": "Вопрос 4",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 15,
+  "fields": {
+    "name": "Вопрос 5",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 16,
+  "fields": {
+    "name": "Вопрос 6",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 17,
+  "fields": {
+    "name": "Вопрос 7",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 18,
+  "fields": {
+    "name": "Вопрос 8",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 19,
+  "fields": {
+    "name": "Вопрос 9",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 20,
+  "fields": {
+    "name": "Вопрос 10",
+    "text": "Вот распространенный способ обработки загруженного файла:",
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 21,
+  "fields": {
+    "name": "Вопрос 11",
+    "text": "Если вы начинаете новый проект, вы можете настроить пользовательскую модель, которая будет вести себя идентично модели пользователя по умолчанию, путем создания подкласса AbstractUser:",
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 22,
+  "fields": {
+    "name": "Вопрос 12",
+    "text": "Если вы начинаете новый проект, вы можете настроить пользовательскую модель, которая будет вести себя идентично модели пользователя по умолчанию, путем создания подкласса AbstractUser:",
+    "mash": 1
   }
 },
 {
@@ -1330,9 +2234,10 @@
   "pk": 1,
   "fields": {
     "num": 1,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
-    "active": false,
-    "ques": 1
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 1,
+    "mash": 1
   }
 },
 {
@@ -1340,9 +2245,10 @@
   "pk": 2,
   "fields": {
     "num": 2,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
-    "active": true,
-    "ques": 1
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 1,
+    "mash": 1
   }
 },
 {
@@ -1350,9 +2256,10 @@
   "pk": 3,
   "fields": {
     "num": 3,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 1
+    "ques": 1,
+    "mash": 1
   }
 },
 {
@@ -1360,9 +2267,10 @@
   "pk": 4,
   "fields": {
     "num": 4,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 1
+    "ques": 1,
+    "mash": 1
   }
 },
 {
@@ -1370,9 +2278,10 @@
   "pk": 5,
   "fields": {
     "num": 1,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 2
+    "ques": 2,
+    "mash": 1
   }
 },
 {
@@ -1380,9 +2289,10 @@
   "pk": 6,
   "fields": {
     "num": 2,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
-    "active": false,
-    "ques": 2
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 2,
+    "mash": 1
   }
 },
 {
@@ -1390,9 +2300,10 @@
   "pk": 7,
   "fields": {
     "num": 3,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
-    "active": true,
-    "ques": 2
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 2,
+    "mash": 1
   }
 },
 {
@@ -1400,9 +2311,10 @@
   "pk": 8,
   "fields": {
     "num": 4,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 2
+    "ques": 2,
+    "mash": 1
   }
 },
 {
@@ -1410,9 +2322,10 @@
   "pk": 9,
   "fields": {
     "num": 1,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 3
+    "ques": 3,
+    "mash": 1
   }
 },
 {
@@ -1420,9 +2333,10 @@
   "pk": 10,
   "fields": {
     "num": 2,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 3
+    "ques": 3,
+    "mash": 1
   }
 },
 {
@@ -1430,9 +2344,10 @@
   "pk": 11,
   "fields": {
     "num": 3,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
-    "active": false,
-    "ques": 3
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 3,
+    "mash": 1
   }
 },
 {
@@ -1440,9 +2355,10 @@
   "pk": 12,
   "fields": {
     "num": 4,
-    "answer": "Если вы далаете дамп из под Windows, у вас может возникнуть проблема с кодировкой, в этом случае команда будет следующая: python -Xutf8 manage.py dumpdata --exclude contenttypes --output db.jso",
-    "active": true,
-    "ques": 3
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 3,
+    "mash": 1
   }
 },
 {
@@ -1450,9 +2366,10 @@
   "pk": 13,
   "fields": {
     "num": 1,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": true,
-    "ques": 4
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 4,
+    "mash": 1
   }
 },
 {
@@ -1460,9 +2377,10 @@
   "pk": 14,
   "fields": {
     "num": 2,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 4
+    "ques": 4,
+    "mash": 1
   }
 },
 {
@@ -1470,9 +2388,10 @@
   "pk": 15,
   "fields": {
     "num": 3,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 4
+    "ques": 4,
+    "mash": 1
   }
 },
 {
@@ -1480,9 +2399,10 @@
   "pk": 16,
   "fields": {
     "num": 4,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": false,
-    "ques": 4
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 4,
+    "mash": 1
   }
 },
 {
@@ -1490,9 +2410,10 @@
   "pk": 17,
   "fields": {
     "num": 1,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": false,
-    "ques": 5
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 5,
+    "mash": 1
   }
 },
 {
@@ -1500,9 +2421,10 @@
   "pk": 18,
   "fields": {
     "num": 2,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": true,
-    "ques": 5
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 5,
+    "mash": 1
   }
 },
 {
@@ -1510,9 +2432,10 @@
   "pk": 19,
   "fields": {
     "num": 3,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 5
+    "ques": 5,
+    "mash": 1
   }
 },
 {
@@ -1520,9 +2443,10 @@
   "pk": 20,
   "fields": {
     "num": 4,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 5
+    "ques": 5,
+    "mash": 1
   }
 },
 {
@@ -1530,9 +2454,10 @@
   "pk": 21,
   "fields": {
     "num": 1,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 6
+    "ques": 6,
+    "mash": 1
   }
 },
 {
@@ -1540,9 +2465,10 @@
   "pk": 22,
   "fields": {
     "num": 2,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": false,
-    "ques": 6
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 6,
+    "mash": 1
   }
 },
 {
@@ -1550,9 +2476,10 @@
   "pk": 23,
   "fields": {
     "num": 3,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": true,
-    "ques": 6
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 6,
+    "mash": 1
   }
 },
 {
@@ -1560,9 +2487,10 @@
   "pk": 24,
   "fields": {
     "num": 4,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 6
+    "ques": 6,
+    "mash": 1
   }
 },
 {
@@ -1570,9 +2498,10 @@
   "pk": 25,
   "fields": {
     "num": 1,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 7
+    "ques": 7,
+    "mash": 1
   }
 },
 {
@@ -1580,9 +2509,10 @@
   "pk": 26,
   "fields": {
     "num": 2,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 7
+    "ques": 7,
+    "mash": 1
   }
 },
 {
@@ -1590,9 +2520,10 @@
   "pk": 27,
   "fields": {
     "num": 3,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": false,
-    "ques": 7
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 7,
+    "mash": 1
   }
 },
 {
@@ -1600,9 +2531,10 @@
   "pk": 28,
   "fields": {
     "num": 4,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": true,
-    "ques": 7
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 7,
+    "mash": 1
   }
 },
 {
@@ -1610,9 +2542,10 @@
   "pk": 29,
   "fields": {
     "num": 1,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": true,
-    "ques": 8
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 8,
+    "mash": 1
   }
 },
 {
@@ -1620,9 +2553,10 @@
   "pk": 30,
   "fields": {
     "num": 2,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 8
+    "ques": 8,
+    "mash": 1
   }
 },
 {
@@ -1630,9 +2564,10 @@
   "pk": 31,
   "fields": {
     "num": 3,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 8
+    "ques": 8,
+    "mash": 1
   }
 },
 {
@@ -1640,9 +2575,10 @@
   "pk": 32,
   "fields": {
     "num": 4,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": false,
-    "ques": 8
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 8,
+    "mash": 1
   }
 },
 {
@@ -1650,9 +2586,10 @@
   "pk": 33,
   "fields": {
     "num": 1,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": false,
-    "ques": 9
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 9,
+    "mash": 1
   }
 },
 {
@@ -1660,9 +2597,10 @@
   "pk": 34,
   "fields": {
     "num": 2,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
-    "active": true,
-    "ques": 9
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 9,
+    "mash": 1
   }
 },
 {
@@ -1670,9 +2608,10 @@
   "pk": 35,
   "fields": {
     "num": 3,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 9
+    "ques": 9,
+    "mash": 1
   }
 },
 {
@@ -1680,9 +2619,10 @@
   "pk": 36,
   "fields": {
     "num": 4,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 9
+    "ques": 9,
+    "mash": 1
   }
 },
 {
@@ -1690,9 +2630,10 @@
   "pk": 37,
   "fields": {
     "num": 1,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 10
+    "ques": 10,
+    "mash": 1
   }
 },
 {
@@ -1700,9 +2641,10 @@
   "pk": 38,
   "fields": {
     "num": 2,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": true,
-    "ques": 10
+    "ques": 10,
+    "mash": 1
   }
 },
 {
@@ -1710,9 +2652,10 @@
   "pk": 39,
   "fields": {
     "num": 3,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 10
+    "ques": 10,
+    "mash": 1
   }
 },
 {
@@ -1720,89 +2663,578 @@
   "pk": 40,
   "fields": {
     "num": 4,
-    "answer": "Используется authenticate()для проверки набора учетных данных. Он принимает учетные данные как аргументы ключевых слов usernameи passwordдля случая по умолчанию проверяет их по каждому бэкенду аутентификации и возвращает Userобъект, если учетные данные действительны для бэкенда. Если учетные данные недействительны для какого-либо бэкенда или если бэкенд вызывает PermissionDenied, он возвращает None. Например:",
+    "answer": "Насосы типа ЦНС - ППД",
     "active": false,
-    "ques": 10
+    "ques": 10,
+    "mash": 1
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
+  "pk": 41,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 11,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 42,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 11,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 43,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 11,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 44,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 11,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 45,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 12,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 46,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 12,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 47,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 12,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 48,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 12,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 49,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 13,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 50,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 13,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 51,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 13,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 52,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 13,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 53,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 14,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 54,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 14,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 55,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 14,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 56,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 14,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 57,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 15,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 58,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 15,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 59,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 15,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 60,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 15,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 61,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 16,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 62,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 16,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 63,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 16,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 64,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 16,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 65,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 17,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 66,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 17,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 67,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 17,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 68,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 17,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 69,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 18,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 70,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 18,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 71,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 18,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
   "pk": 72,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 1 Ответ-1",
-    "answer": "Не верно",
-    "date": "2025-04-25T01:18:17.225Z"
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 18,
+    "mash": 2
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
   "pk": 73,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 2 Ответ-1",
-    "answer": "Не верно",
-    "date": "2025-04-25T01:18:17.285Z"
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 19,
+    "mash": 2
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
   "pk": 74,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 3 Ответ-4",
-    "answer": "Верно",
-    "date": "2025-04-25T01:18:17.333Z"
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 19,
+    "mash": 2
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
   "pk": 75,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 4 Ответ-1",
-    "answer": "Верно",
-    "date": "2025-04-25T01:18:17.376Z"
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 19,
+    "mash": 2
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
   "pk": 76,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 5 Ответ-2",
-    "answer": "Верно",
-    "date": "2025-04-25T01:18:17.420Z"
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 19,
+    "mash": 2
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
   "pk": 77,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 6 Ответ-3",
-    "answer": "Верно",
-    "date": "2025-04-25T01:18:17.464Z"
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 20,
+    "mash": 2
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
   "pk": 78,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 9 Ответ-2",
-    "answer": "Верно",
-    "date": "2025-04-25T01:18:17.519Z"
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": true,
+    "ques": 20,
+    "mash": 2
   }
 },
 {
-  "model": "plumber.answersuser",
+  "model": "plumber.answers",
   "pk": 79,
   "fields": {
-    "name_user": "SERGO",
-    "question": "Вопрос 10 Ответ-3",
-    "answer": "Не верно",
-    "date": "2025-04-25T01:18:17.583Z"
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 20,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 80,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ДНС",
+    "active": false,
+    "ques": 20,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 81,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 82,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 83,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 84,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 85,
+  "fields": {
+    "num": 1,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 86,
+  "fields": {
+    "num": 2,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 87,
+  "fields": {
+    "num": 3,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": false,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 88,
+  "fields": {
+    "num": 4,
+    "answer": "Насосы типа ЦНС - ППД",
+    "active": true,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$R4L6MsJPPzizzXh1u053KI$UDZqrwWZznnrT0tJPfFOPOqoX0K9p8Ugr1P/ob/U1+0=",
+    "last_login": "2025-04-27T03:34:45.586Z",
+    "is_superuser": true,
+    "username": "SERGO",
+    "first_name": "",
+    "last_name": "",
+    "email": "asdfg2105@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-04-26T14:32:04.065Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ysDoMm0BWP7cbKjxeaVVTo$ubHXzFh1CP8Z4NjgzgyRxOU1uaMKAnMxQigkkV+KS+E=",
+    "last_login": "2025-04-27T03:24:52.498Z",
+    "is_superuser": false,
+    "username": "SERG1",
+    "first_name": "",
+    "last_name": "",
+    "email": "user2@user2.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-27T03:23:27.265Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
   }
 }
 ]

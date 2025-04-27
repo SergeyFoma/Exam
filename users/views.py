@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from users.forms import RegisterUserForm, LoginUserForm
+from users.forms import RegisterUserForm, LoginUserForm, ProfileUserForm
 from django.urls import reverse, reverse_lazy 
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect
@@ -43,9 +43,16 @@ def login_user(request):
 
 @login_required
 def profile(request):
+   
+    if request.method == "POST":
+        form=ProfileUserForm(request.POST, request.FILES, instance = request.user)
+        if form.is_valid():
+            form.save()
+    else:
+        form=ProfileUserForm()
     
     context={
-        
+        'form':form,
     }
     return render(request, "users/profile.html", context)
 

@@ -89,8 +89,8 @@ WSGI_APPLICATION = 'exam.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "USER": "exam",
-        "NAME": "exam_db",
+        "USER": "examen",
+        "NAME": "examen_db",
         "PASSWORD": "11111qqqqq",
         "HOST": "localhost",
         "PORT": "5432",
@@ -134,6 +134,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL='/media/'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
@@ -142,3 +145,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL="users:profile"
 #LOGOUT_REDIRECT_URL="women:index"
 LOGIN_URL="users:login_user" #если пользователь не авторизован
+
+AUTH_USER_MODEL='users.User'
