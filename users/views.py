@@ -43,7 +43,6 @@ def login_user(request):
 
 @login_required
 def profile(request):
-   
     if request.method == "POST":
         form=ProfileUserForm(request.POST, request.FILES, instance = request.user)
         if form.is_valid():
