@@ -1,16 +1,32 @@
 {% extends "base.html" %}
 
 {% block sideright %}
-    <form action=""method='post'enctype='multipart/form-data'>
-        {% csrf_token %}
-        {% if user.photo %}
-            <p><img src="{{ user.photo.url }}" alt=""></p>
-        {% else %}
-            <p><img src="/media/users/default.png" alt=""></p>
-        {% endif %}
-        {{form.as_p}}
-        <button type="'submit">Обновить профиль</button>
-    </form>
-<a href="{% url 'plumber:vibor' %}">Выбрать тест</a>
+
+<h3>Вы вошли в свой профиль. </h3>
+<p>Имя - {{request.user.first_name}}</p>
+<p>Фамилия - {{request.user.last_name}}</p>
+<p>Профессия - {{request.user.profession}}</p>
+<p>Подразделение - {{request.user.workshop}}</p>
+{%comment%}<form action=""method='post'enctype='multipart/form-data'>
+    {% if user.photo %}
+        <p><img src="{{ user.photo.url }}" alt=""></p>
+    {% else %}
+        <p><img src="/media/users/default.png" alt=""></p>
+    {% endif %}
+
+    {% csrf_token %}
+    
+    {{form.as_p}}
+    <button type="'submit">Обновить профиль</button>
+</form>{%endcomment%}
+<hr>
+    <h3>Выберите необходимый тест</h3>
+
+            {% for i in mashine %}
+                <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
+            {% endfor %}
+
+    
+
    
 {% endblock %}

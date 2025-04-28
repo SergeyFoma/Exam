@@ -5,7 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
-from plumber.models import AnswersUser
+from plumber.models import AnswersUser, Mashine
 
 def register(request):
     if request.method=="POST":
@@ -28,10 +28,10 @@ def login_user(request):
             username=request.POST['username']
             password=request.POST['password']
             user=authenticate(username=username, password=password)
-            if user:
-                auth.login(request,user)
+            if user and user.is_active:
+                login(request,user)
                 messages.success(request,f'{username}, Вы вошли в аккаунт.')
-            return redirect(reverse("users:profile"))
+                return redirect(reverse("users:profile"))
             
 
     else:
@@ -43,15 +43,19 @@ def login_user(request):
 
 @login_required
 def profile(request):
+    mashine=Mashine.objects.all()
+    
     if request.method == "POST":
         form=ProfileUserForm(request.POST, request.FILES, instance = request.user)
         if form.is_valid():
             form.save()
+            #return redirect(reverse("users:profile"))
     else:
         form=ProfileUserForm()
     
     context={
         'form':form,
+        'mashine':mashine,
     }
     return render(request, "users/profile.html", context)
 

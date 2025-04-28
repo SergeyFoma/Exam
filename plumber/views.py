@@ -1,12 +1,13 @@
 from django.shortcuts import render
 from plumber.models import Questions, Answers, AnswersUser
 from django.shortcuts import redirect
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse, FileResponse
 from django.urls import reverse, reverse_lazy 
 #from plumber.utils import redir
 from plumber.forms import TestForm
 from django.shortcuts import get_object_or_404
 from plumber.models import Mashine
+import os
 
 def index(request):
     context={
@@ -102,3 +103,11 @@ def answer2(request):
         'ans':ans,
     }
     return render(request, "plumber/answer2.html", context)
+
+def file_pdf(request):
+    filepath = os.path.join('media/fpdf', 'one.pdf')
+    return FileResponse(open(filepath, 'rb'), content_type='application/pdf')
+
+# def file_pdf(request):
+#     start_pdf=os.startfile('./files_pdf/one.pdf')
+#     return render(request, 'plumber/file_pdf.html', {'start_pdf':start_pdf})

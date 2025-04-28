@@ -24,5 +24,8 @@ type nul > file.html
 _____________________________________
 
 --------------Автоматическое заполнение формы-----------------------
-form=ProfileUserForm(request.POST, request.FILES, instance = request.user
+form=ProfileUserForm(request.POST, request.FILES, instance = request.user)
 ______________________________________________________________
+git reset HEAD~1
+git pull origin
+git fetch --all

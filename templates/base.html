@@ -8,29 +8,52 @@
     <link rel="stylesheet" href="{% static './css/style.css' %}">
 </head>
 <body>
-    <h2>{{request.user.username}}</h2>
+    
     <div class="header">
-        
-        {% if user.is_authenticated %}
-            {% if request.path == "/answer2/" %}
-                <a href="{% url 'users:logout_user' %}">ВЫход(Logout)</a>
-            {%else%}
-                <a href="{% url 'plumber:index' %}">index</a>
-                <a href="{% url 'users:logout_user' %}">ВЫход(Logout)</a>
-                <a href="{% url 'users:profile' %}">Profile</a>
+        <div class="header1">
+            <h2>ООО "ЯмалСпецЦентр"</h2>
+        </div>
+        <div class="header2">
+            {%if user.is_authenticated%}
+                <h4>{{request.user.first_name}} {{request.user.last_name}}</h4>
             {%endif%}
-
+        </div>
+        <div class="header3">
+            {% if user.is_authenticated %}
             
-        {% else %}
-            <a href="{% url 'users:login_user' %}">Login</a>
-            <a href="{% url 'users:register' %}">register</a>
-        {% endif %}
-        <!--<a href="{% url 'plumber:answer' %}">answer</a>-->
-        
+                {% if request.path == "/answer2/" %}
+                    <a href="{% url 'users:logout_user' %}">Выход(Logout)</a>
+                {% elif request.path == "/profile/" %}
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
+                    <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выйти из профиля</a>
+                {%else%}
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
+                    <div class=""style="float:right;margin-right:150px;">
+                        <a href="{% url 'users:logout_user' %}">Выход</a> | 
+                        <a href="{% url 'users:profile' %}">Profile</a>
+                    </div>
+                {%endif%}
+
+                
+            {% else %}
+                <a href="{% url 'users:login_user' %}">Login</a>
+                <a href="{% url 'users:register' %}">register</a>
+            {% endif %}
+            <!--<a href="{% url 'plumber:answer' %}">answer</a>-->
+        </div>
         {% block header %}{% endblock %}</div>
     <div class="sidebar">
-        <div class="sideleft">{% block sideleft %}{% endblock %}</div>
-        <div class="sideright">{% block sideright %}{% endblock %}</div>
+        <div class="sideleft">
+            
+            {% block sideleft %}
+            {% endblock %}
+        </div>
+        <div class="sideright">
+            
+
+            {% block sideright %}
+            {% endblock %}
+        </div>
     </div>
     <div class="footer">{% block footer %}{% endblock %}</div>
 </body>
