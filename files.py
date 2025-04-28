@@ -1,8 +1,8 @@
-import os
-# with open('f1.txt','w+',encoding="utf-8")as f:
-# 	f.write('123qwe zxzczzc')
+# import webbrowser
+# path = './plumber/static/files_pdf/one.pdf'
+# webbrowser.open_new(path)
 
-# with open('f1.txt','r',encoding='utf-8')as f:
-# 	print(f.read())
-
-os.startfile('../one.pdf')
+import subprocess
+#path = 'C:/Users/Admin/EXAM/Exam/plumber/static/files_pdf/one.pdf'
+path = 'C:/Users/Admin/EXAM/Exam/plumber/static/files_pdf/Информ. письмо ПО (виз.).pdf'
+subprocess.Popen([path], shell=True)

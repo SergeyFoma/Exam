@@ -104,9 +104,7 @@ def answer2(request):
     }
     return render(request, "plumber/answer2.html", context)
 
-def file_pdf(request):
-    filepath = os.path.join('media/fpdf', 'one.pdf')
-    return FileResponse(open(filepath, 'rb'), content_type='application/pdf')
+
 
 # def file_pdf(request):
 #     start_pdf=os.startfile('./files_pdf/one.pdf')

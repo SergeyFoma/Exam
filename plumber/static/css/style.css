@@ -36,13 +36,13 @@
     background-color: rgb(255, 127, 244);
    
 }
-/*.sideleft {
-    width: 20%;
+.sideleft {
+    width: 30%;
     min-height: 2000px;
     background-color: rgb(255, 127, 244);
-}*/
+}
 .sideright {
-    width: 80%;
+    width: 70%;
     min-height: 2000px;
     background-color: rgb(208, 247, 158);
     text-align: center;

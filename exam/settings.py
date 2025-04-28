@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     "plumber.apps.PlumberConfig",
     "users.apps.UsersConfig",
+    "materials.apps.MaterialsConfig",
     
     'django_extensions',
 ]

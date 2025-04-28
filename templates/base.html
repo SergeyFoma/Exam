@@ -33,18 +33,27 @@
                         <a href="{% url 'users:profile' %}">Profile</a>
                     </div>
                 {%endif%}
-
                 
             {% else %}
-                <a href="{% url 'users:login_user' %}">Login</a>
-                <a href="{% url 'users:register' %}">register</a>
+
+                {%if request.path == '/'%}
+                    <p style="margin-left:150px;">Главная</p>
+                {% else %}
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
+                {%endif%}
+
+                <div class=""style="float:right;margin-right:150px;">
+                    <a href="{% url 'users:login_user' %}">Войти в профиль</a> | 
+                    <a href="{% url 'users:register' %}">Зарегистрироваться</a>
+                </div>
+
             {% endif %}
             <!--<a href="{% url 'plumber:answer' %}">answer</a>-->
         </div>
         {% block header %}{% endblock %}</div>
     <div class="sidebar">
         <div class="sideleft">
-            
+    
             {% block sideleft %}
             {% endblock %}
         </div>
@@ -55,6 +64,10 @@
             {% endblock %}
         </div>
     </div>
-    <div class="footer">{% block footer %}{% endblock %}</div>
+    <div class="footer">
+        ПСо НПО №3 все права защищены законом.
+        {% block footer %}
+        {% endblock %}
+    </div>
 </body>
 </html>

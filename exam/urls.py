@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("plumber.urls", namespace="plumber")),
     path('', include("users.urls", namespace="users")),
+    path('', include("materials.urls", namespace='materials')),
 ]
 
 if settings.DEBUG:
