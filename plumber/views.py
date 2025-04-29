@@ -7,13 +7,49 @@ from django.urls import reverse, reverse_lazy
 from plumber.forms import TestForm
 from django.shortcuts import get_object_or_404
 from plumber.models import Mashine
+from materials.models import UploadedFile
 import os
+import subprocess
 
 def index(request):
+    # path = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
+    # pf=os.listdir(path)
+    pfus=UploadedFile.objects.all()
+    
+    # path = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
+    # pf=os.listdir(path)
     context={
-
+        'pfus':pfus,
+        
     }
     return render(request, "plumber/index.html", context)
+
+def file_pdf(request, ind_id):
+    pfu=get_object_or_404(UploadedFile,id=ind_id)
+    #print(type(pfu.file), pfu.file)
+    st=str(pfu.file)
+    print('ST=',st)
+    path1 = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
+    path2='uploads'
+    pf=os.listdir(path1)
+    print('PF=',path2+'/'+pf[1])
+    for i in pf:
+        if path2+'/'+i == st:
+            print('III=',path1+'/'+i)
+            start_pdf=subprocess.Popen([path1+'/'+i], shell=True)
+            return redirect(reverse("plumber:index"))
+    context={
+        'pfu':pfu,
+    }
+    # path = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
+    # pf=os.listdir(path)
+    #start_pdf=subprocess.Popen([pfu], shell=True)
+    #print(pf)
+    # for i in pf:
+    #     print(i)
+    #     start_pdf=subprocess.Popen([path+'/'+i], shell=True)
+    # return redirect(reverse("plumber:index"))
+    return render(request, "plumber/file_pdf.html", context)
 
 def vibor(request):
     mashine=Mashine.objects.all()

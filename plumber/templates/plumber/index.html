@@ -3,12 +3,16 @@
 {%block sideleft%}
 
     <h2>Материалы для подготовки</h2>
-    <p><a href="#">Насосы типа ЦНС - ДНС</a></p>
-    <p><a href="#">Насосы типа ЦНС - ППД</a></p>
-    <p><a href="#">Насосы полупогружные(НВ, НВД, 12НА)</a></p>
-    <p><a href="#">Насосы типа Д</a></p>
-    <p><a href="#">Насосы НД, НМШ, К</a></p>
-    <a href="{%url 'materials:file_pdf'%}">start_pdf</a>
+
+    {%for i in pfus%}
+    <p><a href="{%url 'plumber:file_pdf' ind_id=i.id%}">{{i.file|slice:"5:"}}</a></p>
+    {%endfor%}
+
+   
+        
+    
+  
+  
 
 {%endblock%}
 

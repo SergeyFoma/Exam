@@ -7,6 +7,11 @@
 <p>Фамилия - {{request.user.last_name}}</p>
 <p>Профессия - {{request.user.profession}}</p>
 <p>Подразделение - {{request.user.workshop}}</p>
+
+{%if request.user.is_superuser%}
+    <p><a href="{% url 'materials:upload_file' %}">Загрузить файлы</a></p>
+{% endif %}
+
 {%comment%}<form action=""method='post'enctype='multipart/form-data'>
     {% if user.photo %}
         <p><img src="{{ user.photo.url }}" alt=""></p>
@@ -23,6 +28,7 @@
     <h3>Выберите необходимый тест</h3>
 
             {% for i in mashine %}
+            
                 <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
             {% endfor %}
 
