@@ -4,11 +4,10 @@
 
 
 
-{{request.user.is_authenticated}}
-{%for m in messages%}
-    {{m}}
-{%endfor%}
-    <p>Экзаменующийся: {{request.user.username}}</p><h2>{{mash.name}}</h2>
+{%comment%}{{request.user.is_authenticated}}{%endcomment%}
+
+    {%comment%}<p>Экзаменующийся: {{request.user.username}}</p>{%endcomment%}
+    <h2>{{mash.name}}</h2>
     {% for i in que %}
     {%comment%}<p style="color:red">{{i.mash}}</p>{%endcomment%}
         <h2 style="margin-bottom:10px">{{i.name}}{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
@@ -36,5 +35,5 @@
         <p><button type="submit">Submit</button></p>
     </form>
     
-    
+   
 {% endblock %}

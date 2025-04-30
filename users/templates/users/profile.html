@@ -1,8 +1,11 @@
 {% extends "base.html" %}
 
 {% block sideright %}
-
-<h3>Вы вошли в свой профиль. </h3>
+{% comment%}
+{%for m in messages%}
+    <h3>{{m}}</h3>
+{%endfor%}{%endcomment%}
+<h2>Профиль {{request.user.username}}</h2>
 <p>Имя - {{request.user.first_name}}</p>
 <p>Фамилия - {{request.user.last_name}}</p>
 <p>Профессия - {{request.user.profession}}</p>

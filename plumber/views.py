@@ -10,14 +10,10 @@ from plumber.models import Mashine
 from materials.models import UploadedFile
 import os
 import subprocess
+from exam import settings
 
 def index(request):
-    # path = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
-    # pf=os.listdir(path)
     pfus=UploadedFile.objects.all()
-    
-    # path = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
-    # pf=os.listdir(path)
     context={
         'pfus':pfus,
         
@@ -28,27 +24,24 @@ def file_pdf(request, ind_id):
     pfu=get_object_or_404(UploadedFile,id=ind_id)
     #print(type(pfu.file), pfu.file)
     st=str(pfu.file)
-    print('ST=',st)
-    path1 = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
+    #print('ST=',type(st))
+    #path1 = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
+    path1=str(settings.MEDIA_ROOT)
+    #path1=str(path1)
+    #print('path1=',type(path1))
     path2='uploads'
-    pf=os.listdir(path1)
-    print('PF=',path2+'/'+pf[1])
+    #print('path2=',type(path2))
+    pf=os.listdir(path1+'/'+path2)
+    #print(pf)
+    #print('PF=',path2+'/'+pf[1])
     for i in pf:
         if path2+'/'+i == st:
-            print('III=',path1+'/'+i)
-            start_pdf=subprocess.Popen([path1+'/'+i], shell=True)
+            #print('III=',path1+'/'+i)
+            start_pdf=subprocess.Popen([path1+'/'+path2+'/'+i], shell=True)
             return redirect(reverse("plumber:index"))
     context={
         'pfu':pfu,
     }
-    # path = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
-    # pf=os.listdir(path)
-    #start_pdf=subprocess.Popen([pfu], shell=True)
-    #print(pf)
-    # for i in pf:
-    #     print(i)
-    #     start_pdf=subprocess.Popen([path+'/'+i], shell=True)
-    # return redirect(reverse("plumber:index"))
     return render(request, "plumber/file_pdf.html", context)
 
 def vibor(request):

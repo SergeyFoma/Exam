@@ -30,7 +30,7 @@ def login_user(request):
             user=authenticate(username=username, password=password)
             if user and user.is_active:
                 login(request,user)
-                messages.success(request,f'{username}, Вы вошли в аккаунт.')
+                #messages.success(request,f'{username}, Вы вошли в аккаунт.')
                 return redirect(reverse("users:profile"))
             
 
