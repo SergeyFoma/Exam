@@ -33,21 +33,12 @@ class Index(ListView):
 
 def file_pdf(request, ind_id):
     pfu=get_object_or_404(UploadedFile,id=ind_id)
-    #print(type(pfu.file), pfu.file)
     st=str(pfu.file)
-    #print('ST=',type(st))
-    #path1 = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads'
     path1=str(settings.MEDIA_ROOT)
-    #path1=str(path1)
-    #print('path1=',type(path1))
     path2='uploads'
-    #print('path2=',type(path2))
     pf=os.listdir(path1+'/'+path2)
-    #print(pf)
-    #print('PF=',path2+'/'+pf[1])
     for i in pf:
         if path2+'/'+i == st:
-            #print('III=',path1+'/'+i)
             start_pdf=subprocess.Popen([path1+'/'+path2+'/'+i], shell=True)
             return redirect(reverse("plumber:index"))
     context={
