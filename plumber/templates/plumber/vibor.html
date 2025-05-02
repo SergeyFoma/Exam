@@ -1,9 +1,63 @@
 {% extends "base.html" %}
 
 {% block sideright %}
-asdfasdfasdf
-{% for i in mashine %}
-    <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
-{% endfor %}
+
+<h3>STOPWATCH</h3>
+
+<div id="time" style="border: 3px solid blue; text-align: center;font-size: 2em; margin-bottom: 10px">00:00</div>
+
+<h2>request.get_full_path============{{ request.get_full_path }}</h2>
+<h2>request.path=========={{request.path}}</h2>
+
+    <div class="info_test"id="info_test"><h2>info_test</h2>
+        <input type="button" id="elem" onclick="style_test" value="Нажми меня"></div>
+    <div class="info_test1"id="info_test1">info_test1
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+    </div>
+<script>
+    let inn_test=document.getElementById('info_test');
+    let inn_test1=document.getElementById('info_test1');
+    
+    function printMessage() { 
+        in_test.style["z-index"]=2;
+        alert("Время вышло!");
+        window.location.replace("http://127.0.0.1:8000/");//http://127.0.0.1:8000/
+    }
+    setTimeout(printMessage, 6000);
+</script>
+    
+
+<script>
+    let in_test=document.getElementById('info_test');
+    let in_test1=document.getElementById('info_test1');
+
+    function style_test(){
+        //in_test.innerHTML='@222222222222';
+        in_test1.style["background-color"] = "yellow";
+        in_test.style["z-index"]=0;
+    }
+   
+   //style_test()
+   elem.onclick=style_test
+</script>
+
+<script>
+    window.addEventListener("load", function() {
+        const clock = document.getElementById("time");
+        let time = -1, intervalId;
+        function incrementTime() {
+          time++;
+          clock.textContent =
+            ("0" + Math.trunc(time / 60)).slice(-2) +
+            ":" + ("0" + (time % 60)).slice(-2);
+        }
+        incrementTime();
+        intervalId = setInterval(incrementTime, 1000);
+      });
+</script>
+
+</div>
 
 {% endblock %}

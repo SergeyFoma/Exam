@@ -11,14 +11,25 @@ from materials.models import UploadedFile
 import os
 import subprocess
 from exam import settings
+from django.views.generic import ListView
 
-def index(request):
-    pfus=UploadedFile.objects.all()
-    context={
-        'pfus':pfus,
+# def index(request):
+#     pfus=UploadedFile.objects.all()
+#     context={
+#         'pfus':pfus,
         
-    }
-    return render(request, "plumber/index.html", context)
+#     }
+#     return render(request, "plumber/index.html", context)
+class Index(ListView):
+    model=UploadedFile
+    template_name='plumber/index.html'
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["title"] = 'Главная страница'
+        return context
+    def get_queryset(self):
+        return UploadedFile.objects.all()
+
 
 def file_pdf(request, ind_id):
     pfu=get_object_or_404(UploadedFile,id=ind_id)

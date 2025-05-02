@@ -1,4 +1,5 @@
 {% load static %}
+{% load plumber_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{% static './css/style.css' %}">
+    <!--<script src="{% static 'js/but_time.js' %}"></script>-->
 </head>
 <body>
     
@@ -24,10 +26,10 @@
                 {% if request.path == "/answer2/" %}
                     <a href="{% url 'users:logout_user' %}">Выход(Logout)</a>
                 {% elif request.path == "/profile/" %}
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">=====Главная{{title}}</a>
                     <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выйти из профиля</a>
                 {%else%}
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">-----Главная</a>
                     <div class=""style="float:right;margin-right:150px;">
                         <a href="{% url 'users:logout_user' %}">Выход</a> | 
                         <a href="{% url 'users:profile' %}">Profile</a>
@@ -37,9 +39,9 @@
             {% else %}
 
                 {%if request.path == '/'%}
-                    <p style="margin-left:150px;">Главная</p>
+                    <p style="margin-left:150px;">{{title}}</p>
                 {% else %}
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">++Главная{{title}}</a>
                 {%endif%}
 
                 <div class=""style="float:right;margin-right:150px;">
@@ -47,13 +49,20 @@
                     <a href="{% url 'users:register' %}">Зарегистрироваться</a>
                 </div>
 
+                
+
             {% endif %}
             <!--<a href="{% url 'plumber:answer' %}">answer</a>-->
         </div>
         {% block header %}{% endblock %}</div>
     <div class="sidebar">
         <div class="sideleft">
-    
+            {% up_fil as uf %}
+            <h2>Материалы для подготовки</h2>
+
+            {%for i in uf%}
+                <p><a href="{%url 'plumber:file_pdf' ind_id=i.id%}">{{i.file|slice:"5:"}}</a></p>
+            {%endfor%}
             {% block sideleft %}
             {% endblock %}
         </div>

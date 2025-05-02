@@ -2,38 +2,70 @@
 
 {% block sideright %}
 
+<div id="time" style="border: 3px solid blue; text-align: center;font-size: 2em; margin-bottom: 10px">00:00</div>
 
-
-{%comment%}{{request.user.is_authenticated}}{%endcomment%}
-
-    {%comment%}<p>Экзаменующийся: {{request.user.username}}</p>{%endcomment%}
-    <h2>{{mash.name}}</h2>
-    {% for i in que %}
-    {%comment%}<p style="color:red">{{i.mash}}</p>{%endcomment%}
-        <h2 style="margin-bottom:10px">{{i.name}}{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
-       
-
-    <form action="{%url 'plumber:answer'%}"method='get'>
-        {% for q in answ %}
+    {%comment%}{{request.user.is_authenticated}}{%endcomment%}
+        {%comment%}<p>Экзаменующийся: {{request.user.username}}</p>{%endcomment%}
+        <h2>{{mash.name}}</h2>
+        {% for i in que %}
+        {%comment%}<p style="color:red">{{i.mash}}</p>{%endcomment%}
+            <h2 style="margin-bottom:10px">{{i.name}}{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
         
-            {%if q.ques.name == i.name%}{%comment%}Вопрос 1=Вопрос 1{%endcomment%}
-        
-                    {%if q.active%}
-                        <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Верно">
-                        <!--<label for="rad1">{{q.answer}}</label></p>-->
-                        {{q.num}}. {{q.answer}}</p>
-                    {%else%}
-                        <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Не верно">
-                        <!--<label for="rad1">{{q.answer}}</label></p>-->
-                        {{q.num}}. {{q.answer}}</p>
-                    {%endif%}
-            {%endif%}
+
+        <form action="{%url 'plumber:answer'%}"method='get'>
+            {% for q in answ %}
+            
+                {%if q.ques.name == i.name%}{%comment%}Вопрос 1=Вопрос 1{%endcomment%}
+            
+                        {%if q.active%}
+                            <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Верно">
+                            <!--<label for="rad1">{{q.answer}}</label></p>-->
+                            {{q.num}}. {{q.answer}}</p>
+                        {%else%}
+                            <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Не верно">
+                            <!--<label for="rad1">{{q.answer}}</label></p>-->
+                            {{q.num}}. {{q.answer}}</p>
+                            
+                        {%endif%}
+                {%endif%}
+
+                
+                
+            {%endfor%}
             
         {%endfor%}
-        <div class=""style="height:20px"></div>
-    {%endfor%}
-        <p><button type="submit">Submit</button></p>
-    </form>
-    
-   
+
+
+        <p>Что бы узнать результат тестирования, нажмите на кнопку</p>
+            {%comment%}<p><button type="submit"id="button"onclick="printMessage">Submit</button></p>{%endcomment%}
+            <p><button type="submit"id="button">Закончить тестирование</button></p>
+        </form>
+
+
+       
+<script>
+    function printMessage() { 
+        alert("Время вышло!");
+        //window.location.replace("http://127.0.0.1:8000/answer/");   
+        document.getElementById('button').click();
+        }
+        setTimeout(printMessage, {{que.count}}000+6000);
+        //button.onclick=printMessage
+</script>
+
+<script>
+    window.addEventListener("load", function() {
+        const clock = document.getElementById("time");
+        let time = -1, intervalId;
+        function incrementTime() {
+          time++;
+          clock.textContent =
+            ("0" + Math.trunc(time / 60)).slice(-2) +
+            ":" + ("0" + (time % 60)).slice(-2);
+        }
+        incrementTime();
+        intervalId = setInterval(incrementTime, 1000);
+      });
+</script>
+
 {% endblock %}

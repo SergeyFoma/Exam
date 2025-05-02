@@ -4,7 +4,8 @@ from . import views
 app_name="plumber"
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    #path('', views.index, name='index'),
+    path('',views.Index.as_view(), name='index'),
     path('vibor/', views.vibor, name='vibor'),
     path('testing/<slug:t_slug>/', views.testing, name='testing'),
     path('answer/', views.answer, name='answer'),

@@ -1,14 +1,9 @@
+
 {% extends "base.html" %}
 
-{%block sideleft%}
-
-    <h2>Материалы для подготовки</h2>
-
-    {%for i in pfus%}
-    <p><a href="{%url 'plumber:file_pdf' ind_id=i.id%}">{{i.file|slice:"5:"}}</a></p>
-    {%endfor%}
-
-{%endblock%}
+{% block sideleft %}
+            
+{% endblock %}
 
 {% block sideright %}
     
