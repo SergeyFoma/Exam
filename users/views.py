@@ -6,40 +6,57 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
 from plumber.models import AnswersUser, Mashine
+from django.contrib.auth.views import LoginView
+from django.views.generic import CreateView
 
-def register(request):
-    if request.method=="POST":
-        form=RegisterUserForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect(reverse("users:login_user"))
+# def register(request):
+#     if request.method=="POST":
+#         form=RegisterUserForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             return redirect(reverse("users:login_user"))
 
-    else:
-        form=RegisterUserForm()
-    context={
-        'form':form,
-    }
-    return render(request, "users/register.html", context)
+#     else:
+#         form=RegisterUserForm()
+#     context={
+#         'form':form,
+#     }
+#     return render(request, "users/register.html", context)
+class RegisterUser(CreateView):
+    form_class=RegisterUserForm
+    template_name="users/register.html"
+    extra_context={"title":"Регистрация"}
+    success_url=reverse_lazy("users:login_user")
 
-def login_user(request):
-    if request.method=='POST':
-        form=LoginUserForm(data=request.POST)
-        if form.is_valid():
-            username=request.POST['username']
-            password=request.POST['password']
-            user=authenticate(username=username, password=password)
-            if user and user.is_active:
-                login(request,user)
-                #messages.success(request,f'{username}, Вы вошли в аккаунт.')
-                return redirect(reverse("users:profile"))
+
+
+
+# def login_user(request):
+#     if request.method=='POST':
+#         form=LoginUserForm(data=request.POST)
+#         if form.is_valid():
+#             username=request.POST['username']
+#             password=request.POST['password']
+#             user=authenticate(username=username, password=password)
+#             if user and user.is_active:
+#                 login(request,user)
+#                 #messages.success(request,f'{username}, Вы вошли в аккаунт.')
+#                 return redirect(reverse("users:profile"))
             
 
-    else:
-        form=LoginUserForm()
-    context={
-        'form':form,
-    }
-    return render(request, "users/login_user.html", context)
+#     else:
+#         form=LoginUserForm()
+#     context={
+#         'form':form,
+#     }
+#     return render(request, "users/login_user.html", context)
+
+class LoginUser(LoginView):
+    form_class=LoginUserForm
+    template_name="users/login_user.html"
+    extra_context={"title":"Authorization"}
+    def get_success_url(self):
+        return reverse_lazy("users:profile")
 
 @login_required
 def profile(request):

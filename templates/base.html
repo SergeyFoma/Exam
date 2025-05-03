@@ -11,9 +11,11 @@
 </head>
 <body>
     
-    <div class="header">
-        <div class="header1">
-            <h2>ООО "ЯмалСпецЦентр"</h2>
+    <div class="header"style="position:fixed;z-index:10;width:100%;">
+        <div class="header1"style="padding-top:5px;">
+            <img src="/media/users/default.png" alt=""style="width:70px;height:70px;border-radius:50%;float:left;margin-left:150px;margin-bottom:5px;">
+            <h1 style="font-size:34px;color:rgb(4, 4, 92);">Тест online</h1>
+            <p><span style="color:rgb(3, 3, 88);">Тестирование работников основных и совмещаемых профессий.</span></p>
         </div>
         <div class="header2">
             {%if user.is_authenticated%}
@@ -24,12 +26,15 @@
             {% if user.is_authenticated %}
             
                 {% if request.path == "/answer2/" %}
-                    <a href="{% url 'users:logout_user' %}">Выход(Logout)</a>
+                    <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выход(answer2)</a>
                 {% elif request.path == "/profile/" %}
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">=====Главная{{title}}</a>
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
                     <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выйти из профиля</a>
+                {% elif request.path == '/testing/' %}
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">+++++Главная{{title}}</a>
+                    <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выход(Logout)</a>
                 {%else%}
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">-----Главная</a>
+                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">Главная</a>
                     <div class=""style="float:right;margin-right:150px;">
                         <a href="{% url 'users:logout_user' %}">Выход</a> | 
                         <a href="{% url 'users:profile' %}">Profile</a>
@@ -38,35 +43,42 @@
                 
             {% else %}
 
-                {%if request.path == '/'%}
-                    <p style="margin-left:150px;">{{title}}</p>
-                {% else %}
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">++Главная{{title}}</a>
-                {%endif%}
 
-                <div class=""style="float:right;margin-right:150px;">
-                    <a href="{% url 'users:login_user' %}">Войти в профиль</a> | 
-                    <a href="{% url 'users:register' %}">Зарегистрироваться</a>
-                </div>
-
-                
-
-            {% endif %}
-            <!--<a href="{% url 'plumber:answer' %}">answer</a>-->
+           {% endif %}
+           
+        {% if not user.is_authenticated and request.path == '/' %}
+            <p style="margin-left:150px;">Главная</p>
+            <div class=""style="margin-right:150px;">
+                <a href="{% url 'users:login_user' %}">Войти в профиль</a> |
+                <a href="{% url 'users:register' %}">Зарегистрироваться</a>
+            </div> 
+        {% endif %}
+        {% if not user.is_authenticates and request.path == '/login_user/'  %}
+            <a href="{% url 'plumber:index' %}" style="margin-left:150px;">Главная</p>            
+            <a href="{% url 'users:register' %}"style="margin-right:150px;">Зарегистрироваться</a>
+        {% elif request.path == '/register/' %}
+            <a href="{% url 'plumber:index' %}" style="margin-left:150px;">Главная</p>
+            <a href="{% url 'users:login_user' %}"style="float:right;margin-right:150px;">Войти в профиль</a>
+        {% endif %}
         </div>
-        {% block header %}{% endblock %}</div>
+        {% block header %}
+        {% endblock %}
+    </div>
+      
     <div class="sidebar">
-        <div class="sideleft">
-            {% up_fil as uf %}
-            <h2>Материалы для подготовки</h2>
+        <div class="sideleft"style="padding-top:160px;">
+         
+                {% up_fil as uf %}
+                <h2 style="text-align: center;">Материалы для подготовки</h2>
 
-            {%for i in uf%}
-                <p><a href="{%url 'plumber:file_pdf' ind_id=i.id%}">{{i.file|slice:"5:"}}</a></p>
-            {%endfor%}
-            {% block sideleft %}
-            {% endblock %}
+                {%for i in uf%}
+                    <p style="margin-left: 10px;margin-top:10px;"><a href="{%url 'plumber:file_pdf' ind_id=i.id%}">{{i.file|slice:"5:"}}</a></p>
+                {%endfor%}
+                {% block sideleft %}
+                {% endblock %}
+            
         </div>
-        <div class="sideright">
+        <div class="sideright"style="padding-top:160px;">
             
 
             {% block sideright %}
