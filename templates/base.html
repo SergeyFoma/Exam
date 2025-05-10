@@ -71,7 +71,11 @@
             <h2 style="text-align: center;">Материалы для подготовки</h2>
             {% category_tag as ct %}
             {% for c in ct %}
-                <a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p><p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
+                {%comment%}<a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p>
+                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
+
+                    <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
+                        <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
             {% endfor %}
 
                 {% block sideleft %}
