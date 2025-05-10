@@ -29,3 +29,11 @@ ______________________________________________________________
 git reset HEAD~1
 git pull origin
 git fetch --all
+
+
+---------------Mixins-----------------
+from django.contrib.auth.mixins import LoginRequiredMixin - страница доступна только авторизованным пользователям. Для классов.
+from django.contrib.auth.mixins import PermissionRequiredMixin - позволяет проверять наличие конкретных прав доступа у пользователя.
+
+@login_required - страница доступна только авторизованным пользователям. Для функций.
+

@@ -31,20 +31,21 @@ class Index(ListView):
         return UploadedFile.objects.all()
 
 
-def file_pdf(request, ind_id):
-    pfu=get_object_or_404(UploadedFile,id=ind_id)
-    st=str(pfu.file)
-    path1=str(settings.MEDIA_ROOT)
-    path2='uploads'
-    pf=os.listdir(path1+'/'+path2)
-    for i in pf:
-        if path2+'/'+i == st:
-            start_pdf=subprocess.Popen([path1+'/'+path2+'/'+i], shell=True)
-            return redirect(reverse("plumber:index"))
-    context={
-        'pfu':pfu,
-    }
-    return render(request, "plumber/file_pdf.html", context)
+# def file_pdf(request, ind_id):
+#     pfu=get_object_or_404(UploadedFile,id=ind_id)
+#     st=str(pfu.file)
+#     path1=str(settings.MEDIA_ROOT)
+#     path2='uploads'
+#     pf=os.listdir(path1+'/'+path2)
+#     for i in pf:
+#         if path2+'/'+i == st:
+#             start_pdf=subprocess.Popen([path1+'/'+path2+'/'+i], shell=True)
+#             #return redirect(reverse("plumber:index"))
+#             return redirect(reverse('materials:category_post', kwargs={'cat_id':2}))
+    # context={
+    #     'pfu':pfu,
+    # }
+    # return render(request, "plumber/file_pdf.html", context)
 
 def vibor(request):
     mashine=Mashine.objects.all()

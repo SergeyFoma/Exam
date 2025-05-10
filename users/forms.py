@@ -1,6 +1,7 @@
 from django import forms 
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import get_user_model
+import datetime
 
 
 class RegisterUserForm(UserCreationForm):
@@ -26,6 +27,8 @@ class ProfileUserForm(forms.ModelForm):
     email=forms.CharField(disabled=True,required=False, label='Email',widget=forms.TextInput())
     workshop=forms.CharField(disabled=False,required=False, label='Подразделение', widget=forms.TextInput())
     profession=forms.CharField(disabled=False,required=False, label='Профессия', widget=forms.TextInput())
+    this_year=datetime.date.today().year
+    date_birth=forms.DateField(widget=forms.SelectDateWidget(years=tuple(range(this_year-100, this_year-5))))
 
     class Meta:
         model=get_user_model()

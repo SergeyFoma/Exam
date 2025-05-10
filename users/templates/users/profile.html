@@ -1,36 +1,44 @@
 {% extends "base.html" %}
+{% load plumber_tags %}
 
 {% block sideright %}
 {% comment%}
 {%for m in messages%}
     <h3>{{m}}</h3>
 {%endfor%}{%endcomment%}
-<h2>Профиль {{request.user.username}}</h2>
-<p>Имя - {{request.user.first_name}}</p>
-<p>Фамилия - {{request.user.last_name}}</p>
-<p>Профессия - {{request.user.profession}}</p>
-<p>Подразделение - {{request.user.workshop}}</p>
 
-{%if request.user.is_superuser%}
-    <p><a href="{% url 'materials:upload_file' %}">Загрузить файлы</a></p>
-{% endif %}
-
-{%comment%}<form action=""method='post'enctype='multipart/form-data'>
-    {% if user.photo %}
-        <p><img src="{{ user.photo.url }}" alt=""></p>
-    {% else %}
-        <p><img src="/media/users/default.png" alt=""></p>
-    {% endif %}
-
-    {% csrf_token %}
+<div class="form_user"style="padding: 20px; background-color: gray;width:300px;">
     
-    {{form.as_p}}
-    <button type="'submit">Обновить профиль</button>
-</form>{%endcomment%}
+        <h2>Профиль {{request.user.username}}</h2>
+        <p>Имя - {{request.user.first_name}}</p>
+        <p>Фамилия - {{request.user.last_name}}</p>
+        <p>Профессия - {{request.user.profession}}</p>
+        <p>Подразделение - {{request.user.workshop}}</p>
+
+
+        {%if request.user.is_superuser%}
+            <p><a href="{% url 'materials:upload_file' %}">Загрузить файлы</a></p>
+        {% endif %}
+
+
+        <form action=""method='post'enctype='multipart/form-data'>
+            {% if user.photo %}
+                <p><img src="{{ user.photo.url }}" alt=""style="width:200px;height:200px;"></p>
+            {% else %}
+                <p><img src="/media/users/default.png" alt=""style="width:200px;height:200px;"></p>
+            {% endif %}
+
+            {% csrf_token %}
+            
+            {{form.as_p}}
+            <button type="'submit">Обновить профиль</button>
+        </form>
+   
+</div>
 <hr>
     <h3>Выберите необходимый тест</h3>
-
-            {% for i in mashine %}
+        {% mashine_tag as mt %}
+            {% for i in mt %}
             
                 <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
             {% endfor %}

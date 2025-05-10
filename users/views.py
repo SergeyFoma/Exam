@@ -8,6 +8,10 @@ from django.contrib import auth, messages
 from plumber.models import AnswersUser, Mashine
 from django.contrib.auth.views import LoginView
 from django.views.generic import CreateView
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic.edit import UpdateView
+from django.contrib.auth import get_user_model
+from django.views.generic import ListView
 
 # def register(request):
 #     if request.method=="POST":
@@ -58,23 +62,38 @@ class LoginUser(LoginView):
     def get_success_url(self):
         return reverse_lazy("users:profile")
 
-@login_required
-def profile(request):
-    mashine=Mashine.objects.all()
+# @login_required
+# def profile(request):
+#     mashine=Mashine.objects.all()
     
-    if request.method == "POST":
-        form=ProfileUserForm(request.POST, request.FILES, instance = request.user)
-        if form.is_valid():
-            form.save()
-            #return redirect(reverse("users:profile"))
-    else:
-        form=ProfileUserForm()
+#     if request.method == "POST":
+#         form=ProfileUserForm(request.POST, request.FILES, instance = request.user)
+#         if form.is_valid():
+#             form.save()
+#             #return redirect(reverse("users:profile"))
+#     else:
+#         form=ProfileUserForm()
     
-    context={
-        'form':form,
-        'mashine':mashine,
-    }
-    return render(request, "users/profile.html", context)
+#     context={
+#         'form':form,
+#         'mashine':mashine,
+#     }
+#     return render(request, "users/profile.html", context)
+class Profile(LoginRequiredMixin, UpdateView):
+    model=get_user_model()
+    form_class = ProfileUserForm
+    template_name="users/profile.html"
+    success_url = reverse_lazy("users:profile")
+    
+
+    # def get_success_url(self):
+    #     return reverse_lazy("users:profile")
+    
+    def get_object(self, queryset=None):
+        return self.request.user
+   
+
+    
 
 def logout_user(request):
     AnswersUser.objects.filter(name_user=request.user.username).delete()

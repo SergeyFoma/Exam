@@ -66,19 +66,19 @@
     </div>
       
     <div class="sidebar">
-        <div class="sideleft"style="padding-top:160px;">
-         
-                {% up_fil as uf %}
-                <h2 style="text-align: center;">Материалы для подготовки</h2>
+        <div class="sideleft"style="padding-top:140px;">
 
-                {%for i in uf%}
-                    <p style="margin-left: 10px;margin-top:10px;"><a href="{%url 'plumber:file_pdf' ind_id=i.id%}">{{i.file|slice:"5:"}}</a></p>
-                {%endfor%}
+            <h2 style="text-align: center;">Материалы для подготовки</h2>
+            {% category_tag as ct %}
+            {% for c in ct %}
+                <a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p><p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
+            {% endfor %}
+
                 {% block sideleft %}
                 {% endblock %}
             
         </div>
-        <div class="sideright"style="padding-top:160px;">
+        <div class="sideright"style="padding-top:140px;">
             
 
             {% block sideright %}

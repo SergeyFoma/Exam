@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "materials.apps.MaterialsConfig",
     
     'django_extensions',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
@@ -53,7 +54,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
+
 
 ROOT_URLCONF = 'exam.urls'
 
@@ -121,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-RU'#'en-us'
 
 TIME_ZONE = 'UTC'
 
@@ -148,3 +152,8 @@ LOGIN_REDIRECT_URL="users:profile"
 LOGIN_URL="users:login_user" #если пользователь не авторизован
 
 AUTH_USER_MODEL='users.User'
+
+#django-debug-toolbar
+INTERNAL_IPS = [
+    '127.0.0.1',
+]

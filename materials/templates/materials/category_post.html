@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% load plumber_tags %}
+
+{% block header %}
+{% endblock %}
+
+
+{% block sideleft %}
+            
+{% endblock %}
+
+{% block sideright %}
+
+<h3>{{cat_post}}</h3> 
+<p><img src="{{cat_post.photo.url}}" alt=""style="width:300px;"></p>
+
+{% up_fil as uf %}
+
+{% for u in uf %}
+    {% if u.type_file == "video" %}
+        {% if u.cat == cat_post %}
+            <p><a href="{% url 'materials:file_pdf' ind_id=u.id %}">{{u.cat}} {{u.file}}</a></p>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% for u in uf %}
+    {% if u.type_file == "file" %}
+        {% if u.cat == cat_post %}
+            <p><a href="{% url 'materials:file_pdf' ind_id=u.id %}">{{u.cat}} {{u.file}}</a></p>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% endblock %}
+
