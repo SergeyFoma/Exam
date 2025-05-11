@@ -1,5 +1,5 @@
 from django import forms 
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm, PasswordChangeForm
 from django.contrib.auth import get_user_model
 import datetime
 
@@ -41,3 +41,8 @@ class ProfileUserForm(forms.ModelForm):
             'first_name': forms.TextInput(),
             'last_name': forms.TextInput(),
         }
+
+class UserPasswordChangeForm(PasswordChangeForm):
+    old_password=forms.CharField(label="Старый пароль",widget=forms.PasswordInput(attrs={"class":"form-input"}))
+    new_password1=forms.CharField(label="Новый пароль", widget=forms.PasswordInput(attrs={"class":"form-input"}))
+    new_password2=forms.CharField(label="Повторите пароль", widget=forms.PasswordInput(attrs={"class":"form-input"}))

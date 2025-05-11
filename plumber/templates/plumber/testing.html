@@ -1,55 +1,66 @@
-{% extends "base.html" %}
+{% extends "plumber/base_plumber.html" %}
 
-{% block sideright %}
+{% block header_testing %}
+    <h2>Страница тестирования по профессии:</h2>
+    <h3>{{request.user.profession}}</h3>
+{% endblock %}
 
-<div id="time" style="border: 3px solid blue; text-align: center;font-size: 2em; margin-bottom: 10px">00:00</div>
+
+{% block content %}
+
+
+<div id="time" style="text-align: center;font-size: 2em;">00:00</div>
 
     {%comment%}{{request.user.is_authenticated}}{%endcomment%}
         {%comment%}<p>Экзаменующийся: {{request.user.username}}</p>{%endcomment%}
-        <h2>{{mash.name}}</h2>
+    <div class="test_conteiner"style="width:100%;display:flex;justify-content:center;">
+    <div class="test" style="width:900px;background-color: #39f;padding:0 10px 0 10px;">
+        <h2 style="text-align:center;">{{mash.name}}</h2>
         {% for i in que %}
         {%comment%}<p style="color:red">{{i.mash}}</p>{%endcomment%}
-            <h2 style="margin-bottom:10px">{{i.name}}{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
-        
+            <div class="ques_answ"style="border:1px solid gray;margin-bottom:5px;background:#fff">
+    
+                <h2 style="margin-bottom:10px;text-align:center;">{{i.name}}{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
+            
 
-        <form action="{%url 'plumber:answer'%}"method='get'>
-            {% for q in answ %}
-            
-                {%if q.ques.name == i.name%}{%comment%}Вопрос 1=Вопрос 1{%endcomment%}
-            
-                        {%if q.active%}
-                            <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Верно">
-                            <!--<label for="rad1">{{q.answer}}</label></p>-->
-                            {{q.num}}. {{q.answer}}</p>
-                        {%else%}
-                            <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Не верно">
-                            <!--<label for="rad1">{{q.answer}}</label></p>-->
-                            {{q.num}}. {{q.answer}}</p>
-                            
+                <form action="{%url 'plumber:answer'%}"method='get'>
+                    {% for q in answ %}
+                    
+                        {%if q.ques.name == i.name%}{%comment%}Вопрос 1=Вопрос 1{%endcomment%}
+                    
+                                {%if q.active%}
+                                    <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Верно">
+                                    <!--<label for="rad1">{{q.answer}}</label></p>-->
+                                    {{q.num}}. {{q.answer}}</p>
+                                {%else%}
+                                    <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Не верно">
+                                    <!--<label for="rad1">{{q.answer}}</label></p>-->
+                                    {{q.num}}. {{q.answer}}</p>
+                                    
+                                {%endif%}
                         {%endif%}
-                {%endif%}
 
-                
-                
-            {%endfor%}
-            
+                        
+                        
+                    {%endfor%}
+            </div>        
         {%endfor%}
-
-
-        <p>Что бы узнать результат тестирования, нажмите на кнопку</p>
+                                    
             {%comment%}<p><button type="submit"id="button"onclick="printMessage">Submit</button></p>{%endcomment%}
-            <p><button type="submit"id="button">Закончить тестирование</button></p>
+            <p>Что бы узнать результат тестирования, нажмите на кнопку >>> <button type="submit"id="button"style="background:#05097a;color:#fff;height:40px;min-width:200px;font-size:16px;font-weight:bold;padding:5px;align-items:center;">Закончить тестирование</button></p>
         </form>
+    </div>
+</div>
 
+<div id="time" style="text-align: center;font-size: 2em;height:20px;"></div>
 
-       
 <script>
     function printMessage() { 
         alert("Время вышло!");
         //window.location.replace("http://127.0.0.1:8000/answer/");   
         document.getElementById('button').click();
         }
-        setTimeout(printMessage, {{que.count}}000+6000);
+        setTimeout(printMessage, {{que.count}}000+600000);
         //button.onclick=printMessage
 </script>
 

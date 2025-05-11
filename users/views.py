@@ -1,12 +1,12 @@
 from django.shortcuts import render
-from users.forms import RegisterUserForm, LoginUserForm, ProfileUserForm
+from users.forms import RegisterUserForm, LoginUserForm, ProfileUserForm, UserPasswordChangeForm
 from django.urls import reverse, reverse_lazy 
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
 from plumber.models import AnswersUser, Mashine
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import LoginView, PasswordChangeView
 from django.views.generic import CreateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import UpdateView
@@ -93,7 +93,11 @@ class Profile(LoginRequiredMixin, UpdateView):
         return self.request.user
    
 
-    
+class UserPasswordChange(PasswordChangeView):
+    form_class = UserPasswordChangeForm
+    success_url = reverse_lazy("users:password_change_done")
+    template_name = "users/password_change_form.html"
+    title = ("Password change")
 
 def logout_user(request):
     AnswersUser.objects.filter(name_user=request.user.username).delete()
