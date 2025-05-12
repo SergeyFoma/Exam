@@ -4,11 +4,16 @@ from datetime import datetime
 class Mashine(models.Model):
     name=models.CharField(max_length=255)
     slug=models.SlugField(max_length=255)
+    def __str__(self):
+        return self.name
 
 class Questions(models.Model):
     name=models.CharField(max_length=255)
     text=models.TextField()
     mash=models.ForeignKey(Mashine, on_delete=models.CASCADE, blank=True, null=True)
+
+    def __str__(self):
+        return self.name
 
 class Answers(models.Model):
     num=models.IntegerField()
