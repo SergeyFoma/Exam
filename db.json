@@ -3,7 +3,59 @@
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
-    "action_time": "2025-04-26T15:12:46.000Z",
+    "action_time": "2025-05-12T05:39:40.322Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Слесарь-ремонтник НПО",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-05-12T05:39:57.132Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Сварщик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-05-12T05:40:13.279Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Стропальщик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-05-12T05:40:44.298Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Ремонт и испытание клапанов СППК",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-05-12T05:52:56.338Z",
     "user": 1,
     "content_type": 7,
     "object_id": "1",
@@ -14,65 +66,13 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2025-04-26T15:13:02.679Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "Mashine object (2)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2025-04-26T15:13:18.032Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "Mashine object (3)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2025-04-26T15:13:32.109Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "Mashine object (4)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2025-04-26T15:13:46.651Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "Mashine object (5)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
   "pk": 6,
   "fields": {
-    "action_time": "2025-04-26T15:14:35.417Z",
+    "action_time": "2025-05-12T06:29:17.162Z",
     "user": 1,
     "content_type": 8,
     "object_id": "1",
-    "object_repr": "Questions object (1)",
+    "object_repr": "Вопрос 1",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -81,254 +81,7 @@
   "model": "admin.logentry",
   "pk": 7,
   "fields": {
-    "action_time": "2025-04-26T15:14:53.096Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Questions object (2)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2025-04-26T15:15:06.932Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Questions object (3)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2025-04-26T15:15:22.728Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Questions object (4)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2025-04-26T15:15:38.673Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Questions object (5)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2025-04-26T15:15:50.962Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "6",
-    "object_repr": "Questions object (6)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2025-04-26T15:16:13.087Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "7",
-    "object_repr": "Questions object (7)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2025-04-26T15:16:27.319Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "8",
-    "object_repr": "Questions object (8)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2025-04-26T15:16:41.902Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Questions object (9)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2025-04-26T15:16:56.352Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "10",
-    "object_repr": "Questions object (10)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2025-04-26T15:17:28.746Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "11",
-    "object_repr": "Questions object (11)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2025-04-26T15:17:40.519Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "12",
-    "object_repr": "Questions object (12)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2025-04-26T15:17:54.059Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "13",
-    "object_repr": "Questions object (13)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2025-04-26T15:18:21.523Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "14",
-    "object_repr": "Questions object (14)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2025-04-26T15:18:32.326Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "15",
-    "object_repr": "Questions object (15)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2025-04-26T15:18:43.691Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "16",
-    "object_repr": "Questions object (16)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 22,
-  "fields": {
-    "action_time": "2025-04-26T15:18:59.972Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "17",
-    "object_repr": "Questions object (17)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 23,
-  "fields": {
-    "action_time": "2025-04-26T15:19:13.454Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "18",
-    "object_repr": "Questions object (18)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 24,
-  "fields": {
-    "action_time": "2025-04-26T15:19:28.744Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "19",
-    "object_repr": "Questions object (19)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 25,
-  "fields": {
-    "action_time": "2025-04-26T15:19:43.010Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "20",
-    "object_repr": "Questions object (20)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 26,
-  "fields": {
-    "action_time": "2025-04-26T15:20:59.439Z",
+    "action_time": "2025-05-12T06:30:17.653Z",
     "user": 1,
     "content_type": 9,
     "object_id": "1",
@@ -339,9 +92,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 27,
+  "pk": 8,
   "fields": {
-    "action_time": "2025-04-26T15:21:17.810Z",
+    "action_time": "2025-05-12T06:30:46.872Z",
     "user": 1,
     "content_type": 9,
     "object_id": "2",
@@ -352,9 +105,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 28,
+  "pk": 9,
   "fields": {
-    "action_time": "2025-04-26T15:21:37.972Z",
+    "action_time": "2025-05-12T06:31:11.418Z",
     "user": 1,
     "content_type": 9,
     "object_id": "3",
@@ -365,9 +118,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 29,
+  "pk": 10,
   "fields": {
-    "action_time": "2025-04-26T15:21:52.621Z",
+    "action_time": "2025-05-12T06:31:33.220Z",
     "user": 1,
     "content_type": 9,
     "object_id": "4",
@@ -378,9 +131,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 30,
+  "pk": 11,
   "fields": {
-    "action_time": "2025-04-26T15:22:13.453Z",
+    "action_time": "2025-05-12T06:33:05.371Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Вопрос 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-05-12T06:40:04.762Z",
     "user": 1,
     "content_type": 9,
     "object_id": "5",
@@ -391,9 +157,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 31,
+  "pk": 13,
   "fields": {
-    "action_time": "2025-04-26T15:22:32.332Z",
+    "action_time": "2025-05-12T06:40:39.463Z",
     "user": 1,
     "content_type": 9,
     "object_id": "6",
@@ -404,9 +170,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 32,
+  "pk": 14,
   "fields": {
-    "action_time": "2025-04-26T15:22:55.256Z",
+    "action_time": "2025-05-12T06:41:15.925Z",
     "user": 1,
     "content_type": 9,
     "object_id": "7",
@@ -417,9 +183,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 33,
+  "pk": 15,
   "fields": {
-    "action_time": "2025-04-26T15:23:12.354Z",
+    "action_time": "2025-05-12T06:41:58.216Z",
     "user": 1,
     "content_type": 9,
     "object_id": "8",
@@ -430,9 +196,35 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 34,
+  "pk": 16,
   "fields": {
-    "action_time": "2025-04-26T15:25:14.794Z",
+    "action_time": "2025-05-12T06:46:55.560Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Вопрос 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-05-12T06:47:28.925Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Вопрос 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-05-12T06:49:16.430Z",
     "user": 1,
     "content_type": 9,
     "object_id": "9",
@@ -443,9 +235,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 35,
+  "pk": 19,
   "fields": {
-    "action_time": "2025-04-26T15:25:47.127Z",
+    "action_time": "2025-05-12T06:49:36.471Z",
     "user": 1,
     "content_type": 9,
     "object_id": "10",
@@ -456,9 +248,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 36,
+  "pk": 20,
   "fields": {
-    "action_time": "2025-04-26T15:26:09.461Z",
+    "action_time": "2025-05-12T06:49:54.978Z",
     "user": 1,
     "content_type": 9,
     "object_id": "11",
@@ -469,9 +261,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 37,
+  "pk": 21,
   "fields": {
-    "action_time": "2025-04-26T15:26:25.440Z",
+    "action_time": "2025-05-12T06:50:17.066Z",
     "user": 1,
     "content_type": 9,
     "object_id": "12",
@@ -482,9 +274,35 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 38,
+  "pk": 22,
   "fields": {
-    "action_time": "2025-04-26T15:26:50.425Z",
+    "action_time": "2025-05-12T07:00:40.441Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-05-12T07:00:52.167Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Вопрос 4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-05-12T07:01:43.239Z",
     "user": 1,
     "content_type": 9,
     "object_id": "13",
@@ -495,9 +313,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 39,
+  "pk": 25,
   "fields": {
-    "action_time": "2025-04-26T15:27:06.325Z",
+    "action_time": "2025-05-12T07:02:17.527Z",
     "user": 1,
     "content_type": 9,
     "object_id": "14",
@@ -508,9 +326,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 40,
+  "pk": 26,
   "fields": {
-    "action_time": "2025-04-26T15:27:23.218Z",
+    "action_time": "2025-05-12T07:02:53.056Z",
     "user": 1,
     "content_type": 9,
     "object_id": "15",
@@ -521,9 +339,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 41,
+  "pk": 27,
   "fields": {
-    "action_time": "2025-04-26T15:27:42.751Z",
+    "action_time": "2025-05-12T07:03:27.527Z",
     "user": 1,
     "content_type": 9,
     "object_id": "16",
@@ -534,9 +352,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 42,
+  "pk": 28,
   "fields": {
-    "action_time": "2025-04-26T15:28:03.784Z",
+    "action_time": "2025-05-12T07:06:16.092Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Вопрос 5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-05-12T07:07:59.475Z",
     "user": 1,
     "content_type": 9,
     "object_id": "17",
@@ -547,9 +378,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 43,
+  "pk": 30,
   "fields": {
-    "action_time": "2025-04-26T15:28:27.617Z",
+    "action_time": "2025-05-12T07:08:33.245Z",
     "user": 1,
     "content_type": 9,
     "object_id": "18",
@@ -560,9 +391,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 44,
+  "pk": 31,
   "fields": {
-    "action_time": "2025-04-26T15:28:46.869Z",
+    "action_time": "2025-05-12T07:10:40.280Z",
     "user": 1,
     "content_type": 9,
     "object_id": "19",
@@ -573,9 +404,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 45,
+  "pk": 32,
   "fields": {
-    "action_time": "2025-04-26T15:29:01.570Z",
+    "action_time": "2025-05-12T07:11:09.240Z",
     "user": 1,
     "content_type": 9,
     "object_id": "20",
@@ -586,9 +417,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 46,
+  "pk": 33,
   "fields": {
-    "action_time": "2025-04-26T15:29:18.849Z",
+    "action_time": "2025-05-12T07:14:09.897Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Вопрос 6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-05-12T07:29:57.192Z",
     "user": 1,
     "content_type": 9,
     "object_id": "21",
@@ -599,9 +443,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 47,
+  "pk": 35,
   "fields": {
-    "action_time": "2025-04-26T15:29:32.223Z",
+    "action_time": "2025-05-12T07:30:40.100Z",
     "user": 1,
     "content_type": 9,
     "object_id": "22",
@@ -612,9 +456,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 48,
+  "pk": 36,
   "fields": {
-    "action_time": "2025-04-26T15:29:46.183Z",
+    "action_time": "2025-05-12T07:31:44.396Z",
     "user": 1,
     "content_type": 9,
     "object_id": "23",
@@ -625,9 +469,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 49,
+  "pk": 37,
   "fields": {
-    "action_time": "2025-04-26T15:29:59.977Z",
+    "action_time": "2025-05-12T07:32:23.749Z",
     "user": 1,
     "content_type": 9,
     "object_id": "24",
@@ -638,9 +482,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 50,
+  "pk": 38,
   "fields": {
-    "action_time": "2025-04-26T15:30:17.778Z",
+    "action_time": "2025-05-12T07:33:20.305Z",
     "user": 1,
     "content_type": 9,
     "object_id": "25",
@@ -651,9 +495,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 51,
+  "pk": 39,
   "fields": {
-    "action_time": "2025-04-26T15:30:55.432Z",
+    "action_time": "2025-05-12T07:33:47.540Z",
     "user": 1,
     "content_type": 9,
     "object_id": "26",
@@ -664,9 +508,35 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 52,
+  "pk": 40,
   "fields": {
-    "action_time": "2025-04-26T15:31:11.132Z",
+    "action_time": "2025-05-12T07:42:14.017Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "7",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-05-12T07:42:31.679Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Вопрос 7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-05-12T07:45:45.215Z",
     "user": 1,
     "content_type": 9,
     "object_id": "27",
@@ -677,9 +547,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 53,
+  "pk": 43,
   "fields": {
-    "action_time": "2025-04-26T15:31:25.543Z",
+    "action_time": "2025-05-12T07:46:05.061Z",
     "user": 1,
     "content_type": 9,
     "object_id": "28",
@@ -690,9 +560,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 54,
+  "pk": 44,
   "fields": {
-    "action_time": "2025-04-26T15:31:41.004Z",
+    "action_time": "2025-05-12T07:46:22.588Z",
     "user": 1,
     "content_type": 9,
     "object_id": "29",
@@ -703,9 +573,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 55,
+  "pk": 45,
   "fields": {
-    "action_time": "2025-04-26T15:31:57.761Z",
+    "action_time": "2025-05-12T07:46:39.009Z",
     "user": 1,
     "content_type": 9,
     "object_id": "30",
@@ -716,9 +586,35 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 56,
+  "pk": 46,
   "fields": {
-    "action_time": "2025-04-26T15:32:14.042Z",
+    "action_time": "2025-05-12T07:47:41.868Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-05-12T07:47:52.300Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Вопрос 8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-05-12T07:48:48.925Z",
     "user": 1,
     "content_type": 9,
     "object_id": "31",
@@ -729,9 +625,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 57,
+  "pk": 49,
   "fields": {
-    "action_time": "2025-04-26T15:32:32.263Z",
+    "action_time": "2025-05-12T07:49:04.334Z",
     "user": 1,
     "content_type": 9,
     "object_id": "32",
@@ -742,9 +638,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 58,
+  "pk": 50,
   "fields": {
-    "action_time": "2025-04-26T15:32:54.342Z",
+    "action_time": "2025-05-12T07:49:34.009Z",
     "user": 1,
     "content_type": 9,
     "object_id": "33",
@@ -755,9 +651,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 59,
+  "pk": 51,
   "fields": {
-    "action_time": "2025-04-26T15:33:12.900Z",
+    "action_time": "2025-05-12T07:49:52.435Z",
     "user": 1,
     "content_type": 9,
     "object_id": "34",
@@ -768,9 +664,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 60,
+  "pk": 52,
   "fields": {
-    "action_time": "2025-04-26T15:33:27.871Z",
+    "action_time": "2025-05-12T07:51:32.780Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Вопрос 9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-05-12T07:52:50.268Z",
     "user": 1,
     "content_type": 9,
     "object_id": "35",
@@ -781,9 +690,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 61,
+  "pk": 54,
   "fields": {
-    "action_time": "2025-04-26T15:33:44.405Z",
+    "action_time": "2025-05-12T07:53:39.665Z",
     "user": 1,
     "content_type": 9,
     "object_id": "36",
@@ -794,9 +703,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 62,
+  "pk": 55,
   "fields": {
-    "action_time": "2025-04-26T15:34:00.615Z",
+    "action_time": "2025-05-12T07:54:41.176Z",
     "user": 1,
     "content_type": 9,
     "object_id": "37",
@@ -807,9 +716,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 63,
+  "pk": 56,
   "fields": {
-    "action_time": "2025-04-26T15:34:14.962Z",
+    "action_time": "2025-05-12T07:55:39.830Z",
     "user": 1,
     "content_type": 9,
     "object_id": "38",
@@ -820,9 +729,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 64,
+  "pk": 57,
   "fields": {
-    "action_time": "2025-04-26T15:34:29.387Z",
+    "action_time": "2025-05-12T07:56:50.455Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Вопрос 10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-05-12T07:58:07.530Z",
     "user": 1,
     "content_type": 9,
     "object_id": "39",
@@ -833,9 +755,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 65,
+  "pk": 59,
   "fields": {
-    "action_time": "2025-04-26T15:34:46.121Z",
+    "action_time": "2025-05-12T07:58:24.253Z",
     "user": 1,
     "content_type": 9,
     "object_id": "40",
@@ -846,22 +768,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 66,
+  "pk": 60,
   "fields": {
-    "action_time": "2025-04-26T15:37:45.624Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "18",
-    "object_repr": "Answers object (18)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Mash\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 67,
-  "fields": {
-    "action_time": "2025-04-27T03:12:02.504Z",
+    "action_time": "2025-05-12T07:58:43.965Z",
     "user": 1,
     "content_type": 9,
     "object_id": "41",
@@ -872,9 +781,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 68,
+  "pk": 61,
   "fields": {
-    "action_time": "2025-04-27T03:12:39.858Z",
+    "action_time": "2025-05-12T07:58:59.889Z",
     "user": 1,
     "content_type": 9,
     "object_id": "42",
@@ -885,9 +794,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 69,
+  "pk": 62,
   "fields": {
-    "action_time": "2025-04-27T03:13:00.241Z",
+    "action_time": "2025-05-12T08:00:33.414Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-05-12T08:01:28.528Z",
     "user": 1,
     "content_type": 9,
     "object_id": "43",
@@ -898,9 +820,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 70,
+  "pk": 64,
   "fields": {
-    "action_time": "2025-04-27T03:13:17.681Z",
+    "action_time": "2025-05-12T08:02:46.290Z",
     "user": 1,
     "content_type": 9,
     "object_id": "44",
@@ -911,9 +833,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 71,
+  "pk": 65,
   "fields": {
-    "action_time": "2025-04-27T03:13:33.707Z",
+    "action_time": "2025-05-12T08:03:23.091Z",
     "user": 1,
     "content_type": 9,
     "object_id": "45",
@@ -924,9 +846,35 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 72,
+  "pk": 66,
   "fields": {
-    "action_time": "2025-04-27T03:13:53.503Z",
+    "action_time": "2025-05-12T08:03:37.439Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Вопрос 11",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-05-12T08:04:55.288Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Вопрос 12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-05-12T08:10:41.995Z",
     "user": 1,
     "content_type": 9,
     "object_id": "46",
@@ -937,9 +885,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 73,
+  "pk": 69,
   "fields": {
-    "action_time": "2025-04-27T03:14:08.112Z",
+    "action_time": "2025-05-12T08:11:21.935Z",
     "user": 1,
     "content_type": 9,
     "object_id": "47",
@@ -950,9 +898,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 74,
+  "pk": 70,
   "fields": {
-    "action_time": "2025-04-27T03:14:21.426Z",
+    "action_time": "2025-05-12T08:12:01.287Z",
     "user": 1,
     "content_type": 9,
     "object_id": "48",
@@ -963,9 +911,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 75,
+  "pk": 71,
   "fields": {
-    "action_time": "2025-04-27T03:14:39.256Z",
+    "action_time": "2025-05-12T08:12:18.560Z",
     "user": 1,
     "content_type": 9,
     "object_id": "49",
@@ -976,9 +924,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 76,
+  "pk": 72,
   "fields": {
-    "action_time": "2025-04-27T03:14:55.749Z",
+    "action_time": "2025-05-12T08:24:27.199Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Вопрос 13",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-05-12T08:25:45.771Z",
     "user": 1,
     "content_type": 9,
     "object_id": "50",
@@ -989,9 +950,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 77,
+  "pk": 74,
   "fields": {
-    "action_time": "2025-04-27T03:15:11.410Z",
+    "action_time": "2025-05-12T08:26:07.265Z",
     "user": 1,
     "content_type": 9,
     "object_id": "51",
@@ -1002,9 +963,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 78,
+  "pk": 75,
   "fields": {
-    "action_time": "2025-04-27T03:15:27.108Z",
+    "action_time": "2025-05-12T08:26:39.203Z",
     "user": 1,
     "content_type": 9,
     "object_id": "52",
@@ -1015,9 +976,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 79,
+  "pk": 76,
   "fields": {
-    "action_time": "2025-04-27T03:15:43.163Z",
+    "action_time": "2025-05-12T08:27:14.350Z",
     "user": 1,
     "content_type": 9,
     "object_id": "53",
@@ -1028,9 +989,48 @@
 },
 {
   "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-05-12T08:28:28.242Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Вопрос 13",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-05-12T08:29:48.510Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Вопрос 14",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-05-12T08:30:41.801Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Насосы центробежные ЦНС (нефтяные)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
   "pk": 80,
   "fields": {
-    "action_time": "2025-04-27T03:15:55.037Z",
+    "action_time": "2025-05-12T08:31:37.845Z",
     "user": 1,
     "content_type": 9,
     "object_id": "54",
@@ -1043,7 +1043,7 @@
   "model": "admin.logentry",
   "pk": 81,
   "fields": {
-    "action_time": "2025-04-27T03:16:07.339Z",
+    "action_time": "2025-05-12T08:32:00.898Z",
     "user": 1,
     "content_type": 9,
     "object_id": "55",
@@ -1056,7 +1056,7 @@
   "model": "admin.logentry",
   "pk": 82,
   "fields": {
-    "action_time": "2025-04-27T03:16:21.503Z",
+    "action_time": "2025-05-12T08:32:24.840Z",
     "user": 1,
     "content_type": 9,
     "object_id": "56",
@@ -1069,7 +1069,7 @@
   "model": "admin.logentry",
   "pk": 83,
   "fields": {
-    "action_time": "2025-04-27T03:16:35.333Z",
+    "action_time": "2025-05-12T08:32:51.996Z",
     "user": 1,
     "content_type": 9,
     "object_id": "57",
@@ -1082,7 +1082,20 @@
   "model": "admin.logentry",
   "pk": 84,
   "fields": {
-    "action_time": "2025-04-27T03:16:47.882Z",
+    "action_time": "2025-05-12T08:44:07.203Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-05-12T08:45:22.297Z",
     "user": 1,
     "content_type": 9,
     "object_id": "58",
@@ -1093,9 +1106,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 85,
+  "pk": 86,
   "fields": {
-    "action_time": "2025-04-27T03:17:02.170Z",
+    "action_time": "2025-05-12T08:45:39.873Z",
     "user": 1,
     "content_type": 9,
     "object_id": "59",
@@ -1106,9 +1119,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 86,
+  "pk": 87,
   "fields": {
-    "action_time": "2025-04-27T03:17:21.215Z",
+    "action_time": "2025-05-12T08:45:57.197Z",
     "user": 1,
     "content_type": 9,
     "object_id": "60",
@@ -1119,9 +1132,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 87,
+  "pk": 88,
   "fields": {
-    "action_time": "2025-04-27T03:17:41.052Z",
+    "action_time": "2025-05-12T08:46:12.540Z",
     "user": 1,
     "content_type": 9,
     "object_id": "61",
@@ -1132,9 +1145,35 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 88,
+  "pk": 89,
   "fields": {
-    "action_time": "2025-04-27T03:17:55.423Z",
+    "action_time": "2025-05-12T08:46:24.679Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Вопрос 15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-05-12T09:25:15.038Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Вопрос 16",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-05-12T09:25:54.899Z",
     "user": 1,
     "content_type": 9,
     "object_id": "62",
@@ -1145,9 +1184,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 89,
+  "pk": 92,
   "fields": {
-    "action_time": "2025-04-27T03:18:08.466Z",
+    "action_time": "2025-05-12T09:26:14.673Z",
     "user": 1,
     "content_type": 9,
     "object_id": "63",
@@ -1158,9 +1197,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 90,
+  "pk": 93,
   "fields": {
-    "action_time": "2025-04-27T03:18:27.774Z",
+    "action_time": "2025-05-12T09:26:32.707Z",
     "user": 1,
     "content_type": 9,
     "object_id": "64",
@@ -1171,9 +1210,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 91,
+  "pk": 94,
   "fields": {
-    "action_time": "2025-04-27T03:18:44.410Z",
+    "action_time": "2025-05-12T09:27:09.900Z",
     "user": 1,
     "content_type": 9,
     "object_id": "65",
@@ -1184,9 +1223,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 92,
+  "pk": 95,
   "fields": {
-    "action_time": "2025-04-27T03:19:08.220Z",
+    "action_time": "2025-05-12T09:32:17.238Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "17",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-05-12T09:33:01.049Z",
     "user": 1,
     "content_type": 9,
     "object_id": "66",
@@ -1197,9 +1249,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 93,
+  "pk": 97,
   "fields": {
-    "action_time": "2025-04-27T03:19:22.033Z",
+    "action_time": "2025-05-12T09:33:18.973Z",
     "user": 1,
     "content_type": 9,
     "object_id": "67",
@@ -1210,9 +1262,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 94,
+  "pk": 98,
   "fields": {
-    "action_time": "2025-04-27T03:19:34.035Z",
+    "action_time": "2025-05-12T09:33:38.535Z",
     "user": 1,
     "content_type": 9,
     "object_id": "68",
@@ -1223,9 +1275,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 95,
+  "pk": 99,
   "fields": {
-    "action_time": "2025-04-27T03:19:52.606Z",
+    "action_time": "2025-05-12T09:33:55.718Z",
     "user": 1,
     "content_type": 9,
     "object_id": "69",
@@ -1236,9 +1288,35 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 96,
+  "pk": 100,
   "fields": {
-    "action_time": "2025-04-27T03:20:06.542Z",
+    "action_time": "2025-05-12T09:34:08.325Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Вопрос 17",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-05-12T09:37:43.883Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Вопрос 18",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-05-12T09:38:29.143Z",
     "user": 1,
     "content_type": 9,
     "object_id": "70",
@@ -1249,9 +1327,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 97,
+  "pk": 103,
   "fields": {
-    "action_time": "2025-04-27T03:20:18.560Z",
+    "action_time": "2025-05-12T09:38:48.656Z",
     "user": 1,
     "content_type": 9,
     "object_id": "71",
@@ -1262,9 +1340,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 98,
+  "pk": 104,
   "fields": {
-    "action_time": "2025-04-27T03:20:33.195Z",
+    "action_time": "2025-05-12T09:39:09.011Z",
     "user": 1,
     "content_type": 9,
     "object_id": "72",
@@ -1275,9 +1353,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 99,
+  "pk": 105,
   "fields": {
-    "action_time": "2025-04-27T03:20:54.212Z",
+    "action_time": "2025-05-12T09:39:32.534Z",
     "user": 1,
     "content_type": 9,
     "object_id": "73",
@@ -1288,9 +1366,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 100,
+  "pk": 106,
   "fields": {
-    "action_time": "2025-04-27T03:21:07.120Z",
+    "action_time": "2025-05-12T09:40:32.072Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Вопрос 19",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-05-12T09:41:14.637Z",
     "user": 1,
     "content_type": 9,
     "object_id": "74",
@@ -1301,9 +1392,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 101,
+  "pk": 108,
   "fields": {
-    "action_time": "2025-04-27T03:21:19.910Z",
+    "action_time": "2025-05-12T09:41:52.674Z",
     "user": 1,
     "content_type": 9,
     "object_id": "75",
@@ -1314,9 +1405,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 102,
+  "pk": 109,
   "fields": {
-    "action_time": "2025-04-27T03:21:31.347Z",
+    "action_time": "2025-05-12T09:42:16.887Z",
     "user": 1,
     "content_type": 9,
     "object_id": "76",
@@ -1327,9 +1418,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 103,
+  "pk": 110,
   "fields": {
-    "action_time": "2025-04-27T03:21:46.533Z",
+    "action_time": "2025-05-12T09:42:46.645Z",
     "user": 1,
     "content_type": 9,
     "object_id": "77",
@@ -1340,9 +1431,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 104,
+  "pk": 111,
   "fields": {
-    "action_time": "2025-04-27T03:22:01.685Z",
+    "action_time": "2025-05-12T09:45:42.407Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Вопрос 20",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-05-12T09:46:31.364Z",
     "user": 1,
     "content_type": 9,
     "object_id": "78",
@@ -1353,9 +1457,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 105,
+  "pk": 113,
   "fields": {
-    "action_time": "2025-04-27T03:22:14.389Z",
+    "action_time": "2025-05-12T09:47:13.791Z",
     "user": 1,
     "content_type": 9,
     "object_id": "79",
@@ -1366,9 +1470,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 106,
+  "pk": 114,
   "fields": {
-    "action_time": "2025-04-27T03:22:27.650Z",
+    "action_time": "2025-05-12T09:47:29.396Z",
     "user": 1,
     "content_type": 9,
     "object_id": "80",
@@ -1379,35 +1483,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 107,
+  "pk": 115,
   "fields": {
-    "action_time": "2025-04-27T03:28:25.673Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "21",
-    "object_repr": "Questions object (21)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 108,
-  "fields": {
-    "action_time": "2025-04-27T03:28:43.388Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "22",
-    "object_repr": "Questions object (22)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 109,
-  "fields": {
-    "action_time": "2025-04-27T03:30:21.348Z",
+    "action_time": "2025-05-12T09:47:48.675Z",
     "user": 1,
     "content_type": 9,
     "object_id": "81",
@@ -1418,9 +1496,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 110,
+  "pk": 116,
   "fields": {
-    "action_time": "2025-04-27T03:30:34.265Z",
+    "action_time": "2025-05-12T09:59:09.303Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Вопрос 21",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-05-12T09:59:51.808Z",
     "user": 1,
     "content_type": 9,
     "object_id": "82",
@@ -1431,9 +1522,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 111,
+  "pk": 118,
   "fields": {
-    "action_time": "2025-04-27T03:30:48.263Z",
+    "action_time": "2025-05-12T10:00:20.832Z",
     "user": 1,
     "content_type": 9,
     "object_id": "83",
@@ -1444,9 +1535,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 112,
+  "pk": 119,
   "fields": {
-    "action_time": "2025-04-27T03:31:00.965Z",
+    "action_time": "2025-05-12T10:00:47.739Z",
     "user": 1,
     "content_type": 9,
     "object_id": "84",
@@ -1457,9 +1548,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 113,
+  "pk": 120,
   "fields": {
-    "action_time": "2025-04-27T03:31:15.544Z",
+    "action_time": "2025-05-12T10:01:10.901Z",
     "user": 1,
     "content_type": 9,
     "object_id": "85",
@@ -1470,9 +1561,22 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 114,
+  "pk": 121,
   "fields": {
-    "action_time": "2025-04-27T03:31:27.837Z",
+    "action_time": "2025-05-12T10:13:36.195Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Вопрос 22",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-05-12T10:14:08.351Z",
     "user": 1,
     "content_type": 9,
     "object_id": "86",
@@ -1483,9 +1587,9 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 115,
+  "pk": 123,
   "fields": {
-    "action_time": "2025-04-27T03:31:41.822Z",
+    "action_time": "2025-05-12T10:15:06.388Z",
     "user": 1,
     "content_type": 9,
     "object_id": "87",
@@ -1496,13 +1600,26 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 116,
+  "pk": 124,
   "fields": {
-    "action_time": "2025-04-27T03:31:57.203Z",
+    "action_time": "2025-05-12T10:15:40.080Z",
     "user": 1,
     "content_type": 9,
     "object_id": "88",
     "object_repr": "Answers object (88)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-05-12T10:16:11.263Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "89",
+    "object_repr": "Answers object (89)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -1871,36 +1988,72 @@
   "model": "auth.permission",
   "pk": 41,
   "fields": {
-    "name": "Can add user",
+    "name": "Can add Категория",
     "content_type": 11,
-    "codename": "add_user"
+    "codename": "add_categorymaterials"
   }
 },
 {
   "model": "auth.permission",
   "pk": 42,
   "fields": {
-    "name": "Can change user",
+    "name": "Can change Категория",
     "content_type": 11,
-    "codename": "change_user"
+    "codename": "change_categorymaterials"
   }
 },
 {
   "model": "auth.permission",
   "pk": 43,
   "fields": {
-    "name": "Can delete user",
+    "name": "Can delete Категория",
     "content_type": 11,
-    "codename": "delete_user"
+    "codename": "delete_categorymaterials"
   }
 },
 {
   "model": "auth.permission",
   "pk": 44,
   "fields": {
-    "name": "Can view user",
+    "name": "Can view Категория",
     "content_type": 11,
-    "codename": "view_user"
+    "codename": "view_categorymaterials"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add File",
+    "content_type": 12,
+    "codename": "add_uploadedfile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change File",
+    "content_type": 12,
+    "codename": "change_uploadedfile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete File",
+    "content_type": 12,
+    "codename": "delete_uploadedfile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view File",
+    "content_type": 12,
+    "codename": "view_uploadedfile"
   }
 },
 {
@@ -1987,48 +2140,24 @@
   "model": "contenttypes.contenttype",
   "pk": 11,
   "fields": {
-    "app_label": "auth",
-    "model": "user"
+    "app_label": "materials",
+    "model": "categorymaterials"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "materials",
+    "model": "uploadedfile"
   }
 },
 {
   "model": "plumber.mashine",
   "pk": 1,
   "fields": {
-    "name": "Насосы типа ЦНС - ППД",
-    "slug": "nasosy-tipa-cns-ppd"
-  }
-},
-{
-  "model": "plumber.mashine",
-  "pk": 2,
-  "fields": {
-    "name": "Насосы типа ЦНС - ДНС",
-    "slug": "nasosy-tipa-cns-dns"
-  }
-},
-{
-  "model": "plumber.mashine",
-  "pk": 3,
-  "fields": {
-    "name": "Насосы полупогружные(НВ, НВД, 12НА)",
-    "slug": "nasosy-polupogruzhnyenv-nvd-12na"
-  }
-},
-{
-  "model": "plumber.mashine",
-  "pk": 4,
-  "fields": {
-    "name": "Насосы типа Д",
-    "slug": "nasosy-tipa-d"
-  }
-},
-{
-  "model": "plumber.mashine",
-  "pk": 5,
-  "fields": {
-    "name": "Насосы НД, НМШ, К",
-    "slug": "nasosy-nd-nmsh-k"
+    "name": "Насосы центробежные ЦНС (нефтяные)",
+    "slug": "nasosy-centrobezhnye-cns"
   }
 },
 {
@@ -2036,7 +2165,7 @@
   "pk": 1,
   "fields": {
     "name": "Вопрос 1",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "В каких пределах выставляется рабочий разбег ротора?",
     "mash": 1
   }
 },
@@ -2045,7 +2174,7 @@
   "pk": 2,
   "fields": {
     "name": "Вопрос 2",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Какие подшипники устанавливаются на насос ЦНС 300.",
     "mash": 1
   }
 },
@@ -2054,7 +2183,7 @@
   "pk": 3,
   "fields": {
     "name": "Вопрос 3",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Максимально допустимый предел вибрации насосного агрегата ЦНС 300.480.",
     "mash": 1
   }
 },
@@ -2063,7 +2192,7 @@
   "pk": 4,
   "fields": {
     "name": "Вопрос 4",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Причины неисправности - насос не развивает напор.",
     "mash": 1
   }
 },
@@ -2072,7 +2201,7 @@
   "pk": 5,
   "fields": {
     "name": "Вопрос 5",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Когда необходимо производить полную замену смазки подшипниковых узлов?",
     "mash": 1
   }
 },
@@ -2081,7 +2210,7 @@
   "pk": 6,
   "fields": {
     "name": "Вопрос 6",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Причины повышенной вибрации насоса.",
     "mash": 1
   }
 },
@@ -2090,7 +2219,7 @@
   "pk": 7,
   "fields": {
     "name": "Вопрос 7",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Сколько секций в насосе ЦНС 180/425?",
     "mash": 1
   }
 },
@@ -2099,7 +2228,7 @@
   "pk": 8,
   "fields": {
     "name": "Вопрос 8",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Частота вращения ротора насосного агрегата ЦНС 300/480?",
     "mash": 1
   }
 },
@@ -2108,7 +2237,7 @@
   "pk": 9,
   "fields": {
     "name": "Вопрос 9",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "К какой неисправности приведет обратное вращение ротора в результате неправильно собранной эл.схемы?",
     "mash": 1
   }
 },
@@ -2117,7 +2246,7 @@
   "pk": 10,
   "fields": {
     "name": "Вопрос 10",
-    "text": "Код и комментарии должны быть понятны, но несколько вещей заслуживают упоминания:",
+    "text": "Сколько рабочих колес в насосе ЦНС 300/240?",
     "mash": 1
   }
 },
@@ -2125,98 +2254,98 @@
   "model": "plumber.questions",
   "pk": 11,
   "fields": {
-    "name": "Вопрос 1",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 11",
+    "text": "Что такое рабочий разбег ротора?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 12,
   "fields": {
-    "name": "Вопрос 2",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 12",
+    "text": "Какие подшипники устанавливаются на насос ЦНС 180/425?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 13,
   "fields": {
-    "name": "Вопрос 3",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 13",
+    "text": "Какой зазор должен быть между наружной обоймой подшипника и посадочным местом кронштейна насоса ЦНС 180/170?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 14,
   "fields": {
-    "name": "Вопрос 4",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 14",
+    "text": "Какое количество ступеней у насоса ЦНС 105/98?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 15,
   "fields": {
-    "name": "Вопрос 5",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 15",
+    "text": "Какой напор развивает одно колесо насоса ЦНС 105?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 16,
   "fields": {
-    "name": "Вопрос 6",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 16",
+    "text": "Какое число ступеней насоса ЦНС 38/220?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 17,
   "fields": {
-    "name": "Вопрос 7",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 17",
+    "text": "Какая максимальная  величина несоосности валов насосного агрегата при его центровке допускается?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 18,
   "fields": {
-    "name": "Вопрос 8",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 18",
+    "text": "Частота вращения ротора насосного агрегата ЦНС 60/198.",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 19,
   "fields": {
-    "name": "Вопрос 9",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 19",
+    "text": "Какие подшипники устанавливаются на насос ЦНС 60/198?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 20,
   "fields": {
-    "name": "Вопрос 10",
-    "text": "Вот распространенный способ обработки загруженного файла:",
-    "mash": 2
+    "name": "Вопрос 20",
+    "text": "Сколько секций в насосе ЦНС 60/231?",
+    "mash": 1
   }
 },
 {
   "model": "plumber.questions",
   "pk": 21,
   "fields": {
-    "name": "Вопрос 11",
-    "text": "Если вы начинаете новый проект, вы можете настроить пользовательскую модель, которая будет вести себя идентично модели пользователя по умолчанию, путем создания подкласса AbstractUser:",
+    "name": "Вопрос 21",
+    "text": "С каким зазором устанавливается подшипник на вал насоса.",
     "mash": 1
   }
 },
@@ -2224,8 +2353,8 @@
   "model": "plumber.questions",
   "pk": 22,
   "fields": {
-    "name": "Вопрос 12",
-    "text": "Если вы начинаете новый проект, вы можете настроить пользовательскую модель, которая будет вести себя идентично модели пользователя по умолчанию, путем создания подкласса AbstractUser:",
+    "name": "Вопрос 22",
+    "text": "Какова причина раскручивания ротора насоса ЦНС в обратную сторону после его остановки?",
     "mash": 1
   }
 },
@@ -2234,7 +2363,7 @@
   "pk": 1,
   "fields": {
     "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "от 1.5 мм до 3 мм.",
     "active": true,
     "ques": 1,
     "mash": 1
@@ -2245,7 +2374,7 @@
   "pk": 2,
   "fields": {
     "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "от 1.5 мм до 5 мм.",
     "active": false,
     "ques": 1,
     "mash": 1
@@ -2256,7 +2385,7 @@
   "pk": 3,
   "fields": {
     "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "от 2 мм до 4 мм.",
     "active": false,
     "ques": 1,
     "mash": 1
@@ -2267,7 +2396,7 @@
   "pk": 4,
   "fields": {
     "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "от 2 мм до 5 мм.",
     "active": false,
     "ques": 1,
     "mash": 1
@@ -2278,7 +2407,7 @@
   "pk": 5,
   "fields": {
     "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "Подшипники скольжения 3618.",
     "active": false,
     "ques": 2,
     "mash": 1
@@ -2289,8 +2418,8 @@
   "pk": 6,
   "fields": {
     "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
+    "answer": "Подшипники качения роликовые 3612.",
+    "active": false,
     "ques": 2,
     "mash": 1
   }
@@ -2300,8 +2429,8 @@
   "pk": 7,
   "fields": {
     "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": false,
+    "answer": "Подшипники качения роликовые 3618.",
+    "active": true,
     "ques": 2,
     "mash": 1
   }
@@ -2310,8 +2439,8 @@
   "model": "plumber.answers",
   "pk": 8,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 3,
+    "answer": "Подшипники качения шариковые 3612.",
     "active": false,
     "ques": 2,
     "mash": 1
@@ -2322,7 +2451,7 @@
   "pk": 9,
   "fields": {
     "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "9.0 мм/с.",
     "active": false,
     "ques": 3,
     "mash": 1
@@ -2333,8 +2462,8 @@
   "pk": 10,
   "fields": {
     "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": false,
+    "answer": "7.0 мм/с.",
+    "active": true,
     "ques": 3,
     "mash": 1
   }
@@ -2344,8 +2473,8 @@
   "pk": 11,
   "fields": {
     "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
+    "answer": "11.0 мм/с.",
+    "active": false,
     "ques": 3,
     "mash": 1
   }
@@ -2355,7 +2484,7 @@
   "pk": 12,
   "fields": {
     "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "13 мм/с.",
     "active": false,
     "ques": 3,
     "mash": 1
@@ -2366,7 +2495,7 @@
   "pk": 13,
   "fields": {
     "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "Износилась втулка дистанционная , вследствие чего увеличился дросселирующий зазор",
     "active": false,
     "ques": 4,
     "mash": 1
@@ -2377,7 +2506,7 @@
   "pk": 14,
   "fields": {
     "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "Не отрегулирована работа насоса в пределах рабочей части характеристик.",
     "active": false,
     "ques": 4,
     "mash": 1
@@ -2388,8 +2517,8 @@
   "pk": 15,
   "fields": {
     "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": false,
+    "answer": "Зазор по уплотнениям рабочих колес превышает 1мм.",
+    "active": true,
     "ques": 4,
     "mash": 1
   }
@@ -2399,8 +2528,8 @@
   "pk": 16,
   "fields": {
     "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
+    "answer": "Износилось кольцо гидравлической пяты, ротор сместился в сторону всасывания больше допустимого.",
+    "active": false,
     "ques": 4,
     "mash": 1
   }
@@ -2410,8 +2539,8 @@
   "pk": 17,
   "fields": {
     "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
+    "answer": "При проведении сервисного обслуживания.",
+    "active": false,
     "ques": 5,
     "mash": 1
   }
@@ -2421,7 +2550,7 @@
   "pk": 18,
   "fields": {
     "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "При проведении текущего ремонта насоса.",
     "active": false,
     "ques": 5,
     "mash": 1
@@ -2432,7 +2561,7 @@
   "pk": 19,
   "fields": {
     "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "При повышении температуры подшипника, а также в случае вымывания смазки из подшипниковой камеры рабочей жидкостью.",
     "active": false,
     "ques": 5,
     "mash": 1
@@ -2443,8 +2572,8 @@
   "pk": 20,
   "fields": {
     "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": false,
+    "answer": "Во всех перечисленных случаях.",
+    "active": true,
     "ques": 5,
     "mash": 1
   }
@@ -2454,7 +2583,7 @@
   "pk": 21,
   "fields": {
     "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "Неправильная центровка электродвигателя с насосом.",
     "active": false,
     "ques": 6,
     "mash": 1
@@ -2465,8 +2594,8 @@
   "pk": 22,
   "fields": {
     "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
+    "answer": "Искривление вала насоса.",
+    "active": false,
     "ques": 6,
     "mash": 1
   }
@@ -2476,7 +2605,7 @@
   "pk": 23,
   "fields": {
     "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "Ослабло крепление лап насоса к раме.",
     "active": false,
     "ques": 6,
     "mash": 1
@@ -2487,7 +2616,7 @@
   "pk": 24,
   "fields": {
     "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "Разрушение рабочего колеса.",
     "active": false,
     "ques": 6,
     "mash": 1
@@ -2497,10 +2626,10 @@
   "model": "plumber.answers",
   "pk": 25,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 5,
+    "answer": "Биение муфты насосного агрегата.",
     "active": false,
-    "ques": 7,
+    "ques": 6,
     "mash": 1
   }
 },
@@ -2508,10 +2637,10 @@
   "model": "plumber.answers",
   "pk": 26,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": false,
-    "ques": 7,
+    "num": 6,
+    "answer": "Все перечисленные причины.",
+    "active": true,
+    "ques": 6,
     "mash": 1
   }
 },
@@ -2519,8 +2648,8 @@
   "model": "plumber.answers",
   "pk": 27,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 1,
+    "answer": "9 секций.",
     "active": true,
     "ques": 7,
     "mash": 1
@@ -2530,8 +2659,8 @@
   "model": "plumber.answers",
   "pk": 28,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 2,
+    "answer": "10 секций.",
     "active": false,
     "ques": 7,
     "mash": 1
@@ -2541,10 +2670,10 @@
   "model": "plumber.answers",
   "pk": 29,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 3,
+    "answer": "8 секций.",
     "active": false,
-    "ques": 8,
+    "ques": 7,
     "mash": 1
   }
 },
@@ -2552,10 +2681,10 @@
   "model": "plumber.answers",
   "pk": 30,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 4,
+    "answer": "6 секций.",
     "active": false,
-    "ques": 8,
+    "ques": 7,
     "mash": 1
   }
 },
@@ -2563,8 +2692,8 @@
   "model": "plumber.answers",
   "pk": 31,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 1,
+    "answer": "2500 об/мин.",
     "active": false,
     "ques": 8,
     "mash": 1
@@ -2574,8 +2703,8 @@
   "model": "plumber.answers",
   "pk": 32,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 2,
+    "answer": "1500 об/мин.",
     "active": true,
     "ques": 8,
     "mash": 1
@@ -2585,10 +2714,10 @@
   "model": "plumber.answers",
   "pk": 33,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
-    "ques": 9,
+    "num": 3,
+    "answer": "1900  об/мин.",
+    "active": false,
+    "ques": 8,
     "mash": 1
   }
 },
@@ -2596,10 +2725,10 @@
   "model": "plumber.answers",
   "pk": 34,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 4,
+    "answer": "3000 об/мин.",
     "active": false,
-    "ques": 9,
+    "ques": 8,
     "mash": 1
   }
 },
@@ -2607,8 +2736,8 @@
   "model": "plumber.answers",
   "pk": 35,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 1,
+    "answer": "Повышенная нагрузка на эл.двигатель.",
     "active": false,
     "ques": 9,
     "mash": 1
@@ -2618,9 +2747,9 @@
   "model": "plumber.answers",
   "pk": 36,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": false,
+    "num": 2,
+    "answer": "Падение давления на напорном трубопроводе.",
+    "active": true,
     "ques": 9,
     "mash": 1
   }
@@ -2629,10 +2758,10 @@
   "model": "plumber.answers",
   "pk": 37,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 3,
+    "answer": "Повышенная вибрация агрегата.",
     "active": false,
-    "ques": 10,
+    "ques": 9,
     "mash": 1
   }
 },
@@ -2640,10 +2769,10 @@
   "model": "plumber.answers",
   "pk": 38,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
-    "ques": 10,
+    "num": 4,
+    "answer": "Преждевременный износ гидропяты.",
+    "active": false,
+    "ques": 9,
     "mash": 1
   }
 },
@@ -2651,8 +2780,8 @@
   "model": "plumber.answers",
   "pk": 39,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 1,
+    "answer": "6 колес.",
     "active": false,
     "ques": 10,
     "mash": 1
@@ -2662,8 +2791,8 @@
   "model": "plumber.answers",
   "pk": 40,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 2,
+    "answer": "7 колес.",
     "active": false,
     "ques": 10,
     "mash": 1
@@ -2673,450 +2802,450 @@
   "model": "plumber.answers",
   "pk": 41,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
-    "ques": 11,
-    "mash": 2
+    "num": 3,
+    "answer": "3 колеса.",
+    "active": false,
+    "ques": 10,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 42,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
-    "ques": 11,
-    "mash": 2
+    "num": 4,
+    "answer": "4 колеса.",
+    "active": true,
+    "ques": 10,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 43,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 1,
+    "answer": "Рабочий разбег ротора - это зазор между полумуфтами при сдвинутом роторе в сторону двигателя.",
     "active": false,
     "ques": 11,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 44,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 2,
+    "answer": "Рабочий разбег ротора - это осевое движение ротора при работающем агрегате.",
     "active": false,
     "ques": 11,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 45,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
-    "ques": 12,
-    "mash": 2
+    "num": 3,
+    "answer": "Рабочий разбег ротора - это зазор между подвижным и неподвижным дисками гидропяты, при сдвинутом роторе в полевую сторону.",
+    "active": true,
+    "ques": 11,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 46,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
+    "num": 1,
+    "answer": "Подшипник качения роликовый, двухрядный 6312.",
+    "active": false,
     "ques": 12,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 47,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 2,
+    "answer": "Подшипник качения роликовый, двухрядный 6318.",
     "active": false,
     "ques": 12,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 48,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 3,
+    "answer": "Подшипник качения роликовый, однорядный 3618.",
     "active": false,
     "ques": 12,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 49,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
-    "ques": 13,
-    "mash": 2
+    "num": 4,
+    "answer": "Подшипник качения роликовый, двухрядный 3612.",
+    "active": true,
+    "ques": 12,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 50,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 1,
+    "answer": "0,8 - 1мм.",
     "active": false,
     "ques": 13,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 51,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 2,
+    "answer": "0.2 мм - 0.4 мм.",
     "active": true,
     "ques": 13,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 52,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 3,
+    "answer": "не более 0.3 мм.",
     "active": false,
     "ques": 13,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 53,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 4,
+    "answer": "0.4 - 0.8 мм",
     "active": false,
-    "ques": 14,
-    "mash": 2
+    "ques": 13,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 54,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 1,
+    "answer": "3 ступени.",
     "active": false,
     "ques": 14,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 55,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 2,
+    "answer": "4 ступени.",
     "active": false,
     "ques": 14,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 56,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
+    "num": 3,
+    "answer": "1 ступень.",
+    "active": false,
     "ques": 14,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 57,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 4,
+    "answer": "2 ступени.",
     "active": true,
-    "ques": 15,
-    "mash": 2
+    "ques": 14,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 58,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 1,
+    "answer": "42.5 м.",
     "active": false,
     "ques": 15,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 59,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
+    "num": 2,
+    "answer": "49 м.",
+    "active": true,
     "ques": 15,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 60,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 3,
+    "answer": "105 м.",
     "active": false,
     "ques": 15,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 61,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 4,
+    "answer": "60 м.",
     "active": false,
-    "ques": 16,
-    "mash": 2
+    "ques": 15,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 62,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
+    "num": 1,
+    "answer": "8 ступеней.",
+    "active": false,
     "ques": 16,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 63,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
+    "num": 2,
+    "answer": "10 ступеней.",
+    "active": true,
     "ques": 16,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 64,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 3,
+    "answer": "12 ступеней.",
     "active": false,
     "ques": 16,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 65,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 4,
+    "answer": "7 ступеней.",
     "active": false,
-    "ques": 17,
-    "mash": 2
+    "ques": 16,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 66,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 1,
+    "answer": "0.02 мм.",
     "active": false,
     "ques": 17,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 67,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
+    "num": 2,
+    "answer": "0.08 мм.",
+    "active": false,
     "ques": 17,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 68,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 3,
+    "answer": "1 мм.",
     "active": false,
     "ques": 17,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 69,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
-    "ques": 18,
-    "mash": 2
+    "num": 4,
+    "answer": "0.06 мм.",
+    "active": true,
+    "ques": 17,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 70,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
+    "num": 1,
+    "answer": "2950 об/мин.",
+    "active": true,
     "ques": 18,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 71,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 2,
+    "answer": "1500 об/мин.",
     "active": false,
     "ques": 18,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 72,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
+    "num": 3,
+    "answer": "3500 об/мин.",
+    "active": false,
     "ques": 18,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 73,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
-    "ques": 19,
-    "mash": 2
+    "num": 4,
+    "answer": "4200 об/мин.",
+    "active": false,
+    "ques": 18,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 74,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 1,
+    "answer": "Подшипники качения 3618.",
     "active": false,
     "ques": 19,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 75,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 2,
+    "answer": "Подшипники качания 6308.",
     "active": false,
     "ques": 19,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 76,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
+    "num": 3,
+    "answer": "Подшипники качения 3608.",
+    "active": true,
     "ques": 19,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 77,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 4,
+    "answer": "Подшипники скольжения 3618.",
     "active": false,
-    "ques": 20,
-    "mash": 2
+    "ques": 19,
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 78,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": true,
+    "num": 1,
+    "answer": "5 секций.",
+    "active": false,
     "ques": 20,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 79,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ДНС",
-    "active": false,
+    "num": 2,
+    "answer": "7 секций.",
+    "active": true,
     "ques": 20,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 80,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ДНС",
+    "num": 3,
+    "answer": "9 секций.",
     "active": false,
     "ques": 20,
-    "mash": 2
+    "mash": 1
   }
 },
 {
   "model": "plumber.answers",
   "pk": 81,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 4,
+    "answer": "10 секций.",
     "active": false,
-    "ques": 21,
+    "ques": 20,
     "mash": 1
   }
 },
@@ -3124,9 +3253,9 @@
   "model": "plumber.answers",
   "pk": 82,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": false,
+    "num": 1,
+    "answer": "Не более 0.02 мм.",
+    "active": true,
     "ques": 21,
     "mash": 1
   }
@@ -3135,9 +3264,9 @@
   "model": "plumber.answers",
   "pk": 83,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
-    "active": true,
+    "num": 2,
+    "answer": "Не более 0.2 мм.",
+    "active": false,
     "ques": 21,
     "mash": 1
   }
@@ -3146,8 +3275,8 @@
   "model": "plumber.answers",
   "pk": 84,
   "fields": {
-    "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 3,
+    "answer": "Не менее 0.06 мм.",
     "active": false,
     "ques": 21,
     "mash": 1
@@ -3157,10 +3286,10 @@
   "model": "plumber.answers",
   "pk": 85,
   "fields": {
-    "num": 1,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 4,
+    "answer": "Не менее 0.04 мм",
     "active": false,
-    "ques": 22,
+    "ques": 21,
     "mash": 1
   }
 },
@@ -3168,8 +3297,8 @@
   "model": "plumber.answers",
   "pk": 86,
   "fields": {
-    "num": 2,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 1,
+    "answer": "Загазованность насоса.",
     "active": false,
     "ques": 22,
     "mash": 1
@@ -3179,8 +3308,8 @@
   "model": "plumber.answers",
   "pk": 87,
   "fields": {
-    "num": 3,
-    "answer": "Насосы типа ЦНС - ППД",
+    "num": 2,
+    "answer": "Неправильно собрана электрическая схема.",
     "active": false,
     "ques": 22,
     "mash": 1
@@ -3190,8 +3319,19 @@
   "model": "plumber.answers",
   "pk": 88,
   "fields": {
+    "num": 3,
+    "answer": "Не закрылась электрозадвижка.",
+    "active": false,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 89,
+  "fields": {
     "num": 4,
-    "answer": "Насосы типа ЦНС - ППД",
+    "answer": "Не закрылся обратный клапан.",
     "active": true,
     "ques": 22,
     "mash": 1
@@ -3201,8 +3341,8 @@
   "model": "users.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$R4L6MsJPPzizzXh1u053KI$UDZqrwWZznnrT0tJPfFOPOqoX0K9p8Ugr1P/ob/U1+0=",
-    "last_login": "2025-04-27T03:34:45.586Z",
+    "password": "pbkdf2_sha256$260000$Zm0uYJwfQ83HRmFblFcv1C$TpADBLOCGditQqMnrmSvaw00dnMw75SovnaK9eDUtBs=",
+    "last_login": "2025-05-12T10:16:54.213Z",
     "is_superuser": true,
     "username": "SERGO",
     "first_name": "",
@@ -3210,31 +3350,149 @@
     "email": "asdfg2105@mail.ru",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2025-04-26T14:32:04.065Z",
-    "photo": "",
-    "date_birth": null,
+    "date_joined": "2025-05-12T05:34:12.128Z",
+    "photo": "users/2025/05/12/cns300.png",
+    "date_birth": "1925-01-01T00:00:00Z",
+    "workshop": "",
+    "profession": "",
     "groups": [],
     "user_permissions": []
   }
 },
 {
-  "model": "users.user",
+  "model": "materials.categorymaterials",
+  "pk": 1,
+  "fields": {
+    "name": "Слесарь-ремонтник НПО",
+    "slug": "slesar-remontnik-npo",
+    "photo": "category/2025/05/12/cns300.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
   "pk": 2,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$ysDoMm0BWP7cbKjxeaVVTo$ubHXzFh1CP8Z4NjgzgyRxOU1uaMKAnMxQigkkV+KS+E=",
-    "last_login": "2025-04-27T03:24:52.498Z",
-    "is_superuser": false,
-    "username": "SERG1",
-    "first_name": "",
-    "last_name": "",
-    "email": "user2@user2.ru",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2025-04-27T03:23:27.265Z",
-    "photo": "",
-    "date_birth": null,
-    "groups": [],
-    "user_permissions": []
+    "name": "Сварщик",
+    "slug": "svarshik",
+    "photo": "category/2025/05/12/svarka.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 3,
+  "fields": {
+    "name": "Стропальщик",
+    "slug": "stropalshik",
+    "photo": "category/2025/05/12/strop.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 4,
+  "fields": {
+    "name": "Ремонт и испытание клапанов СППК",
+    "slug": "remont-i-ispytanie-klapanov-sppk",
+    "photo": "category/2025/05/12/sppk.png"
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 1,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/ЦНС-2.mp4",
+    "uploaded_at": "2025-05-12T05:46:53.322Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 2,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/ЦНС-2_-_копия.mp4",
+    "uploaded_at": "2025-05-12T05:47:35.652Z",
+    "cat": 2
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 3,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/ЦНС-устройство_и_принцип_работы.mp4",
+    "uploaded_at": "2025-05-12T05:47:49.977Z",
+    "cat": 3
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 4,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Шестеренчатые_насосы_-_копия.mp4",
+    "uploaded_at": "2025-05-12T05:48:14.596Z",
+    "cat": 4
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 5,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/ЦНС-устройство_и_принцип_работы_DyVlGVR.mp4",
+    "uploaded_at": "2025-05-12T05:48:30.319Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 6,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/Насос_НД_25_40-630.pdf",
+    "uploaded_at": "2025-05-12T05:49:44.206Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 7,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/Насос_НМШ.pdf",
+    "uploaded_at": "2025-05-12T05:50:04.942Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 8,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/АЦНС38.pdf",
+    "uploaded_at": "2025-05-12T05:50:17.747Z",
+    "cat": 2
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 9,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/КММ-24316_БПН-1.pdf",
+    "uploaded_at": "2025-05-12T05:50:30.022Z",
+    "cat": 3
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 10,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/ПС_2_ндм.pdf",
+    "uploaded_at": "2025-05-12T05:50:44.443Z",
+    "cat": 4
   }
 }
 ]
