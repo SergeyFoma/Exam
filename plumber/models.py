@@ -10,7 +10,12 @@ class Mashine(models.Model):
 class Questions(models.Model):
     name=models.CharField(max_length=255)
     text=models.TextField()
+    image=models.ImageField(upload_to="questions/%Y/%m/%d", blank=True, null=True, verbose_name='IMAGE')
     mash=models.ForeignKey(Mashine, on_delete=models.CASCADE, blank=True, null=True)
+
+    class Meta:
+        verbose_name='Вопрос'
+        verbose_name_plural="Вопросы"
 
     def __str__(self):
         return self.name
