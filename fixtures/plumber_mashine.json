@@ -1,0 +1,26 @@
+[
+{
+  "model": "plumber.mashine",
+  "pk": 1,
+  "fields": {
+    "name": "Насосы центробежные ЦНС (нефтяные)",
+    "slug": "nasosy-centrobezhnye-cns"
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 2,
+  "fields": {
+    "name": "ПРР",
+    "slug": "prr"
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 3,
+  "fields": {
+    "name": "Сварщик",
+    "slug": "svarschik"
+  }
+}
+]
