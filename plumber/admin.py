@@ -3,7 +3,7 @@ from plumber.models import Questions, Answers, AnswersUser, Mashine
 
 @admin.register(Questions)
 class QuestionsAdmin(admin.ModelAdmin):
-    list_display=['name','text', 'mash']
+    list_display=['name','image','text', 'mash']
 
 @admin.register(Answers)
 class AnswersAdmin(admin.ModelAdmin):
