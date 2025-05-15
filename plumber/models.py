@@ -2,35 +2,21 @@ from django.db import models
 from datetime import datetime
 
 class Professions(models.Model):
-<<<<<<< HEAD
     name=models.CharField(max_length=150,verbose_name='Название профессии')
     slug=models.SlugField(unique=True)
 
     class Meta:
         verbose_name="Профессия"
         verbose_name_plural="Профессии"
-=======
-    name=models.CharField(max_length=255, blank=True, null=True)
-    slug=models.SlugField(max_length=255, blank=True, null=True)
 
-    class Meta:
-        verbose_name='Профессия'
-        verbose_name_plural="Профессии"
-
->>>>>>> branch1
     def __str__(self):
         return self.name
 
 class Mashine(models.Model):
     name=models.CharField(max_length=255)
-<<<<<<< HEAD
     slug=models.SlugField(max_length=255, unique=True)
-    prof=models.ForeignKey(Professions, on_delete=models.PROTECT, blank=True, null=True)
-=======
-    slug=models.SlugField(max_length=255)
-    prof=models.ForeignKey(Professions, on_delete=models.PROTECT, blank=True, null=True)
-    
->>>>>>> branch1
+    prof=models.ForeignKey(Professions, on_delete=models.PROTECT, blank=True, null=True)   
+
     def __str__(self):
         return self.name
 

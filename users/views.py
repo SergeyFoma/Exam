@@ -82,17 +82,10 @@ class LoginUser(LoginView):
 class Profile(LoginRequiredMixin, UpdateView, ListView):
     model=get_user_model()
     form_class = ProfileUserForm
-<<<<<<< HEAD
     template_name="users/profile.html" 
     success_url = reverse_lazy("users:profile")
     #context_object_name = 'professia'
-    
 
-=======
-    template_name="users/profile.html"
-    success_url = reverse_lazy("users:profile") 
-    #context_object_name = 'proff'
->>>>>>> branch1
     # def get_success_url(self):
     #     return reverse_lazy("users:profile")
     
