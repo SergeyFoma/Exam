@@ -5,7 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
-from plumber.models import AnswersUser, Mashine
+from plumber.models import AnswersUser, Mashine, Professions
 from django.contrib.auth.views import LoginView, PasswordChangeView
 from django.views.generic import CreateView
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -79,11 +79,12 @@ class LoginUser(LoginView):
 #         'mashine':mashine,
 #     }
 #     return render(request, "users/profile.html", context)
-class Profile(LoginRequiredMixin, UpdateView):
+class Profile(LoginRequiredMixin, UpdateView, ListView):
     model=get_user_model()
     form_class = ProfileUserForm
-    template_name="users/profile.html"
+    template_name="users/profile.html" 
     success_url = reverse_lazy("users:profile")
+    #context_object_name = 'professia'
     
 
     # def get_success_url(self):

@@ -38,10 +38,11 @@
 </div>
 <hr>
     <h3>Выберите необходимый тест</h3>
+   
         {% mashine_tag as mt %}
             {% for i in mt %}
             
-                <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
+                <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.prof.name}}: тест по теме - {{i.name}}</p></a>
             {% endfor %}
 
     
