@@ -3,12 +3,16 @@ from plumber.models import Questions, Answers, AnswersUser, Mashine, Professions
 
 @admin.register(Professions)
 class ProfessionsAdmin(admin.ModelAdmin):
+<<<<<<< HEAD
     list_display=['name', 'slug']
     prepopulated_fields={'slug':('name',)}
 
 @admin.register(Mashine)
 class MashineAdmin(admin.ModelAdmin):
     list_display=['name', 'slug', 'prof']
+=======
+    list_display=['name','slug']
+>>>>>>> branch1
     prepopulated_fields={'slug':('name',)}
 
 @admin.register(Questions)
@@ -23,3 +27,10 @@ class AnswersAdmin(admin.ModelAdmin):
 class AnswersUserAdmin(admin.ModelAdmin):
     list_display=['name_user','question', 'answer', 'date']
 
+<<<<<<< HEAD
+=======
+@admin.register(Mashine)
+class MashineAdmin(admin.ModelAdmin):
+    list_display=['name', 'slug', 'prof']
+    prepopulated_fields={'slug':('name',)}
+>>>>>>> branch1

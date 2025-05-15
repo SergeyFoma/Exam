@@ -82,17 +82,31 @@ class LoginUser(LoginView):
 class Profile(LoginRequiredMixin, UpdateView, ListView):
     model=get_user_model()
     form_class = ProfileUserForm
+<<<<<<< HEAD
     template_name="users/profile.html" 
     success_url = reverse_lazy("users:profile")
     #context_object_name = 'professia'
     
 
+=======
+    template_name="users/profile.html"
+    success_url = reverse_lazy("users:profile") 
+    #context_object_name = 'proff'
+>>>>>>> branch1
     # def get_success_url(self):
     #     return reverse_lazy("users:profile")
     
     def get_object(self, queryset=None):
         return self.request.user
-   
+
+    def get_queryset(self):
+        return Professions.objects.all()
+
+    # def get_context_data(self, **kwargs):
+    #     # Получаем базовый контекст
+    #     context = super().get_context_data(**kwargs)
+    #     
+       
 
 class UserPasswordChange(PasswordChangeView):
     form_class = UserPasswordChangeForm
