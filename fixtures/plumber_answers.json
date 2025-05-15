@@ -3496,5 +3496,258 @@
     "ques": 82,
     "mash": 2
   }
+},
+{
+  "model": "plumber.answers",
+  "pk": 319,
+  "fields": {
+    "num": 1,
+    "answer": "От  фланца насоса трубопровода входа жидкости до выкидного фланца насоса.",
+    "active": true,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 320,
+  "fields": {
+    "num": 2,
+    "answer": "От приёмного фланца насоса(включая приёмный фильтр) до фланца задвижки нагнетательного трубопровода.",
+    "active": false,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 321,
+  "fields": {
+    "num": 3,
+    "answer": "От приёмного фланца насоса(включая приёмный фильтр) до фланца задвижки нагнетательного трубопровода(включая обратный клапан, редуктор выкидной задвижки, крепление насоса к раме и полумуфта насоса).",
+    "active": true,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 322,
+  "fields": {
+    "num": 4,
+    "answer": "От приёмного фланца насоса(включая приёмный фильтр) до фланца задвижки нагнетательного трубопровода(включая обратный клапан, редуктор выкидной задвижки, крепление насоса к раме, полумуфта насоса, приёмная задвижка).",
+    "active": false,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 323,
+  "fields": {
+    "num": 1,
+    "answer": "Упорные роликовые RZ 24368 закрытого типа.",
+    "active": false,
+    "ques": 84,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 324,
+  "fields": {
+    "num": 2,
+    "answer": "Подшипники скольжения с принудительной смазкой.",
+    "active": true,
+    "ques": 84,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 325,
+  "fields": {
+    "num": 3,
+    "answer": "Подшипники качения, радиально-упорные с бронзовым сепаратором.",
+    "active": false,
+    "ques": 84,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 326,
+  "fields": {
+    "num": 1,
+    "answer": "1500 об/мин",
+    "active": false,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 327,
+  "fields": {
+    "num": 2,
+    "answer": "1750 об/мин",
+    "active": false,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 328,
+  "fields": {
+    "num": 3,
+    "answer": "3000 об/мин",
+    "active": true,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 329,
+  "fields": {
+    "num": 4,
+    "answer": "2500 об/мин",
+    "active": false,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 330,
+  "fields": {
+    "num": 1,
+    "answer": "11 мм.с",
+    "active": true,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 331,
+  "fields": {
+    "num": 2,
+    "answer": "7 мм/с",
+    "active": false,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 332,
+  "fields": {
+    "num": 3,
+    "answer": "18 мм/с",
+    "active": false,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 333,
+  "fields": {
+    "num": 4,
+    "answer": "9 мм/с",
+    "active": false,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 334,
+  "fields": {
+    "num": 1,
+    "answer": "Производительность насоса — это количество затраченной энергии на единицу времени.",
+    "active": false,
+    "ques": 87,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 335,
+  "fields": {
+    "num": 2,
+    "answer": "Производительность насоса — это объём жидкости, который устройство способно перекачивать в единицу времени",
+    "active": true,
+    "ques": 87,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 336,
+  "fields": {
+    "num": 3,
+    "answer": "Производительность насоса — это  количественная характеристика, которая зависит от частоты вращения ротора  и скорости перекачивания жидкости.",
+    "active": false,
+    "ques": 87,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 337,
+  "fields": {
+    "num": 1,
+    "answer": "Оперативные и аварийные заявки.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 338,
+  "fields": {
+    "num": 2,
+    "answer": "Чистка фильтров, ревизия/ремонт обратного клапана.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 339,
+  "fields": {
+    "num": 3,
+    "answer": "Монтаж/демонтаж полумуфт агрегата. Ревизия и замена крепёжных элементов.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 340,
+  "fields": {
+    "num": 4,
+    "answer": "Проверка рабочего разбега ротора. проверка герметичности торцевых уплотнений.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 341,
+  "fields": {
+    "num": 5,
+    "answer": "Замена колец гидропяты, замена торцевых уплотнений.",
+    "active": true,
+    "ques": 88,
+    "mash": 4
+  }
 }
 ]
