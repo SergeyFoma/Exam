@@ -1,9 +1,22 @@
 from django.db import models
 from datetime import datetime
 
+class Professions(models.Model):
+    name=models.CharField(max_length=255, blank=True, null=True)
+    slug=models.SlugField(max_length=255, blank=True, null=True)
+
+    class Meta:
+        verbose_name='Профессия'
+        verbose_name_plural="Профессии"
+
+    def __str__(self):
+        return self.name
+
 class Mashine(models.Model):
     name=models.CharField(max_length=255)
     slug=models.SlugField(max_length=255)
+    prof=models.ForeignKey(Professions, on_delete=models.PROTECT, blank=True, null=True)
+    
     def __str__(self):
         return self.name
 

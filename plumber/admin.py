@@ -1,5 +1,10 @@
 from django.contrib import admin
-from plumber.models import Questions, Answers, AnswersUser, Mashine
+from plumber.models import Questions, Answers, AnswersUser, Mashine, Professions
+
+@admin.register(Professions)
+class ProfessionsAdmin(admin.ModelAdmin):
+    list_display=['name','slug']
+    prepopulated_fields={'slug':('name',)}
 
 @admin.register(Questions)
 class QuestionsAdmin(admin.ModelAdmin):
@@ -15,5 +20,5 @@ class AnswersUserAdmin(admin.ModelAdmin):
 
 @admin.register(Mashine)
 class MashineAdmin(admin.ModelAdmin):
-    list_display=['name', 'slug']
+    list_display=['name', 'slug', 'prof']
     prepopulated_fields={'slug':('name',)}

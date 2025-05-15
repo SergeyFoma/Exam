@@ -38,12 +38,16 @@
 </div>
 <hr>
     <h3>Выберите необходимый тест</h3>
+    {%for o in object_list%}
+        <h2>{{o}}</h2>
+    
         {% mashine_tag as mt %}
             {% for i in mt %}
-            
+                {%if o.name == i.prof.name%}
                 <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
+                {%endif%}
             {% endfor %}
-
+{%endfor%}
     
 
    
