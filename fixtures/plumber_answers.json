@@ -1,0 +1,3753 @@
+[
+{
+  "model": "plumber.answers",
+  "pk": 1,
+  "fields": {
+    "num": 1,
+    "answer": "от 1.5 мм до 3 мм.",
+    "active": true,
+    "ques": 1,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 2,
+  "fields": {
+    "num": 2,
+    "answer": "от 1.5 мм до 5 мм.",
+    "active": false,
+    "ques": 1,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 3,
+  "fields": {
+    "num": 3,
+    "answer": "от 2 мм до 4 мм.",
+    "active": false,
+    "ques": 1,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 4,
+  "fields": {
+    "num": 4,
+    "answer": "от 2 мм до 5 мм.",
+    "active": false,
+    "ques": 1,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 5,
+  "fields": {
+    "num": 1,
+    "answer": "Подшипники скольжения 3618.",
+    "active": false,
+    "ques": 2,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 6,
+  "fields": {
+    "num": 2,
+    "answer": "Подшипники качения роликовые 3612.",
+    "active": false,
+    "ques": 2,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 7,
+  "fields": {
+    "num": 3,
+    "answer": "Подшипники качения роликовые 3618.",
+    "active": true,
+    "ques": 2,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 8,
+  "fields": {
+    "num": 3,
+    "answer": "Подшипники качения шариковые 3612.",
+    "active": false,
+    "ques": 2,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 9,
+  "fields": {
+    "num": 1,
+    "answer": "9.0 мм/с.",
+    "active": false,
+    "ques": 3,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 10,
+  "fields": {
+    "num": 2,
+    "answer": "7.0 мм/с.",
+    "active": true,
+    "ques": 3,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 11,
+  "fields": {
+    "num": 3,
+    "answer": "11.0 мм/с.",
+    "active": false,
+    "ques": 3,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 12,
+  "fields": {
+    "num": 4,
+    "answer": "13 мм/с.",
+    "active": false,
+    "ques": 3,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 13,
+  "fields": {
+    "num": 1,
+    "answer": "Износилась втулка дистанционная , вследствие чего увеличился дросселирующий зазор",
+    "active": false,
+    "ques": 4,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 14,
+  "fields": {
+    "num": 2,
+    "answer": "Не отрегулирована работа насоса в пределах рабочей части характеристик.",
+    "active": false,
+    "ques": 4,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 15,
+  "fields": {
+    "num": 3,
+    "answer": "Зазор по уплотнениям рабочих колес превышает 1мм.",
+    "active": true,
+    "ques": 4,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 16,
+  "fields": {
+    "num": 4,
+    "answer": "Износилось кольцо гидравлической пяты, ротор сместился в сторону всасывания больше допустимого.",
+    "active": false,
+    "ques": 4,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 17,
+  "fields": {
+    "num": 1,
+    "answer": "При проведении сервисного обслуживания.",
+    "active": false,
+    "ques": 5,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 18,
+  "fields": {
+    "num": 2,
+    "answer": "При проведении текущего ремонта насоса.",
+    "active": false,
+    "ques": 5,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 19,
+  "fields": {
+    "num": 3,
+    "answer": "При повышении температуры подшипника, а также в случае вымывания смазки из подшипниковой камеры рабочей жидкостью.",
+    "active": false,
+    "ques": 5,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 20,
+  "fields": {
+    "num": 4,
+    "answer": "Во всех перечисленных случаях.",
+    "active": true,
+    "ques": 5,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 21,
+  "fields": {
+    "num": 1,
+    "answer": "Неправильная центровка электродвигателя с насосом.",
+    "active": false,
+    "ques": 6,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 22,
+  "fields": {
+    "num": 2,
+    "answer": "Искривление вала насоса.",
+    "active": false,
+    "ques": 6,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 23,
+  "fields": {
+    "num": 3,
+    "answer": "Ослабло крепление лап насоса к раме.",
+    "active": false,
+    "ques": 6,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 24,
+  "fields": {
+    "num": 4,
+    "answer": "Разрушение рабочего колеса.",
+    "active": false,
+    "ques": 6,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 25,
+  "fields": {
+    "num": 5,
+    "answer": "Биение муфты насосного агрегата.",
+    "active": false,
+    "ques": 6,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 26,
+  "fields": {
+    "num": 6,
+    "answer": "Все перечисленные причины.",
+    "active": true,
+    "ques": 6,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 27,
+  "fields": {
+    "num": 1,
+    "answer": "9 секций.",
+    "active": true,
+    "ques": 7,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 28,
+  "fields": {
+    "num": 2,
+    "answer": "10 секций.",
+    "active": false,
+    "ques": 7,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 29,
+  "fields": {
+    "num": 3,
+    "answer": "8 секций.",
+    "active": false,
+    "ques": 7,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 30,
+  "fields": {
+    "num": 4,
+    "answer": "6 секций.",
+    "active": false,
+    "ques": 7,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 31,
+  "fields": {
+    "num": 1,
+    "answer": "2500 об/мин.",
+    "active": false,
+    "ques": 8,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 32,
+  "fields": {
+    "num": 2,
+    "answer": "1500 об/мин.",
+    "active": true,
+    "ques": 8,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 33,
+  "fields": {
+    "num": 3,
+    "answer": "1900  об/мин.",
+    "active": false,
+    "ques": 8,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 34,
+  "fields": {
+    "num": 4,
+    "answer": "3000 об/мин.",
+    "active": false,
+    "ques": 8,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 35,
+  "fields": {
+    "num": 1,
+    "answer": "Повышенная нагрузка на эл.двигатель.",
+    "active": false,
+    "ques": 9,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 36,
+  "fields": {
+    "num": 2,
+    "answer": "Падение давления на напорном трубопроводе.",
+    "active": true,
+    "ques": 9,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 37,
+  "fields": {
+    "num": 3,
+    "answer": "Повышенная вибрация агрегата.",
+    "active": false,
+    "ques": 9,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 38,
+  "fields": {
+    "num": 4,
+    "answer": "Преждевременный износ гидропяты.",
+    "active": false,
+    "ques": 9,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 39,
+  "fields": {
+    "num": 1,
+    "answer": "6 колес.",
+    "active": false,
+    "ques": 10,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 40,
+  "fields": {
+    "num": 2,
+    "answer": "7 колес.",
+    "active": false,
+    "ques": 10,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 41,
+  "fields": {
+    "num": 3,
+    "answer": "3 колеса.",
+    "active": false,
+    "ques": 10,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 42,
+  "fields": {
+    "num": 4,
+    "answer": "4 колеса.",
+    "active": true,
+    "ques": 10,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 43,
+  "fields": {
+    "num": 1,
+    "answer": "Рабочий разбег ротора - это зазор между полумуфтами при сдвинутом роторе в сторону двигателя.",
+    "active": false,
+    "ques": 11,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 44,
+  "fields": {
+    "num": 2,
+    "answer": "Рабочий разбег ротора - это осевое движение ротора при работающем агрегате.",
+    "active": false,
+    "ques": 11,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 45,
+  "fields": {
+    "num": 3,
+    "answer": "Рабочий разбег ротора - это зазор между подвижным и неподвижным дисками гидропяты, при сдвинутом роторе в полевую сторону.",
+    "active": true,
+    "ques": 11,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 46,
+  "fields": {
+    "num": 1,
+    "answer": "Подшипник качения роликовый, двухрядный 6312.",
+    "active": false,
+    "ques": 12,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 47,
+  "fields": {
+    "num": 2,
+    "answer": "Подшипник качения роликовый, двухрядный 6318.",
+    "active": false,
+    "ques": 12,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 48,
+  "fields": {
+    "num": 3,
+    "answer": "Подшипник качения роликовый, однорядный 3618.",
+    "active": false,
+    "ques": 12,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 49,
+  "fields": {
+    "num": 4,
+    "answer": "Подшипник качения роликовый, двухрядный 3612.",
+    "active": true,
+    "ques": 12,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 50,
+  "fields": {
+    "num": 1,
+    "answer": "0,8 - 1мм.",
+    "active": false,
+    "ques": 13,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 51,
+  "fields": {
+    "num": 2,
+    "answer": "0.2 мм - 0.4 мм.",
+    "active": true,
+    "ques": 13,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 52,
+  "fields": {
+    "num": 3,
+    "answer": "не более 0.3 мм.",
+    "active": false,
+    "ques": 13,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 53,
+  "fields": {
+    "num": 4,
+    "answer": "0.4 - 0.8 мм",
+    "active": false,
+    "ques": 13,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 54,
+  "fields": {
+    "num": 1,
+    "answer": "3 ступени.",
+    "active": false,
+    "ques": 14,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 55,
+  "fields": {
+    "num": 2,
+    "answer": "4 ступени.",
+    "active": false,
+    "ques": 14,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 56,
+  "fields": {
+    "num": 3,
+    "answer": "1 ступень.",
+    "active": false,
+    "ques": 14,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 57,
+  "fields": {
+    "num": 4,
+    "answer": "2 ступени.",
+    "active": true,
+    "ques": 14,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 58,
+  "fields": {
+    "num": 1,
+    "answer": "42.5 м.",
+    "active": false,
+    "ques": 15,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 59,
+  "fields": {
+    "num": 2,
+    "answer": "49 м.",
+    "active": true,
+    "ques": 15,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 60,
+  "fields": {
+    "num": 3,
+    "answer": "105 м.",
+    "active": false,
+    "ques": 15,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 61,
+  "fields": {
+    "num": 4,
+    "answer": "60 м.",
+    "active": false,
+    "ques": 15,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 62,
+  "fields": {
+    "num": 1,
+    "answer": "8 ступеней.",
+    "active": false,
+    "ques": 16,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 63,
+  "fields": {
+    "num": 2,
+    "answer": "10 ступеней.",
+    "active": true,
+    "ques": 16,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 64,
+  "fields": {
+    "num": 3,
+    "answer": "12 ступеней.",
+    "active": false,
+    "ques": 16,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 65,
+  "fields": {
+    "num": 4,
+    "answer": "7 ступеней.",
+    "active": false,
+    "ques": 16,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 66,
+  "fields": {
+    "num": 1,
+    "answer": "0.02 мм.",
+    "active": false,
+    "ques": 17,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 67,
+  "fields": {
+    "num": 2,
+    "answer": "0.08 мм.",
+    "active": false,
+    "ques": 17,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 68,
+  "fields": {
+    "num": 3,
+    "answer": "1 мм.",
+    "active": false,
+    "ques": 17,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 69,
+  "fields": {
+    "num": 4,
+    "answer": "0.06 мм.",
+    "active": true,
+    "ques": 17,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 70,
+  "fields": {
+    "num": 1,
+    "answer": "2950 об/мин.",
+    "active": true,
+    "ques": 18,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 71,
+  "fields": {
+    "num": 2,
+    "answer": "1500 об/мин.",
+    "active": false,
+    "ques": 18,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 72,
+  "fields": {
+    "num": 3,
+    "answer": "3500 об/мин.",
+    "active": false,
+    "ques": 18,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 73,
+  "fields": {
+    "num": 4,
+    "answer": "4200 об/мин.",
+    "active": false,
+    "ques": 18,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 74,
+  "fields": {
+    "num": 1,
+    "answer": "Подшипники качения 3618.",
+    "active": false,
+    "ques": 19,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 75,
+  "fields": {
+    "num": 2,
+    "answer": "Подшипники качания 6308.",
+    "active": false,
+    "ques": 19,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 76,
+  "fields": {
+    "num": 3,
+    "answer": "Подшипники качения 3608.",
+    "active": true,
+    "ques": 19,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 77,
+  "fields": {
+    "num": 4,
+    "answer": "Подшипники скольжения 3618.",
+    "active": false,
+    "ques": 19,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 78,
+  "fields": {
+    "num": 1,
+    "answer": "5 секций.",
+    "active": false,
+    "ques": 20,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 79,
+  "fields": {
+    "num": 2,
+    "answer": "7 секций.",
+    "active": true,
+    "ques": 20,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 80,
+  "fields": {
+    "num": 3,
+    "answer": "9 секций.",
+    "active": false,
+    "ques": 20,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 81,
+  "fields": {
+    "num": 4,
+    "answer": "10 секций.",
+    "active": false,
+    "ques": 20,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 82,
+  "fields": {
+    "num": 1,
+    "answer": "Не более 0.02 мм.",
+    "active": true,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 83,
+  "fields": {
+    "num": 2,
+    "answer": "Не более 0.2 мм.",
+    "active": false,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 84,
+  "fields": {
+    "num": 3,
+    "answer": "Не менее 0.06 мм.",
+    "active": false,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 85,
+  "fields": {
+    "num": 4,
+    "answer": "Не менее 0.04 мм",
+    "active": false,
+    "ques": 21,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 86,
+  "fields": {
+    "num": 1,
+    "answer": "Загазованность насоса.",
+    "active": false,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 87,
+  "fields": {
+    "num": 2,
+    "answer": "Неправильно собрана электрическая схема.",
+    "active": false,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 88,
+  "fields": {
+    "num": 3,
+    "answer": "Не закрылась электрозадвижка.",
+    "active": false,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 89,
+  "fields": {
+    "num": 4,
+    "answer": "Не закрылся обратный клапан.",
+    "active": true,
+    "ques": 22,
+    "mash": 1
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 90,
+  "fields": {
+    "num": 1,
+    "answer": "Лица не моложе 16 лет, прошедшие предварительный медицинский осмотр, обученные по специальной программе",
+    "active": false,
+    "ques": 23,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 91,
+  "fields": {
+    "num": 2,
+    "answer": "Лица не моложе 21 года, обученные по специальной программе и имеющие опыт работы на опасных производственных объектах не менее одного года",
+    "active": false,
+    "ques": 23,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 92,
+  "fields": {
+    "num": 3,
+    "answer": "Лица не моложе 21 года, прошедшие предварительный медицинский осмотр, получившие заключение об отсутствии медицинских противопоказаний к выполнению работ и имеющие опыт работы на опасных производственных объектах не менее полугода",
+    "active": false,
+    "ques": 23,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 93,
+  "fields": {
+    "num": 4,
+    "answer": "Лица не моложе 18 лет, прошедшие предварительный медицинский осмотр, обученные по специальной программе, аттестованные квалификационной комиссией и получившие соответствующее удостоверение на право производства работ",
+    "active": true,
+    "ques": 23,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 94,
+  "fields": {
+    "num": 1,
+    "answer": "Только под наблюдением специалиста, ответственного за безопасное производство работ грузоподъемными машинами",
+    "active": false,
+    "ques": 24,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 95,
+  "fields": {
+    "num": 2,
+    "answer": "Только по распоряжению специалиста по надзору за безопасной эксплуатацией грузоподъемных машин",
+    "active": false,
+    "ques": 24,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 96,
+  "fields": {
+    "num": 3,
+    "answer": "Только при наличии в удостоверениях таких рабочих записи о присвоении им квалификации стропальщика",
+    "active": true,
+    "ques": 24,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 97,
+  "fields": {
+    "num": 4,
+    "answer": "Не допускается ни в каком случае",
+    "active": false,
+    "ques": 24,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 98,
+  "fields": {
+    "num": 1,
+    "answer": "Должны пройти стажировку в данной профессии",
+    "active": false,
+    "ques": 25,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 99,
+  "fields": {
+    "num": 2,
+    "answer": "Должны пройти медицинский осмотр и быть предварительно обучены и аттестованы",
+    "active": true,
+    "ques": 25,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 100,
+  "fields": {
+    "num": 3,
+    "answer": "Должны пройти обучение по соответствующей программе",
+    "active": false,
+    "ques": 25,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 101,
+  "fields": {
+    "num": 4,
+    "answer": "Должны иметь опыт работы на опасных производственных объектах не менее одного года",
+    "active": false,
+    "ques": 25,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 102,
+  "fields": {
+    "num": 1,
+    "answer": "Если груз подвешивается на крюк крана с предварительной обвязкой",
+    "active": true,
+    "ques": 26,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 103,
+  "fields": {
+    "num": 2,
+    "answer": "Если груз находится в ковшах, бадьях, контейнерах или другой таре",
+    "active": false,
+    "ques": 26,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 104,
+  "fields": {
+    "num": 3,
+    "answer": "Если груз захватывается полуавтоматическими захватами",
+    "active": false,
+    "ques": 26,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 105,
+  "fields": {
+    "num": 4,
+    "answer": "Если груз имеет петли, рымы, цапфы",
+    "active": false,
+    "ques": 26,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 106,
+  "fields": {
+    "num": 1,
+    "answer": "У руководителя структурного подразделения, на территории которого выполняются работы",
+    "active": false,
+    "ques": 27,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 107,
+  "fields": {
+    "num": 2,
+    "answer": "У лица, ответственного за безопасное производство работ кранами",
+    "active": false,
+    "ques": 27,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 108,
+  "fields": {
+    "num": 3,
+    "answer": "У стропальщика при себе",
+    "active": true,
+    "ques": 27,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 109,
+  "fields": {
+    "num": 4,
+    "answer": "У крановщика",
+    "active": false,
+    "ques": 27,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 110,
+  "fields": {
+    "num": 1,
+    "answer": "Не реже одного раза в 12 месяцев",
+    "active": true,
+    "ques": 28,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 111,
+  "fields": {
+    "num": 2,
+    "answer": "Не реже одного раза в 9 месяцев",
+    "active": false,
+    "ques": 28,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 112,
+  "fields": {
+    "num": 3,
+    "answer": "Не реже одного раза в 6 месяцев",
+    "active": false,
+    "ques": 28,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 113,
+  "fields": {
+    "num": 4,
+    "answer": "Не реже одного раза в 3 месяца",
+    "active": false,
+    "ques": 28,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 114,
+  "fields": {
+    "num": 1,
+    "answer": "Назначение и конструктивные особенности грузозахватных приспособлений и тары",
+    "active": false,
+    "ques": 29,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 115,
+  "fields": {
+    "num": 2,
+    "answer": "Назначение и порядок применения стропов, цепей, канатов и других грузозахватных приспособлений",
+    "active": false,
+    "ques": 29,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 116,
+  "fields": {
+    "num": 3,
+    "answer": "Принципиальная электрическая схема грузоподъемной машины",
+    "active": true,
+    "ques": 29,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 117,
+  "fields": {
+    "num": 4,
+    "answer": "Способы визуального определения массы груза",
+    "active": false,
+    "ques": 29,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 118,
+  "fields": {
+    "num": 1,
+    "answer": "Технические характеристики",
+    "active": true,
+    "ques": 30,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 119,
+  "fields": {
+    "num": 2,
+    "answer": "Перечень и характеристики устройств защитной автоматики",
+    "active": false,
+    "ques": 30,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 120,
+  "fields": {
+    "num": 3,
+    "answer": "Конструкцию механической части ПС",
+    "active": false,
+    "ques": 30,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 121,
+  "fields": {
+    "num": 4,
+    "answer": "Принципиальную электрическую схему ПС",
+    "active": false,
+    "ques": 30,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 122,
+  "fields": {
+    "num": 1,
+    "answer": "Определение по указателю, в зависимости от вылета и положения выносных опор, грузоподъемности стрелового крана",
+    "active": false,
+    "ques": 31,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 123,
+  "fields": {
+    "num": 2,
+    "answer": "Управление грузоподъемной машиной в качестве крановщика",
+    "active": true,
+    "ques": 31,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 124,
+  "fields": {
+    "num": 3,
+    "answer": "Правильная подача сигналов крановщику (машинисту)",
+    "active": false,
+    "ques": 31,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 125,
+  "fields": {
+    "num": 4,
+    "answer": "Определение пригодности грузозахватных приспособлений и тары и их правильное применение",
+    "active": false,
+    "ques": 31,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 126,
+  "fields": {
+    "num": 1,
+    "answer": "Движущихся машин и механизмов",
+    "active": false,
+    "ques": 32,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 127,
+  "fields": {
+    "num": 2,
+    "answer": "Перемещаемых и складируемых грузов",
+    "active": false,
+    "ques": 32,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 128,
+  "fields": {
+    "num": 3,
+    "answer": "Повышенной запыленности воздуха рабочей зоны",
+    "active": false,
+    "ques": 32,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 129,
+  "fields": {
+    "num": 4,
+    "answer": "Режущих и колющих предметов (выступающих гвоздей, обрывков металлической ленты или проволоки)",
+    "active": false,
+    "ques": 32,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 130,
+  "fields": {
+    "num": 5,
+    "answer": "Повышенного или пониженного барометрического давления в рабочей зоне и его резкого изменения",
+    "active": true,
+    "ques": 32,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 131,
+  "fields": {
+    "num": 1,
+    "answer": "При наличии наряда-допуска и после прохождения целевого инструктажа непосредственно на рабочем месте",
+    "active": true,
+    "ques": 33,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 132,
+  "fields": {
+    "num": 2,
+    "answer": "После ознакомления с соответствующими локальными нормативными актами организации",
+    "active": false,
+    "ques": 33,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 133,
+  "fields": {
+    "num": 3,
+    "answer": "При наличии оформленного распоряжения руководителя работ и после ознакомления с соответствующими локальными нормативными актами организации",
+    "active": false,
+    "ques": 33,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 134,
+  "fields": {
+    "num": 4,
+    "answer": "При наличии оформленного распоряжения руководителя работ и после прохождения внепланового инструктажа",
+    "active": false,
+    "ques": 33,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 135,
+  "fields": {
+    "num": 1,
+    "answer": "Границы опасных зон указываются в проекте производства работ или технологических картах, а, если в документации они не приводятся, границы опасных зон определяют лица, ответственные за организацию и производство работ на объекте",
+    "active": true,
+    "ques": 34,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 136,
+  "fields": {
+    "num": 2,
+    "answer": "Границы опасных зон определяют только работники, выполняющие подготовку рабочего места",
+    "active": false,
+    "ques": 34,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 137,
+  "fields": {
+    "num": 3,
+    "answer": "Границы опасных зон определяются только исполнителями работ",
+    "active": false,
+    "ques": 34,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 138,
+  "fields": {
+    "num": 1,
+    "answer": "В течение 1 года",
+    "active": true,
+    "ques": 35,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 139,
+  "fields": {
+    "num": 2,
+    "answer": "В течение 6 месяцев",
+    "active": false,
+    "ques": 35,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 140,
+  "fields": {
+    "num": 3,
+    "answer": "В течение 3 месяцев",
+    "active": false,
+    "ques": 35,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 141,
+  "fields": {
+    "num": 4,
+    "answer": "В течение 1 месяца",
+    "active": false,
+    "ques": 35,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 142,
+  "fields": {
+    "num": 1,
+    "answer": "На работодателя",
+    "active": false,
+    "ques": 36,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 143,
+  "fields": {
+    "num": 2,
+    "answer": "На органы санитарно-эпидемиологического надзора",
+    "active": false,
+    "ques": 36,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 144,
+  "fields": {
+    "num": 3,
+    "answer": "На медицинскую организацию",
+    "active": true,
+    "ques": 36,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 145,
+  "fields": {
+    "num": 4,
+    "answer": "На службу охраны труда организации",
+    "active": false,
+    "ques": 36,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 146,
+  "fields": {
+    "num": 1,
+    "answer": "Рекомендации органов санитарно-эпидемиологического надзора",
+    "active": false,
+    "ques": 37,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 147,
+  "fields": {
+    "num": 2,
+    "answer": "Индивидуальные медицинские рекомендации, данные конкретному работнику",
+    "active": false,
+    "ques": 37,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 148,
+  "fields": {
+    "num": 3,
+    "answer": "Типы вредных и (или) опасных производственных факторов, воздействующих на работника, или виды выполняемых работ",
+    "active": true,
+    "ques": 37,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 149,
+  "fields": {
+    "num": 4,
+    "answer": "Общее самочувствие работника",
+    "active": false,
+    "ques": 37,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 150,
+  "fields": {
+    "num": 1,
+    "answer": "На средства индивидуальной и комплексной защиты",
+    "active": false,
+    "ques": 38,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 151,
+  "fields": {
+    "num": 2,
+    "answer": "На средства коллективной и индивидуальной защиты",
+    "active": true,
+    "ques": 38,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 152,
+  "fields": {
+    "num": 3,
+    "answer": "На средства коллективной, индивидуальной и комплексной защиты",
+    "active": false,
+    "ques": 38,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 153,
+  "fields": {
+    "num": 1,
+    "answer": "С даты их фактической выдачи работникам",
+    "active": true,
+    "ques": 39,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 154,
+  "fields": {
+    "num": 2,
+    "answer": "С даты их фактического использования",
+    "active": false,
+    "ques": 39,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 155,
+  "fields": {
+    "num": 3,
+    "answer": "С даты их изготовления",
+    "active": false,
+    "ques": 39,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 156,
+  "fields": {
+    "num": 4,
+    "answer": "С даты их поставки и приемки на хранение",
+    "active": false,
+    "ques": 39,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 157,
+  "fields": {
+    "num": 1,
+    "answer": "Работник приобретает СИЗ за свой счет",
+    "active": false,
+    "ques": 40,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 158,
+  "fields": {
+    "num": 2,
+    "answer": "Выдачу других (исправных) СИЗ обеспечивает работодатель",
+    "active": true,
+    "ques": 40,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 159,
+  "fields": {
+    "num": 3,
+    "answer": "Работник оплачивает половину стоимости СИЗ",
+    "active": false,
+    "ques": 40,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 160,
+  "fields": {
+    "num": 1,
+    "answer": "2 пары в год",
+    "active": false,
+    "ques": 41,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 161,
+  "fields": {
+    "num": 2,
+    "answer": "6 пар в год",
+    "active": false,
+    "ques": 41,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 162,
+  "fields": {
+    "num": 3,
+    "answer": "12 пар в год",
+    "active": true,
+    "ques": 41,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 163,
+  "fields": {
+    "num": 4,
+    "answer": "16 пар в год",
+    "active": false,
+    "ques": 41,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 164,
+  "fields": {
+    "num": 1,
+    "answer": "Зонт",
+    "active": false,
+    "ques": 42,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 165,
+  "fields": {
+    "num": 2,
+    "answer": "Плащ непромокаемый",
+    "active": true,
+    "ques": 42,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 166,
+  "fields": {
+    "num": 3,
+    "answer": "Костюм для защиты от воды из синтетической ткани с пленочным покрытием",
+    "active": false,
+    "ques": 42,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 167,
+  "fields": {
+    "num": 1,
+    "answer": "При выполнении погрузочно-разгрузочных работ стропальщик должен самостоятельно выбрать технологию переработки груза",
+    "active": false,
+    "ques": 43,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 168,
+  "fields": {
+    "num": 2,
+    "answer": "В процессе работы необходимо применять способы, ускоряющие выполнение технологических операций",
+    "active": false,
+    "ques": 43,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 169,
+  "fields": {
+    "num": 3,
+    "answer": "В случае нарушения Инструкции другими рабочими стропальщик должен предупредить рабочего или сообщить лицу, ответственному за безопасное производство работ по перемещению грузов кранами",
+    "active": true,
+    "ques": 43,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 170,
+  "fields": {
+    "num": 4,
+    "answer": "Все перечисленные",
+    "active": false,
+    "ques": 43,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 171,
+  "fields": {
+    "num": 1,
+    "answer": "Только производственных инструкций",
+    "active": false,
+    "ques": 44,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 172,
+  "fields": {
+    "num": 2,
+    "answer": "Только проектов производства работ",
+    "active": false,
+    "ques": 44,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 173,
+  "fields": {
+    "num": 3,
+    "answer": "Только технических регламентов",
+    "active": false,
+    "ques": 44,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 174,
+  "fields": {
+    "num": 4,
+    "answer": "Только нарядов-допусков",
+    "active": false,
+    "ques": 44,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 175,
+  "fields": {
+    "num": 5,
+    "answer": "Всех перечисленных документов",
+    "active": true,
+    "ques": 44,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 176,
+  "fields": {
+    "num": 1,
+    "answer": "Штраф в размере до ста тысяч рублей или в размере заработной платы или иного дохода осужденного за период до двенадцати месяцев либо лишение свободы на срок до трех лет",
+    "active": false,
+    "ques": 45,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 177,
+  "fields": {
+    "num": 2,
+    "answer": "Штраф в размере до двухсот тысяч рублей или в размере заработной платы или иного дохода осужденного за период до двенадцати месяцев, либо исправительные работы на срок до двух лет с выплатой заработной платы в пользу пострадавшего, либо лишение свободы на тот же срок",
+    "active": false,
+    "ques": 45,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 178,
+  "fields": {
+    "num": 3,
+    "answer": "Штраф в размере до четырехсот тысяч рублей или в размере заработной платы или иного дохода осужденного за период до восемнадцати месяцев, либо обязательные работы на срок от ста восьмидесяти до двухсот сорока часов, либо исправительные работы на срок до двух лет, либо принудительные работы на срок до одного года, либо лишение свободы на тот же срок с лишением права занимать определенные должности или заниматься определенной деятельностью на срок до одного года или без такового",
+    "active": true,
+    "ques": 45,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 179,
+  "fields": {
+    "num": 4,
+    "answer": "Штраф в размере до трехсот тысяч рублей, либо исправительные работы на срок до трех лет, либо лишение свободы на срок до одного года с лишением права занимать определенные должности или заниматься определенной деятельностью на срок до двух лет или без такового",
+    "active": false,
+    "ques": 45,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 180,
+  "fields": {
+    "num": 1,
+    "answer": "Только соответствие паспортных грузовых и высотных характеристик ПС требованиям технологического процесса",
+    "active": false,
+    "ques": 46,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 181,
+  "fields": {
+    "num": 2,
+    "answer": "Только соответствие группы классификации (группы режима работы) ПС, а также групп классификаций механизмов, установленных на ПС, требованиям обслуживаемого ПС технологического процесса",
+    "active": false,
+    "ques": 46,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 182,
+  "fields": {
+    "num": 3,
+    "answer": "Только соответствие оснащенности ПС регистраторами, ограничителями и указателями, указанными в паспорте ПС, а также требованиям обеспечения безопасности технологического процесса, обслуживаемого ПС",
+    "active": false,
+    "ques": 46,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 183,
+  "fields": {
+    "num": 4,
+    "answer": "Все перечисленные, включая соответствие прочности, жесткости, устойчивости строительных конструкций (в том числе зданий, эстакад, рельсовых путей и/или площадок установки ПС) нагрузкам от установленных ПС с учетом нагрузок от других технологических машин и оборудования",
+    "active": true,
+    "ques": 46,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 184,
+  "fields": {
+    "num": 1,
+    "answer": "Применять неработоспособные и несоответствующие технологии выполняемых работ грузозахватные приспособления и тару",
+    "active": false,
+    "ques": 47,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 185,
+  "fields": {
+    "num": 2,
+    "answer": "Использовать ПС на неработоспособных рельсовых путях",
+    "active": false,
+    "ques": 47,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 186,
+  "fields": {
+    "num": 3,
+    "answer": "Допускать ПС в работу с неработоспособными ограничителями, указателями и регистраторами",
+    "active": false,
+    "ques": 47,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 187,
+  "fields": {
+    "num": 4,
+    "answer": "Поддерживать эксплуатируемые ПС в работоспособном состоянии, соблюдая графики выполнения технических освидетельствований, технического обслуживания и планово-предупредительных ремонтов",
+    "active": true,
+    "ques": 47,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 188,
+  "fields": {
+    "num": 1,
+    "answer": "Должны знать и выполнять требования инструкций в случаях возникновения аварий и инцидентов при эксплуатации ПС",
+    "active": false,
+    "ques": 48,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 189,
+  "fields": {
+    "num": 2,
+    "answer": "Должны знать критерии работоспособности применяемых ПС в соответствии с требованиями руководства (инструкции) по эксплуатации применяемых ПС",
+    "active": false,
+    "ques": 48,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 190,
+  "fields": {
+    "num": 3,
+    "answer": "Должны пройти в установленном порядке аттестацию на знание Правил безопасности опасных производственных объектов, на которых используются подъемные сооружения",
+    "active": true,
+    "ques": 48,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 191,
+  "fields": {
+    "num": 4,
+    "answer": "Должны иметь удостоверение на право самостоятельной работы по соответствующим видам деятельности",
+    "active": false,
+    "ques": 48,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 192,
+  "fields": {
+    "num": 1,
+    "answer": "Превышающей грузоподъемность этого стропа на 15 %",
+    "active": false,
+    "ques": 49,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 193,
+  "fields": {
+    "num": 2,
+    "answer": "Превышающей грузоподъемность этого стропа на 20 %",
+    "active": false,
+    "ques": 49,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 194,
+  "fields": {
+    "num": 3,
+    "answer": "Превышающей грузоподъемность этого стропа на 25 %",
+    "active": true,
+    "ques": 49,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 195,
+  "fields": {
+    "num": 4,
+    "answer": "Превышающей грузоподъемность этого стропа на 22 %",
+    "active": false,
+    "ques": 49,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 196,
+  "fields": {
+    "num": 1,
+    "answer": "6 месяцев со дня ввода в эксплуатацию",
+    "active": false,
+    "ques": 50,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 197,
+  "fields": {
+    "num": 2,
+    "answer": "3 месяца со дня ввода в эксплуатацию",
+    "active": true,
+    "ques": 50,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 198,
+  "fields": {
+    "num": 3,
+    "answer": "1 месяц со дня ввода в эксплуатацию",
+    "active": false,
+    "ques": 50,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 199,
+  "fields": {
+    "num": 4,
+    "answer": "2 месяца со дня ввода в эксплуатацию",
+    "active": false,
+    "ques": 50,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 200,
+  "fields": {
+    "num": 1,
+    "answer": "12 месяцев со дня ввода в эксплуатацию",
+    "active": false,
+    "ques": 51,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 201,
+  "fields": {
+    "num": 2,
+    "answer": "3 месяца со дня ввода в эксплуатацию",
+    "active": false,
+    "ques": 51,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 202,
+  "fields": {
+    "num": 3,
+    "answer": "18 месяцев со дня ввода в эксплуатацию",
+    "active": true,
+    "ques": 51,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 203,
+  "fields": {
+    "num": 4,
+    "answer": "6 месяцев со дня ввода в эксплуатацию",
+    "active": false,
+    "ques": 51,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 204,
+  "fields": {
+    "num": 1,
+    "answer": "1",
+    "active": false,
+    "ques": 52,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 205,
+  "fields": {
+    "num": 2,
+    "answer": "2",
+    "active": true,
+    "ques": 52,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 206,
+  "fields": {
+    "num": 1,
+    "answer": "Не более 90°",
+    "active": true,
+    "ques": 53,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 207,
+  "fields": {
+    "num": 2,
+    "answer": "Не более 100°",
+    "active": false,
+    "ques": 53,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 208,
+  "fields": {
+    "num": 3,
+    "answer": "Не более 110°",
+    "active": false,
+    "ques": 53,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 209,
+  "fields": {
+    "num": 4,
+    "answer": "Не более 120°",
+    "active": false,
+    "ques": 53,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 210,
+  "fields": {
+    "num": 1,
+    "answer": "1",
+    "active": true,
+    "ques": 54,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 211,
+  "fields": {
+    "num": 2,
+    "answer": "2",
+    "active": false,
+    "ques": 54,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 212,
+  "fields": {
+    "num": 3,
+    "answer": "Правильно на обоих рисунках",
+    "active": false,
+    "ques": 54,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 213,
+  "fields": {
+    "num": 1,
+    "answer": "Исходя из условия, что углы между ветвями не превышают 90°",
+    "active": true,
+    "ques": 55,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 214,
+  "fields": {
+    "num": 2,
+    "answer": "Исходя из условия, что углы между ветвями не превышают 100°",
+    "active": false,
+    "ques": 55,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 215,
+  "fields": {
+    "num": 3,
+    "answer": "Исходя из условия, что углы между ветвями не превышают 70°",
+    "active": false,
+    "ques": 55,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 216,
+  "fields": {
+    "num": 4,
+    "answer": "Исходя из условия, что углы между ветвями не превышают 80°",
+    "active": false,
+    "ques": 55,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 217,
+  "fields": {
+    "num": 1,
+    "answer": "Исходя из условия, что груз удерживается только двумя ветвями",
+    "active": true,
+    "ques": 56,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 218,
+  "fields": {
+    "num": 2,
+    "answer": "Исходя из условия, что груз удерживается только тремя ветвями",
+    "active": false,
+    "ques": 56,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 219,
+  "fields": {
+    "num": 3,
+    "answer": "Исходя из условия, что груз удерживается всеми ветвями",
+    "active": false,
+    "ques": 56,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 220,
+  "fields": {
+    "num": 1,
+    "answer": "Не должно превышать 1 % длины ветви",
+    "active": true,
+    "ques": 57,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 221,
+  "fields": {
+    "num": 2,
+    "answer": "Не должно превышать 1,5 % длины ветви",
+    "active": false,
+    "ques": 57,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 222,
+  "fields": {
+    "num": 3,
+    "answer": "Не должно превышать 2,0 % длины ветви",
+    "active": false,
+    "ques": 57,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 223,
+  "fields": {
+    "num": 4,
+    "answer": "Не должно превышать 2,5 % длины ветви",
+    "active": false,
+    "ques": 57,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 224,
+  "fields": {
+    "num": 1,
+    "answer": "Заплеткой",
+    "active": false,
+    "ques": 58,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 225,
+  "fields": {
+    "num": 2,
+    "answer": "Опрессовкой аллюминиевыми втулками",
+    "active": false,
+    "ques": 58,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 226,
+  "fields": {
+    "num": 3,
+    "answer": "Путем оковки каната кольцами",
+    "active": true,
+    "ques": 58,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 227,
+  "fields": {
+    "num": 1,
+    "answer": "При износе коушей с уменьшением первоначальных размеров сечения более чем на 5 %",
+    "active": false,
+    "ques": 59,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 228,
+  "fields": {
+    "num": 2,
+    "answer": "При изменении размера опрессовочных втулок более чем на 3 % от первоначального",
+    "active": false,
+    "ques": 59,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 229,
+  "fields": {
+    "num": 3,
+    "answer": "При повреждении или отсутствии оплеток или других защитных элементов, при наличии выступающих концов проволоки у места заплетки",
+    "active": true,
+    "ques": 59,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 230,
+  "fields": {
+    "num": 4,
+    "answer": "Во всех перечисленных случаях",
+    "active": false,
+    "ques": 59,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 231,
+  "fields": {
+    "num": 1,
+    "answer": "Строповка должна исключать возможность нарушения целостности груза либо его опрокидывание",
+    "active": false,
+    "ques": 60,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 232,
+  "fields": {
+    "num": 2,
+    "answer": "При обвязке груза допускается наложение стропов с узлами и перекрутками",
+    "active": true,
+    "ques": 60,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 233,
+  "fields": {
+    "num": 3,
+    "answer": "При строповке необходимо учитывать расположение центра тяжести груза",
+    "active": false,
+    "ques": 60,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 234,
+  "fields": {
+    "num": 4,
+    "answer": "Подводить строп под груз следует так, чтобы исключить возможность его выскальзывания во время подъема груза",
+    "active": false,
+    "ques": 60,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 235,
+  "fields": {
+    "num": 1,
+    "answer": "Равное высоте груза",
+    "active": false,
+    "ques": 61,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 236,
+  "fields": {
+    "num": 2,
+    "answer": "Равное высоте груза плюс 0,5 м",
+    "active": false,
+    "ques": 61,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 237,
+  "fields": {
+    "num": 3,
+    "answer": "Равное высоте груза плюс 0,8 м",
+    "active": false,
+    "ques": 61,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 238,
+  "fields": {
+    "num": 4,
+    "answer": "Равное высоте груза плюс 1,0 м",
+    "active": true,
+    "ques": 61,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 239,
+  "fields": {
+    "num": 1,
+    "answer": "Если сечение одного из элементов менее 95 % номинального",
+    "active": false,
+    "ques": 62,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 240,
+  "fields": {
+    "num": 2,
+    "answer": "Если стрела прогиба одного из жестких элементов менее 120 мм",
+    "active": false,
+    "ques": 62,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 241,
+  "fields": {
+    "num": 3,
+    "answer": "Если угол изгиба одного из жестких элементов менее 90° при радиусе изгиба менее 50 мм",
+    "active": true,
+    "ques": 62,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 242,
+  "fields": {
+    "num": 4,
+    "answer": "Если сечение одного из элементов менее 98 % номинального",
+    "active": false,
+    "ques": 62,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 243,
+  "fields": {
+    "num": 1,
+    "answer": "Стропальщик",
+    "active": true,
+    "ques": 63,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 244,
+  "fields": {
+    "num": 2,
+    "answer": "Крановщик",
+    "active": false,
+    "ques": 63,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 245,
+  "fields": {
+    "num": 3,
+    "answer": "Ответственный за безопасное производство работ грузоподъемными машинами",
+    "active": false,
+    "ques": 63,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 246,
+  "fields": {
+    "num": 1,
+    "answer": "Только при производстве строительно-монтажных работ - с проектом производства работ",
+    "active": false,
+    "ques": 64,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 247,
+  "fields": {
+    "num": 2,
+    "answer": "Только при производстве погрузочно-разгрузочных работ - с технологическими картами",
+    "active": false,
+    "ques": 64,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 248,
+  "fields": {
+    "num": 3,
+    "answer": "Только при работах стреловыми грузоподъемными машинами вблизи воздушной линии электропередачи - с мерами безопасности, указанными в наряде-допуске",
+    "active": false,
+    "ques": 64,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 249,
+  "fields": {
+    "num": 4,
+    "answer": "Только при работах стреловыми грузоподъемными машинами вблизи воздушной линии электропередачи - с мерами безопасности, указанными в наряде-допуске",
+    "active": true,
+    "ques": 64,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 250,
+  "fields": {
+    "num": 1,
+    "answer": "Проверять исправность грузозахватных приспособлений и наличие на них клейм или бирок с обозначением номера, даты испытания и грузоподъемности",
+    "active": false,
+    "ques": 65,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 251,
+  "fields": {
+    "num": 2,
+    "answer": "Проверять наличие и исправность вспомогательных инвентарных приспособлений, необходимых для выполнения работ",
+    "active": false,
+    "ques": 65,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 252,
+  "fields": {
+    "num": 3,
+    "answer": "Производить обвязку и зацепку грузов в соответствии со схемами строповки или кантовки грузов",
+    "active": false,
+    "ques": 65,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 253,
+  "fields": {
+    "num": 4,
+    "answer": "Самостоятельно устанавливать грузоподъемные машины на выносные (дополнительные) опоры, а также снимать (укладывать) грузозахватные приспособления с неповоротной части (ходовой рамы) грузоподъемной машины",
+    "active": true,
+    "ques": 65,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 254,
+  "fields": {
+    "num": 1,
+    "answer": "Назначение, номер, собственную массу тары и предельную массу груза",
+    "active": true,
+    "ques": 66,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 255,
+  "fields": {
+    "num": 2,
+    "answer": "Габаритные размеры",
+    "active": false,
+    "ques": 66,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 256,
+  "fields": {
+    "num": 3,
+    "answer": "Материал",
+    "active": false,
+    "ques": 66,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 257,
+  "fields": {
+    "num": 4,
+    "answer": "Все перечисленные данные",
+    "active": false,
+    "ques": 66,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 258,
+  "fields": {
+    "num": 1,
+    "answer": "На один рог крюка",
+    "active": false,
+    "ques": 67,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 259,
+  "fields": {
+    "num": 2,
+    "answer": "На оба рога крюка",
+    "active": true,
+    "ques": 67,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 260,
+  "fields": {
+    "num": 3,
+    "answer": "Любым из перечисленных способов",
+    "active": false,
+    "ques": 67,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 261,
+  "fields": {
+    "num": 1,
+    "answer": "Не менее чем в четырех местах",
+    "active": false,
+    "ques": 68,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 262,
+  "fields": {
+    "num": 2,
+    "answer": "Не менее чем в трех местах",
+    "active": false,
+    "ques": 68,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 263,
+  "fields": {
+    "num": 3,
+    "answer": "Не менее чем в двух местах",
+    "active": true,
+    "ques": 68,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 264,
+  "fields": {
+    "num": 1,
+    "answer": "Сигнальщик",
+    "active": false,
+    "ques": 69,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 265,
+  "fields": {
+    "num": 2,
+    "answer": "Ответственный за безопасное производство работ кранами",
+    "active": false,
+    "ques": 69,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 266,
+  "fields": {
+    "num": 3,
+    "answer": "Старший стропальщик",
+    "active": true,
+    "ques": 69,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 267,
+  "fields": {
+    "num": 1,
+    "answer": "Только проверить, нет ли на грузе незакрепленных деталей и инструментов, а перед подъемом труб большого диаметра - чтобы в них не было земли, льда или предметов, которые могут выпасть при подъеме",
+    "active": false,
+    "ques": 70,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 268,
+  "fields": {
+    "num": 2,
+    "answer": "Только убедиться в том, что во время подъема груз не может ни за что зацепиться",
+    "active": false,
+    "ques": 70,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 269,
+  "fields": {
+    "num": 3,
+    "answer": "Только убедиться в отсутствии людей возле груза, между поднимаемым грузом и стенами, колоннами, штабелями, станками и другим оборудованием",
+    "active": false,
+    "ques": 70,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 270,
+  "fields": {
+    "num": 4,
+    "answer": "Все перечисленное",
+    "active": true,
+    "ques": 70,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 271,
+  "fields": {
+    "num": 1,
+    "answer": "Не менее чем на 500 мм выше встречающихся на пути предметов",
+    "active": true,
+    "ques": 71,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 272,
+  "fields": {
+    "num": 2,
+    "answer": "Не менее чем на 300 мм выше встречающихся на пути предметов",
+    "active": false,
+    "ques": 71,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 273,
+  "fields": {
+    "num": 3,
+    "answer": "Не менее чем на 200 мм выше встречающихся на пути предметов",
+    "active": false,
+    "ques": 71,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 274,
+  "fields": {
+    "num": 4,
+    "answer": "Не менее чем на 350 мм выше встречающихся на пути предметов",
+    "active": false,
+    "ques": 71,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 275,
+  "fields": {
+    "num": 1,
+    "answer": "Не менее 1000 мм",
+    "active": true,
+    "ques": 72,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 276,
+  "fields": {
+    "num": 2,
+    "answer": "Не менее 800 мм",
+    "active": false,
+    "ques": 72,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 277,
+  "fields": {
+    "num": 3,
+    "answer": "Не менее 600 мм",
+    "active": false,
+    "ques": 72,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 278,
+  "fields": {
+    "num": 4,
+    "answer": "Не менее 500 мм",
+    "active": false,
+    "ques": 72,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 279,
+  "fields": {
+    "num": 1,
+    "answer": "950 - 1200 мм",
+    "active": false,
+    "ques": 73,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 280,
+  "fields": {
+    "num": 2,
+    "answer": "750 - 900 мм",
+    "active": false,
+    "ques": 73,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 281,
+  "fields": {
+    "num": 3,
+    "answer": "550 - 700 мм",
+    "active": false,
+    "ques": 73,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 282,
+  "fields": {
+    "num": 4,
+    "answer": "200 - 500 мм",
+    "active": true,
+    "ques": 73,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 283,
+  "fields": {
+    "num": 1,
+    "answer": "Если груз поднят на высоту не более 1000 мм от уровня площадки, на которой он находится",
+    "active": true,
+    "ques": 74,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 284,
+  "fields": {
+    "num": 2,
+    "answer": "Если груз поднят на высоту не более 1200 мм от уровня площадки, на которой он находится",
+    "active": false,
+    "ques": 74,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 285,
+  "fields": {
+    "num": 3,
+    "answer": "Если груз поднят на высоту не более 1300 мм от уровня площадки, на которой он находится",
+    "active": false,
+    "ques": 74,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 286,
+  "fields": {
+    "num": 4,
+    "answer": "Если груз поднят на высоту не более 1500 мм от уровня площадки, на которой он находится",
+    "active": false,
+    "ques": 74,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 287,
+  "fields": {
+    "num": 1,
+    "answer": "Нарядом-допуском",
+    "active": true,
+    "ques": 75,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 288,
+  "fields": {
+    "num": 2,
+    "answer": "Перечнем работ, выполняемых в порядке текущей эксплуатации",
+    "active": false,
+    "ques": 75,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 289,
+  "fields": {
+    "num": 3,
+    "answer": "Распоряжением",
+    "active": false,
+    "ques": 75,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 290,
+  "fields": {
+    "num": 1,
+    "answer": "Предварительно осматривать место, на которое необходимо опустить груз",
+    "active": false,
+    "ques": 76,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 291,
+  "fields": {
+    "num": 2,
+    "answer": "Снимать стропы с груза или крюка после того, как груз будет надежно установлен и закреплен",
+    "active": false,
+    "ques": 76,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 292,
+  "fields": {
+    "num": 3,
+    "answer": "Устанавливать груз на временные перекрытия, трубы, кабели, а также к стенам зданий и заборам",
+    "active": true,
+    "ques": 76,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 293,
+  "fields": {
+    "num": 4,
+    "answer": "Укладывать при необходимости на место установки груза прочные подкладки для удобства извлечения стропов из-под груза",
+    "active": false,
+    "ques": 76,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 294,
+  "fields": {
+    "num": 1,
+    "answer": "При наличии письменного разрешения от организации, эксплуатирующей данные сооружения",
+    "active": true,
+    "ques": 77,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 295,
+  "fields": {
+    "num": 2,
+    "answer": "После подачи заявки организации, эксплуатирующей данные сооружения",
+    "active": false,
+    "ques": 77,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 296,
+  "fields": {
+    "num": 3,
+    "answer": "После устного уведомления организации, эксплуатирующей данные сооружения",
+    "active": false,
+    "ques": 77,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 297,
+  "fields": {
+    "num": 1,
+    "answer": "Далее 30 м",
+    "active": true,
+    "ques": 78,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 298,
+  "fields": {
+    "num": 2,
+    "answer": "Далее 20 м",
+    "active": false,
+    "ques": 78,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 299,
+  "fields": {
+    "num": 3,
+    "answer": "Далее 15 м",
+    "active": false,
+    "ques": 78,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 300,
+  "fields": {
+    "num": 4,
+    "answer": "Далее 10 м",
+    "active": false,
+    "ques": 78,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 301,
+  "fields": {
+    "num": 1,
+    "answer": "Не менее 1,5 м",
+    "active": false,
+    "ques": 79,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 302,
+  "fields": {
+    "num": 2,
+    "answer": "Не менее 2,40 м",
+    "active": false,
+    "ques": 79,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 303,
+  "fields": {
+    "num": 3,
+    "answer": "Не менее 3,6 м",
+    "active": true,
+    "ques": 79,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 304,
+  "fields": {
+    "num": 4,
+    "answer": "Не менее 3,00 м",
+    "active": false,
+    "ques": 79,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 305,
+  "fields": {
+    "num": 1,
+    "answer": "Все нижеперечисленные работы",
+    "active": true,
+    "ques": 80,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 306,
+  "fields": {
+    "num": 2,
+    "answer": "Погрузка (разгрузки) в полувагоны, трюмы",
+    "active": false,
+    "ques": 80,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 307,
+  "fields": {
+    "num": 3,
+    "answer": "Подъем груза несколькими кранами",
+    "active": false,
+    "ques": 80,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 308,
+  "fields": {
+    "num": 4,
+    "answer": "Работа вблизи линии электропередачи",
+    "active": false,
+    "ques": 80,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 309,
+  "fields": {
+    "num": 5,
+    "answer": "Перемещения груза над перекрытиями помещений, в которых могут находиться люди",
+    "active": false,
+    "ques": 80,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 310,
+  "fields": {
+    "num": 6,
+    "answer": "Перемещение груза, на который не разработаны схемы строповки",
+    "active": false,
+    "ques": 80,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 311,
+  "fields": {
+    "num": 1,
+    "answer": "Грузоподъемные машины устанавливаются на площадках с твердым и ровным покрытием",
+    "active": false,
+    "ques": 81,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 312,
+  "fields": {
+    "num": 2,
+    "answer": "Погрузочно-разгрузочные работы с помощью грузоподъемной машины производятся при наличии людей в кабине загружаемого либо разгружаемого транспортного средства",
+    "active": true,
+    "ques": 81,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 313,
+  "fields": {
+    "num": 3,
+    "answer": "При перемещении груза с помощью грузоподъемной машины масса груза не должна превышать паспортную грузоподъемность машины (у стреловых кранов - с учетом вылета стрелы, выносных опор, противовесов)",
+    "active": false,
+    "ques": 81,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 314,
+  "fields": {
+    "num": 4,
+    "answer": "Допуск работников на крановые пути и проходные галереи действующих мостовых и передвижных консольных кранов осуществляется по наряду-допуску, определяющему условия безопасного производства работ",
+    "active": false,
+    "ques": 81,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 315,
+  "fields": {
+    "num": 1,
+    "answer": "Не менее 0,8 м",
+    "active": false,
+    "ques": 82,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 316,
+  "fields": {
+    "num": 2,
+    "answer": "Не менее 1,0 м",
+    "active": true,
+    "ques": 82,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 317,
+  "fields": {
+    "num": 3,
+    "answer": "Не менее 0,6 м",
+    "active": false,
+    "ques": 82,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 318,
+  "fields": {
+    "num": 4,
+    "answer": "Не менее 0,4 м",
+    "active": false,
+    "ques": 82,
+    "mash": 2
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 319,
+  "fields": {
+    "num": 1,
+    "answer": "От  фланца насоса трубопровода входа жидкости до выкидного фланца насоса.",
+    "active": true,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 320,
+  "fields": {
+    "num": 2,
+    "answer": "От приёмного фланца насоса(включая приёмный фильтр) до фланца задвижки нагнетательного трубопровода.",
+    "active": false,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 321,
+  "fields": {
+    "num": 3,
+    "answer": "От приёмного фланца насоса(включая приёмный фильтр) до фланца задвижки нагнетательного трубопровода(включая обратный клапан, редуктор выкидной задвижки, крепление насоса к раме и полумуфта насоса).",
+    "active": true,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 322,
+  "fields": {
+    "num": 4,
+    "answer": "От приёмного фланца насоса(включая приёмный фильтр) до фланца задвижки нагнетательного трубопровода(включая обратный клапан, редуктор выкидной задвижки, крепление насоса к раме, полумуфта насоса, приёмная задвижка).",
+    "active": false,
+    "ques": 83,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 323,
+  "fields": {
+    "num": 1,
+    "answer": "Упорные роликовые RZ 24368 закрытого типа.",
+    "active": false,
+    "ques": 84,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 324,
+  "fields": {
+    "num": 2,
+    "answer": "Подшипники скольжения с принудительной смазкой.",
+    "active": true,
+    "ques": 84,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 325,
+  "fields": {
+    "num": 3,
+    "answer": "Подшипники качения, радиально-упорные с бронзовым сепаратором.",
+    "active": false,
+    "ques": 84,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 326,
+  "fields": {
+    "num": 1,
+    "answer": "1500 об/мин",
+    "active": false,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 327,
+  "fields": {
+    "num": 2,
+    "answer": "1750 об/мин",
+    "active": false,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 328,
+  "fields": {
+    "num": 3,
+    "answer": "3000 об/мин",
+    "active": true,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 329,
+  "fields": {
+    "num": 4,
+    "answer": "2500 об/мин",
+    "active": false,
+    "ques": 85,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 330,
+  "fields": {
+    "num": 1,
+    "answer": "11 мм.с",
+    "active": true,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 331,
+  "fields": {
+    "num": 2,
+    "answer": "7 мм/с",
+    "active": false,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 332,
+  "fields": {
+    "num": 3,
+    "answer": "18 мм/с",
+    "active": false,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 333,
+  "fields": {
+    "num": 4,
+    "answer": "9 мм/с",
+    "active": false,
+    "ques": 86,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 334,
+  "fields": {
+    "num": 1,
+    "answer": "Производительность насоса — это количество затраченной энергии на единицу времени.",
+    "active": false,
+    "ques": 87,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 335,
+  "fields": {
+    "num": 2,
+    "answer": "Производительность насоса — это объём жидкости, который устройство способно перекачивать в единицу времени",
+    "active": true,
+    "ques": 87,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 336,
+  "fields": {
+    "num": 3,
+    "answer": "Производительность насоса — это  количественная характеристика, которая зависит от частоты вращения ротора  и скорости перекачивания жидкости.",
+    "active": false,
+    "ques": 87,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 337,
+  "fields": {
+    "num": 1,
+    "answer": "Оперативные и аварийные заявки.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 338,
+  "fields": {
+    "num": 2,
+    "answer": "Чистка фильтров, ревизия/ремонт обратного клапана.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 339,
+  "fields": {
+    "num": 3,
+    "answer": "Монтаж/демонтаж полумуфт агрегата. Ревизия и замена крепёжных элементов.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 340,
+  "fields": {
+    "num": 4,
+    "answer": "Проверка рабочего разбега ротора. проверка герметичности торцевых уплотнений.",
+    "active": false,
+    "ques": 88,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 341,
+  "fields": {
+    "num": 5,
+    "answer": "Замена колец гидропяты, замена торцевых уплотнений.",
+    "active": true,
+    "ques": 88,
+    "mash": 4
+  }
+}
+]

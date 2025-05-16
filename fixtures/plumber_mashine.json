@@ -1,0 +1,47 @@
+[
+{
+  "model": "plumber.mashine",
+  "pk": 1,
+  "fields": {
+    "name": "Насосы центробежные ЦНС (нефтяные)",
+    "slug": "nasosy-centrobezhnye-cns",
+    "prof": 1
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 2,
+  "fields": {
+    "name": "ПРР",
+    "slug": "prr",
+    "prof": 2
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 3,
+  "fields": {
+    "name": "Сварщик",
+    "slug": "svarschik",
+    "prof": 3
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 4,
+  "fields": {
+    "name": "Насосы ППД",
+    "slug": "nasosy-ppd",
+    "prof": 1
+  }
+},
+{
+  "model": "plumber.mashine",
+  "pk": 5,
+  "fields": {
+    "name": "Ремонт и испытание клапанов СППК",
+    "slug": "remont-i-ispytanie-klapanov-sppk",
+    "prof": 1
+  }
+}
+]

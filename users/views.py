@@ -5,8 +5,13 @@ from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
-from plumber.models import AnswersUser, Mashine
+
+from plumber.models import AnswersUser, Mashine, Professions
 from django.contrib.auth.views import LoginView, PasswordChangeView, PasswordResetView
+
+# from plumber.models import AnswersUser, Mashine, Professions
+# from django.contrib.auth.views import LoginView, PasswordChangeView
+
 from django.views.generic import CreateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import UpdateView
@@ -79,19 +84,27 @@ class LoginUser(LoginView):
 #         'mashine':mashine,
 #     }
 #     return render(request, "users/profile.html", context)
-class Profile(LoginRequiredMixin, UpdateView):
+class Profile(LoginRequiredMixin, UpdateView, ListView):
     model=get_user_model()
     form_class = ProfileUserForm
-    template_name="users/profile.html"
+    template_name="users/profile.html" 
     success_url = reverse_lazy("users:profile")
-    
+    #context_object_name = 'professia'
 
     # def get_success_url(self):
     #     return reverse_lazy("users:profile")
     
     def get_object(self, queryset=None):
         return self.request.user
-   
+
+    def get_queryset(self):
+        return Professions.objects.all()
+
+    # def get_context_data(self, **kwargs):
+    #     # Получаем базовый контекст
+    #     context = super().get_context_data(**kwargs)
+    #     
+       
 
 class UserPasswordChange(PasswordChangeView):
     form_class = UserPasswordChangeForm
