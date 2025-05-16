@@ -6,7 +6,7 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
 from plumber.models import AnswersUser, Mashine
-from django.contrib.auth.views import LoginView, PasswordChangeView
+from django.contrib.auth.views import LoginView, PasswordChangeView, PasswordResetView
 from django.views.generic import CreateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import UpdateView
@@ -98,6 +98,10 @@ class UserPasswordChange(PasswordChangeView):
     success_url = reverse_lazy("users:password_change_done")
     template_name = "users/password_change_form.html"
     title = ("Password change")
+
+class  UserPasswordReset(PasswordResetView):
+    template_name="users/password_reset_form.html"
+    
 
 def logout_user(request):
     AnswersUser.objects.filter(name_user=request.user.username).delete()
