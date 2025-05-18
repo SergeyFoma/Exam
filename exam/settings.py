@@ -157,3 +157,15 @@ AUTH_USER_MODEL='users.User'
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+#EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+EMAIL_HOST = 'smtp.yandex.ru'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'asdfg2105fomencko@yandex.ru'
+EMAIL_HOST_PASSWORD = 'lyxbvmdsiownyvne'
+EMAIL_USE_SSL = True
+
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+SERVER_EMAIL = EMAIL_HOST_USER
+EMAIL_ADMIN = EMAIL_HOST_USER
