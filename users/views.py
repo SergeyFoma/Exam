@@ -103,3 +103,4 @@ def logout_user(request):
     AnswersUser.objects.filter(name_user=request.user.username).delete()
     logout(request)
     return redirect(reverse("plumber:index"))
+
