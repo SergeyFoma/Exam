@@ -19,15 +19,13 @@
         {% for i in que %}
         {%comment%}<p style="color:red">{{i.mash}}</p>{%endcomment%}
             <div class="ques_answ"style="border:1px solid gray;margin-bottom:5px;background:#fff">
-    
-<<<<<<< HEAD
-                <h2 style="margin-bottom:10px;text-align:center;">{{i.name}} {{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
+        
                 {% if i.image %}
-                    <p><img src="{{i.image.url}}" alt="">image</p>
+                    <p><img src="{{i.image.url}}" alt=""></p>
                 {%endif%}
-=======
+
                 <h2 style="margin-bottom:10px;text-align:center;">{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
->>>>>>> branch1
+
             
 
                 <form action="{%url 'plumber:answer'%}"method='get'>

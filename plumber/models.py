@@ -31,7 +31,7 @@ class Questions(models.Model):
         verbose_name_plural="Вопросы"
 
     def __str__(self):
-        return self.text
+        return self.name
 
 class Answers(models.Model):
     num=models.IntegerField()
