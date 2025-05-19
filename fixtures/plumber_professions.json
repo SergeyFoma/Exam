@@ -1,0 +1,26 @@
+[
+{
+  "model": "plumber.professions",
+  "pk": 1,
+  "fields": {
+    "name": "Слесарь-ремонтник НПО",
+    "slug": "slesar-remontnik-npo"
+  }
+},
+{
+  "model": "plumber.professions",
+  "pk": 2,
+  "fields": {
+    "name": "Электрогазосварщик",
+    "slug": "elektrogazosvarshik"
+  }
+},
+{
+  "model": "plumber.professions",
+  "pk": 3,
+  "fields": {
+    "name": "Стропальщик",
+    "slug": "stropalshik"
+  }
+}
+]
