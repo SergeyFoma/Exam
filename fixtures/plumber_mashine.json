@@ -3,7 +3,7 @@
   "model": "plumber.mashine",
   "pk": 1,
   "fields": {
-    "name": "Насосы центробежные ЦНС (нефтяные)",
+    "name": "Насосное оборудование. Тест - 1.",
     "slug": "nasosy-centrobezhnye-cns",
     "prof": 1
   }
@@ -12,25 +12,25 @@
   "model": "plumber.mashine",
   "pk": 2,
   "fields": {
-    "name": "ПРР",
+    "name": "Погрузочно-разгрузочные работы.",
     "slug": "prr",
-    "prof": 2
+    "prof": 3
   }
 },
 {
   "model": "plumber.mashine",
   "pk": 3,
   "fields": {
-    "name": "Сварщик",
+    "name": "Сварочные работы",
     "slug": "svarschik",
-    "prof": 3
+    "prof": 2
   }
 },
 {
   "model": "plumber.mashine",
   "pk": 4,
   "fields": {
-    "name": "Насосы ППД",
+    "name": "Насосное оборудование. Тест - 2.",
     "slug": "nasosy-ppd",
     "prof": 1
   }

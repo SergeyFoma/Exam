@@ -1,0 +1,56 @@
+[
+{
+  "model": "materials.categorymaterials",
+  "pk": 1,
+  "fields": {
+    "name": "Насосы центробежные(ЦНС)",
+    "slug": "nasosy-centrobezhnyecns",
+    "photo": "category/2025/05/19/цнс180.jpg"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 2,
+  "fields": {
+    "name": "Насосы шестеренчатые",
+    "slug": "nasosy-shesterenchatye",
+    "photo": "category/2025/05/19/нмш_OSKB8tE.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 3,
+  "fields": {
+    "name": "Насосы НД",
+    "slug": "nasosy-nd",
+    "photo": "category/2025/05/22/нд.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 4,
+  "fields": {
+    "name": "СППК",
+    "slug": "sppk",
+    "photo": "category/2025/05/22/сппк.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 5,
+  "fields": {
+    "name": "Насосы типа Д",
+    "slug": "nasosy-tipa-d",
+    "photo": "category/2025/05/22/д.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 6,
+  "fields": {
+    "name": "Насосы типа К",
+    "slug": "nasosy-tipa-k",
+    "photo": "category/2025/05/27/к.png"
+  }
+}
+]

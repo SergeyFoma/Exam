@@ -4739,5 +4739,555 @@
     "ques": 118,
     "mash": 3
   }
+},
+{
+  "model": "plumber.answers",
+  "pk": 432,
+  "fields": {
+    "num": 1,
+    "answer": "Подшипники качения 316",
+    "active": false,
+    "ques": 119,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 433,
+  "fields": {
+    "num": 2,
+    "answer": "Подшипники качения 313",
+    "active": true,
+    "ques": 119,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 434,
+  "fields": {
+    "num": 3,
+    "answer": "Подшипники скольжения графитовые",
+    "active": false,
+    "ques": 119,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 435,
+  "fields": {
+    "num": 1,
+    "answer": "0,02 мм - 0,04 мм",
+    "active": true,
+    "ques": 120,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 436,
+  "fields": {
+    "num": 2,
+    "answer": "0,2 мм - 0,4 мм",
+    "active": false,
+    "ques": 120,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 437,
+  "fields": {
+    "num": 3,
+    "answer": "0,09 мм - 0,1 мм",
+    "active": false,
+    "ques": 120,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 438,
+  "fields": {
+    "num": 1,
+    "answer": "1",
+    "active": false,
+    "ques": 121,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 439,
+  "fields": {
+    "num": 2,
+    "answer": "2",
+    "active": false,
+    "ques": 121,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 440,
+  "fields": {
+    "num": 3,
+    "answer": "3",
+    "active": false,
+    "ques": 121,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 441,
+  "fields": {
+    "num": 4,
+    "answer": "4",
+    "active": true,
+    "ques": 121,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 442,
+  "fields": {
+    "num": 1,
+    "answer": "0,6 мм",
+    "active": false,
+    "ques": 122,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 443,
+  "fields": {
+    "num": 2,
+    "answer": "0.06 мм",
+    "active": true,
+    "ques": 122,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 444,
+  "fields": {
+    "num": 3,
+    "answer": "0.8 мм",
+    "active": false,
+    "ques": 122,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 445,
+  "fields": {
+    "num": 4,
+    "answer": "0.08 мм",
+    "active": false,
+    "ques": 122,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 446,
+  "fields": {
+    "num": 1,
+    "answer": "наработки оборудования в течении 72 часов.",
+    "active": true,
+    "ques": 123,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 447,
+  "fields": {
+    "num": 2,
+    "answer": "наработки оборудования в течении 48 часов.",
+    "active": false,
+    "ques": 123,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 448,
+  "fields": {
+    "num": 3,
+    "answer": "наработки оборудования в течении 24 часов.",
+    "active": false,
+    "ques": 123,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 449,
+  "fields": {
+    "num": 4,
+    "answer": "сразу после окончания работ и составления акта.",
+    "active": false,
+    "ques": 123,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 450,
+  "fields": {
+    "num": 1,
+    "answer": "В течении суток после получения заявки.",
+    "active": false,
+    "ques": 124,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 451,
+  "fields": {
+    "num": 2,
+    "answer": "В течении 48 часов после получения заявки.",
+    "active": false,
+    "ques": 124,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 452,
+  "fields": {
+    "num": 3,
+    "answer": "В течении рабочей смены. после получения заявки.",
+    "active": true,
+    "ques": 124,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 453,
+  "fields": {
+    "num": 1,
+    "answer": "Попытаться извлечь обломок резьбы при помощи керна.",
+    "active": false,
+    "ques": 125,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 454,
+  "fields": {
+    "num": 2,
+    "answer": "Засверлить при помощи дрели или шуруповерта и выкрутить остаток резьбы экстрактором.",
+    "active": false,
+    "ques": 125,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 455,
+  "fields": {
+    "num": 3,
+    "answer": "Оба варианта правильные.",
+    "active": true,
+    "ques": 125,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 456,
+  "fields": {
+    "num": 1,
+    "answer": "1",
+    "active": true,
+    "ques": 126,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 457,
+  "fields": {
+    "num": 2,
+    "answer": "2",
+    "active": false,
+    "ques": 126,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 458,
+  "fields": {
+    "num": 3,
+    "answer": "3",
+    "active": false,
+    "ques": 126,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 459,
+  "fields": {
+    "num": 1,
+    "answer": "10 - Давление нагнетания, 10 МПа  , 100 -  Подача, 100 л/ч.",
+    "active": false,
+    "ques": 127,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 460,
+  "fields": {
+    "num": 2,
+    "answer": "10 - Подача, л/ч, 100 - Давление нагнетания, кгс/см2.",
+    "active": true,
+    "ques": 127,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 461,
+  "fields": {
+    "num": 1,
+    "answer": "Износ шатуна, ползуна, пальца ползуна.",
+    "active": false,
+    "ques": 128,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 462,
+  "fields": {
+    "num": 2,
+    "answer": "Наличие воздуха в приводной камере мембранной головки.",
+    "active": false,
+    "ques": 128,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 463,
+  "fields": {
+    "num": 3,
+    "answer": "Чрезмерная затяжка уплотнения плунжера.",
+    "active": true,
+    "ques": 128,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 464,
+  "fields": {
+    "num": 1,
+    "answer": "Недостаточный уровень масла в приводе.",
+    "active": true,
+    "ques": 129,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 465,
+  "fields": {
+    "num": 2,
+    "answer": "Износ шатуна, ползуна, пальца ползуна.",
+    "active": false,
+    "ques": 129,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 466,
+  "fields": {
+    "num": 3,
+    "answer": "Крепление патрубков клапанов ослабло, и агрегат всасывает воздух.",
+    "active": false,
+    "ques": 129,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 467,
+  "fields": {
+    "num": 1,
+    "answer": "Обратное направление вращения вала.",
+    "active": false,
+    "ques": 130,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 468,
+  "fields": {
+    "num": 2,
+    "answer": "Насос не полностью залит перекачиваемой жидко-стью.",
+    "active": false,
+    "ques": 130,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 469,
+  "fields": {
+    "num": 3,
+    "answer": "Низкая частота вращения.",
+    "active": false,
+    "ques": 130,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 470,
+  "fields": {
+    "num": 4,
+    "answer": "1, 2, 3 - Верно",
+    "active": true,
+    "ques": 130,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 471,
+  "fields": {
+    "num": 5,
+    "answer": "1 и 2 - верно.",
+    "active": false,
+    "ques": 130,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 472,
+  "fields": {
+    "num": 1,
+    "answer": "Провести центрирование валов. Провести подтяжку кре-пежа насоса, двигателя и трубопроводов.",
+    "active": false,
+    "ques": 131,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 473,
+  "fields": {
+    "num": 2,
+    "answer": "Устранить причину меха-нического повреждения, заменить подшипники.",
+    "active": false,
+    "ques": 131,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 474,
+  "fields": {
+    "num": 3,
+    "answer": "Проверить зазоры в уплотнительной щели ра-бочего колеса.",
+    "active": false,
+    "ques": 131,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 475,
+  "fields": {
+    "num": 4,
+    "answer": "1 и 2 - верно.",
+    "active": true,
+    "ques": 131,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 476,
+  "fields": {
+    "num": 5,
+    "answer": "1 и 3 - верно.",
+    "active": false,
+    "ques": 131,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 477,
+  "fields": {
+    "num": 1,
+    "answer": "Засорения приемной сетки (или фильтров) на всасывании насоса.",
+    "active": false,
+    "ques": 132,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 478,
+  "fields": {
+    "num": 2,
+    "answer": "Работа насоса с не полностью открытым приемным клапаном.",
+    "active": false,
+    "ques": 132,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 479,
+  "fields": {
+    "num": 3,
+    "answer": "Износ лопаток рабочих колес.",
+    "active": false,
+    "ques": 132,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 480,
+  "fields": {
+    "num": 4,
+    "answer": "1 и 3 - верно.",
+    "active": true,
+    "ques": 132,
+    "mash": 4
+  }
+},
+{
+  "model": "plumber.answers",
+  "pk": 481,
+  "fields": {
+    "num": 5,
+    "answer": "1 и 2 - верно.",
+    "active": false,
+    "ques": 132,
+    "mash": 4
+  }
 }
 ]
