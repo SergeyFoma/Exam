@@ -17,8 +17,15 @@
     </div>
 
     {%for i in object_list%}
-        <p><a href="{% url 'users:profile' %}">{{i.name}}
-        <img src="{{i.image.url}}" alt="" style='width:200px;'></a></p>
+        {% if user.is_authenticated %}
+            <div class="">
+                <a href="{% url 'users:profile' %}"><p>{{i.name}}</p>
+                <p><img src="{{i.image.url}}" alt="" style='width:200px;'></p></a>
+            </div>
+        {% else %}
+            <p>{{i.name}}</p>
+            <p><img src="{{i.image.url}}" alt="" style='width:200px;'></p>
+        {% endif %}
     {%endfor%}
     
 {% endblock %}

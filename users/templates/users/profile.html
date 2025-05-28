@@ -41,11 +41,11 @@
    
             {%for o in object_list%}
                 <h2>{{o}}</h2>
-            
+                <p><img src="{{o.image.url}}" alt="{{o.image.url}}"style="width:250px;"></p>
                 {% mashine_tag as mt %}
                     {% for i in mt %}
                         {%if o.name == i.prof.name%}
-                        <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</p></a>
+                        <a href="{% url 'plumber:testing' t_slug=i.slug %}"><p>{{i.name}}</p></a>
                         {%endif%}
 
                     {% endfor %}
