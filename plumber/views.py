@@ -6,7 +6,7 @@ from django.urls import reverse, reverse_lazy
 #from plumber.utils import redir
 from plumber.forms import TestForm
 from django.shortcuts import get_object_or_404
-from plumber.models import Mashine
+from plumber.models import Mashine, Professions
 from materials.models import UploadedFile
 import os
 import subprocess
@@ -29,6 +29,8 @@ class Index(ListView):
         return context
     def get_queryset(self):
         return UploadedFile.objects.all()
+    def get_queryset(self):
+        return Professions.objects.all()
 
 
 # def file_pdf(request, ind_id):
