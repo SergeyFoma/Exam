@@ -16,7 +16,7 @@
         <p>5. Тест считается пройденным если правильных ответов 80%.</p>
     </div>
 
-    {%for i in object_list%}
+    {%comment%}{%for i in object_list%}
         {% if user.is_authenticated %}
             <div class="">
                 <a href="{% url 'users:profile' %}"><p>{{i.name}}</p>
@@ -26,6 +26,22 @@
             <p>{{i.name}}</p>
             <p><img src="{{i.image.url}}" alt="" style='width:200px;'></p>
         {% endif %}
-    {%endfor%}
+    {%endfor%}{%endcomment%}
+    
+    <div class="slider">
+        <img src="static/img/свар1.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/свар2.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/свар3.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/слес1.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/слес2.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/слес3.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/слес4.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/слес5.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/сппк1.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/сппк2.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/строп1.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/строп2.png" alt="свар1.png"style='width:800px;'>
+        <img src="static/img/строп3.png" alt="свар1.png"style='width:800px;'>
+    </div>
     
 {% endblock %}
