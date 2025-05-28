@@ -3,7 +3,7 @@ from plumber.models import Questions, Answers, AnswersUser, Mashine, Professions
 
 @admin.register(Professions)
 class ProfessionsAdmin(admin.ModelAdmin):
-    list_display=['id', 'name', 'slug']
+    list_display=['id', 'name', 'slug', 'image']
     prepopulated_fields={'slug':('name',)}
 
 @admin.register(Mashine)

@@ -4,6 +4,7 @@ from datetime import datetime
 class Professions(models.Model):
     name=models.CharField(max_length=150,verbose_name='Название профессии')
     slug=models.SlugField(unique=True)
+    image=models.ImageField(upload_to="professions/%Y/%m/%d", blank=True, null=True, verbose_name='IMAGE')
 
     class Meta:
         verbose_name="Профессия"
