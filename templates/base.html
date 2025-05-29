@@ -74,11 +74,15 @@
                 {%comment%}<a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p>
                     <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
                 {%if user.is_authenticated%}
-                    <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
-                    <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></a></p>
+                    <div class="materials-img">
+                        <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
+                        <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></a></p>
+                    </div>
                 {%else%}
-                    <p>{{c.name}}</p>
-                    <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></p>
+                    <div class="materials-img">
+                        <p>{{c.name}}</p>
+                        <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></p>
+                    </div>
                 {%endif%}
             {% endfor %}
 

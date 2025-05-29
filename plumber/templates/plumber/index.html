@@ -7,15 +7,16 @@
 
 {% block sideright %}
     
-    <h2 style="text-align:center;">Условия прохождения тестирования</h2>
-    <div class=""style="margin-left:20px;padding:10px;">
-        <p>1. Для начала тестирования, необходимо <a href="{% url 'users:register' %}">зарегистрироваться</a></p>
-        <p>2. Если Вы регистрировались ранее и у Вас есть свой профиль, <a href="{% url 'users:profile' %}">зайдите</a> в него.</p>
-        <p>3. В профиле необходимо выбрать вариант теста, после чего Вы перейдете на страницу тестирования.</p>
-        <p>4. Время, на прохождение теста, зависит от количества вопросов в тесте. Один вопрос - одна минута, плюс 5 минут на проверку и исправление.</p>
-        <p>5. Тест считается пройденным если правильных ответов 80%.</p>
+    <h2 style="text-align:center;margin-bottom:30px;font-size:34px;">Условия прохождения тестирования</h2>
+    <div class="sideright-text">
+        <ul>
+            <li style="list-style-type:decimal;"><p>Для начала тестирования, необходимо <a href="{% url 'users:register' %}">зарегистрироваться</a></p></li>
+            <li style="list-style-type:decimal;"><p>Если Вы регистрировались ранее и у Вас есть свой профиль, <a href="{% url 'users:profile' %}">зайдите</a> в него.</p></li>
+            <li style="list-style-type:decimal;"><p>В профиле необходимо выбрать вариант теста, после чего Вы перейдете на страницу тестирования.</p></li>
+            <li style="list-style-type:decimal;"><p>Время, на прохождение теста, зависит от количества вопросов в тесте. Один вопрос - одна минута, плюс 5 минут на проверку и исправление.</p></li>
+            <li style="list-style-type:decimal;"><p>Тест считается пройденным если правильных ответов 80%.</p></li>
+        </ul>
     </div>
-    
 
     <div id="slider">
         <ul id="slideWrap">
@@ -51,7 +52,8 @@
                 <img src="static/img/сппк2.png" alt="свар1.png">
             </li>
             <li>
-                <img src="static/img/строп1.png" alt="свар1.png"
+                <img src="static/img/строп1.png" alt="свар1.png">
+            </li>
             <li>
                 <img src="static/img/строп2.png" alt="свар1.png">
             </li>
