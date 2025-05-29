@@ -73,9 +73,13 @@
             {% for c in ct %}
                 {%comment%}<a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p>
                     <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
-
+                {%if user.is_authenticated%}
                     <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
-                        <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
+                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
+                {%else%}
+                    <p>{{c.name}}</p>
+                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></p>
+                {%endif%}
             {% endfor %}
 
                 {% block sideleft %}
