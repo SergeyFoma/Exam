@@ -88,7 +88,10 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> branch1
 /*body {
     margin: 10%;
   }*/
@@ -116,4 +119,13 @@ hr {
     height: 100%;
   
     float: left;
+<<<<<<< HEAD
   }
+=======
+  }
+  #slider ul li img{
+    width: 500px;
+    height: 265px;
+  }
+  
+>>>>>>> branch1
