@@ -85,6 +85,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  font-size: 24px;
 }
 .content {
     width: 100%;
@@ -135,6 +136,7 @@ hr {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
   }
   #slider ul {
     position: relative;
@@ -194,7 +196,7 @@ hr {
     width:300px;
     height:200px;
     border: 2px solid #39f;
-    box-shadow: 10px 5px 5px rgb(9, 84, 158);
+    /*box-shadow: 10px 5px 5px rgb(9, 84, 158);*/
     margin-bottom: 20px;
   }
 .img-hover:hover{
