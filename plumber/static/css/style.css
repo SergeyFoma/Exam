@@ -88,3 +88,32 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/*body {
+    margin: 10%;
+  }*/
+  
+  #slider {
+    position: relative;
+    width: 500px;
+    height: 265px;
+  
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  #slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+  #slider ul li {
+    position: relative;
+    height: 100%;
+  
+    float: left;
+  }
