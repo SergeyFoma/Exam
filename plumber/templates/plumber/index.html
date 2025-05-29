@@ -16,6 +16,7 @@
         <p>5. Тест считается пройденным если правильных ответов 80%.</p>
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     {%comment%}{%for i in object_list%}
         {% if user.is_authenticated %}
@@ -75,11 +76,14 @@
     </div>
 =======
     <img src="../img/свар2.png" alt="свар1.png">
+=======
+    
+>>>>>>> branch1
 
     <div id="slider">
         <ul id="slideWrap">
             <li>
-                <img src="./static/img/свар1.png" alt="свар1.png">
+                <img src="static/img/свар1.png" alt="свар1.png">
             </li>
         
             <li>
@@ -120,8 +124,10 @@
         </ul>
     </div>
 
-    <a id="prev" href="#">&#8810;</a>
-    <a id="next" href="#">&#8811;</a>
+    <!--<a id="prev" href="#">&#8810;</a>
+    <a id="next" href="#">&#8811;</a>-->
+    <a id="prev" href="#"></a>
+    <a id="next" href="#"></a>
 
     <script>
         var slider = document.getElementById("slider");
@@ -168,7 +174,7 @@
         });
         setInterval(function() {
         nextSlide()
-        }, 5000);
+        }, 3000);
         window.onload = function() {
         responsiveSlider();  
         }
