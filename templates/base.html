@@ -75,10 +75,10 @@
                     <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
                 {%if user.is_authenticated%}
                     <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
-                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
+                    <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></a></p>
                 {%else%}
                     <p>{{c.name}}</p>
-                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></p>
+                    <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></p>
                 {%endif%}
             {% endfor %}
 

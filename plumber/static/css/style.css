@@ -145,3 +145,12 @@ hr {
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 0;
   }
+  .img-hover {
+    width:300px;
+    border: 2px solid #39f;
+  }
+.img-hover:hover{
+  box-shadow: 10px 5px 5px #39f;
+  /*width:500px;*/
+  
+}
