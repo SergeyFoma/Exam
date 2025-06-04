@@ -4,15 +4,31 @@
 }
 
 .header { 
-    background-color: rgb(127, 255, 212);
+    background-color: #4B5193;
     display: flex;
     flex-direction: column;
 }
 .header1 {
-    width: 100%;
-    min-height: 40px;
-    background-color: #fff;
+    width: 1820px;
+    min-height: 180px;
+    /*background-color: #fff;*/
     text-align: center;
+    /*background-image: url("../img/GG1.png");
+    background-repeat: no-repeat;*/
+    display: flex;
+    flex-direction: row;
+}
+.header1 h2 {
+  font-family: 'Jacques Francois Shadow';
+  font-weight:400;
+  font-size:96px;
+  color: #fff;
+}
+.header1 h3 {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:24px;
+  color: #fff;
 }
 .header2 {
     width: 100%;
@@ -23,11 +39,19 @@
 .header3 {
     width: 100%;
     /*height: 40px;*/
-    background-color: #39f;
+    background-color: #545BA2;;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*color:#39f;*/
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.a {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:24px;
+  color: #fff;
 }
 
 .sidebar {
@@ -109,11 +133,22 @@
     z-index: 1;
 }
 
+
+
 .footer {
     width: 100%;
     height: 200px;
-    background-color: #39f;
+    background-color: #4B5193;
+    color: #fff;
 }
+.footer h3 {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:24px;
+  color: #fff;
+}
+
+
 
 hr {
     margin-top: 10px;
