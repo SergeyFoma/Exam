@@ -109,12 +109,12 @@
 
                 {%if user.is_authenticated%}
                     <div class="materials-img">
-                        <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
-                        <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></a></p>
+                        <a href="{{c.get_absolute_url}}"><p class="p-a">{{c.name}}</p>
+                        <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></p></a>
                     </div>
                 {%else%}
                     <div class="materials-img">
-                        <p>{{c.name}}</p>
+                        <p class="p-a">{{c.name}}</p>
                         <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></p>
                     </div>
                 {%endif%}
