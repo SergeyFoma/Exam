@@ -20,7 +20,7 @@
     <div class="header"style="position:fixed;z-index:10;width:100%;">
         
         <div class="header1"style="padding-top:5px;">
-            <img src="../static/img/G3.png" alt="G3"style="width:140px; height:140px;margin-left:60px;">
+            <img src="../static/img/G3.png" alt="G3"style="width:160px; height:160px;margin-left:60px;">
             <div class=""style="margin-left:400px;">
                 <h2>TEST oneline</h2>
                 <h3>Тестирование работников основных и совмещаемых профессий</h3>
@@ -98,7 +98,7 @@
     </div>
       
     <div class="sidebar">
-        <div class="sideleft"style="padding-top:250px;">
+        <div class="sideleft">
 
             <h2 style="text-align: center;">Материалы для подготовки</h2>
             {% category_tag as ct %}
@@ -106,13 +106,6 @@
                 {%comment%}<a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p>
                     <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
 
-                <!--{% if user.is_authenticated %}
-                    <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
-                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
-                {% else %}
-                    <p>{{c.name}}</p>
-                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></p>
-                {% endif %}-->
 
                 {%if user.is_authenticated%}
                     <div class="materials-img">
@@ -132,7 +125,7 @@
                 {% endblock %}
             
         </div>
-        <div class="sideright"style="padding-top:250px;">
+        <div class="sideright">
             
 
             {% block sideright %}

@@ -58,13 +58,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(232, 238, 247);
+    background-color: #AFB4E6;
     min-height: 1000px;
     /*position: relative;*/
 }
 .sideleft {
     width: 30%;
     min-height: 1000px;
+    /*background-color: #8187CA;*/
+    background-image: url("../img/Group18.png");
+    background-repeat: repeat;
+    padding-top:250px;
     /*width: 50%;*/
     /*margin: 0 auto;*/
     color:red;
@@ -100,7 +104,7 @@
     place-items: center;*/
     /*display: flex;
     flex-direction: column;*/
-    
+    padding-top:250px;
 }
 .sideright-text {
   /*position: relative;*/
