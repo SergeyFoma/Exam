@@ -154,10 +154,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> branch1
 /*body {
     margin: 10%;
   }*/
@@ -188,9 +185,7 @@ hr {
     height: 100%;
   
     float: left;
-<<<<<<< HEAD
-  }
-=======
+
   }
   #slider ul li img{
     width: 800px;
@@ -217,16 +212,12 @@ hr {
     right: 10px;
   }
   
-<<<<<<< HEAD
->>>>>>> branch1
-=======
+
   #slider #prev:hover, #slider #next:hover {
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 0;
   }
-<<<<<<< HEAD
->>>>>>> branch1
-=======
+
   .img-hover {
     width:300px;
     height:200px;
@@ -236,14 +227,13 @@ hr {
   }
 .img-hover:hover{
   box-shadow: 10px 5px 5px #39f;
-<<<<<<< HEAD
+
   /*width:500px;*/
   
 }
->>>>>>> branch1
-=======
-  width:320px;
+
+ /* width:320px;
   height:220px;
   margin-bottom: 0px;
-}
->>>>>>> branch1
+}*/
+

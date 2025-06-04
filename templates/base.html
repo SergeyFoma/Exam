@@ -105,15 +105,15 @@
             {% for c in ct %}
                 {%comment%}<a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p>
                     <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
-<<<<<<< HEAD
-                {% if user.is_authenticated %}
+
+                <!--{% if user.is_authenticated %}
                     <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
                     <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>
                 {% else %}
                     <p>{{c.name}}</p>
                     <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></p>
-                {% endif %}
-=======
+                {% endif %}-->
+
                 {%if user.is_authenticated%}
                     <div class="materials-img">
                         <a href="{{c.get_absolute_url}}"><p>{{c.name}}</p>
@@ -125,7 +125,7 @@
                         <p><img src="{{ c.photo.url }}" alt=""class="img-hover"></p>
                     </div>
                 {%endif%}
->>>>>>> branch1
+
             {% endfor %}
 
                 {% block sideleft %}
