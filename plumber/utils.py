@@ -10,4 +10,5 @@ from django.urls import reverse
 #         #alist.append(res2)
 #         print(res2)
     
-print(a:=45)
+#print(a:=45)
+
