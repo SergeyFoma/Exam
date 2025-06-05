@@ -68,7 +68,7 @@
     /*background-color: #8187CA;*/
     background-image: url("../img/Group18.png");
     background-repeat: repeat;
-    padding-top:250px;
+    padding-top:220px;
     /*width: 50%;*/
     /*margin: 0 auto;*/
     color:red;
@@ -83,9 +83,16 @@
 .sideleft h2 {
   font-family: Alice;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 32px;
   color: #535898;
+  text-align: center;
 }
+.sideleft-h2 {
+  background-color: #D9D9D9;
+  padding: 10px;
+  border-radius: 11px;
+}
+
 .materials-img {
   font-family: Alice;
   font-weight: 400;
@@ -94,15 +101,49 @@
   color: #535898;
   text-align: center;
   width:340px;
-  /*height: 340px;*/
+  height: 260px;
   /*border: 3px solid red;*/
   /*padding:20px;*/
-  padding:10px;
+  /*padding:10px;*/
   background-color: #D9D9D9;
   border-radius: 11px;
 }
+.materials-img:hover {
+  box-shadow: 10px 5px 5px #535898;
+}
 .p-a {
   margin-bottom: 10px;
+  font-family: Alice;
+  font-weight: 400;
+  font-size: 22px;
+  color:#4655f7;
+}
+.p-a:hover {
+  color:#08138b;
+}
+  .img-hover {
+    width:300px;
+    height:200px;
+    /*border: 2px solid #535898;*/
+    border-radius: 11px;
+    /*box-shadow: 10px 5px 5px rgb(9, 84, 158);*/
+    /*margin-bottom: 20px;*/
+    margin: auto;
+  }
+.img-hover:hover{
+  box-shadow: 10px 5px 5px #535898;
+  width: 295px;
+  height: 195px;
+}
+
+.img-block {
+  width: 300px;
+  height: 200px;
+  border-radius: 11px;
+}
+.img-block:hover {
+  width: 295px;
+  height: 195px;
 }
 .sideright {
     width: 70%;
@@ -237,23 +278,7 @@ hr {
     text-shadow: 0;
   }
 
-  .img-hover {
-    width:300px;
-    height:200px;
-    border: 2px solid #535898;
-    border-radius: 11px;
-    /*box-shadow: 10px 5px 5px rgb(9, 84, 158);*/
-    margin-bottom: 20px;
-  }
-.img-hover:hover{
-  box-shadow: 10px 5px 5px #535898;
 
-  /*width:500px;*/
-  
-}
 
- /* width:320px;
-  height:220px;
-  margin-bottom: 0px;
-}*/
+
 
