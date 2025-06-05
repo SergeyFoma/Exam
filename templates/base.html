@@ -40,61 +40,63 @@
             {% if user.is_authenticated %}
             
                 {% if request.path == "/answer2/" %}
-                <div class="a">
-                    <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выход(answer2)</a>
-                </div>
+                    <div class="a">
+                        <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;color:#fff">Выход(answer2)</a>
+                    </div>
                 {% elif request.path == "/profile/" %}
-                <div class="a">
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;color:#fff">Главная</a>
-                </div>
-                <div class="a">
-                    <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;color:#fff">Выйти из профиля</a>
-                </div>
+                    <div class="a">
+                        <a href="{% url 'plumber:index' %}"style="margin-left:150px;color:#fff">Главная</a>
+                    </div>
+                    <div class="a">
+                        <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;color:#fff">Выйти из профиля</a>
+                    </div>
                 {% elif request.path == '/testing/' %}
-                <div class="a">
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;">+++++Главная{{title}}</a>
-                    <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выход(Logout)</a>
-                </div>
+                    <div class="a">
+                        <a href="{% url 'plumber:index' %}"style="margin-left:150px;">+++++Главная{{title}}</a>
+                        <a href="{% url 'users:logout_user' %}"style="float:right;margin-right:150px;">Выход(Logout)</a>
+                    </div>
                 {%else%}
-                <div class="a">
-                    <a href="{% url 'plumber:index' %}"style="margin-left:150px;color:#fff">Главная</a>
-                </div>
+                    <div class="a">
+                        <a href="{% url 'plumber:index' %}"style="margin-left:150px;color:#fff">Главная</a>
+                    </div>
                     <div class="a"style="float:right;margin-right:150px;color:#fff">
                         <a href="{% url 'users:logout_user' %}"style="color:#fff">Выход</a> | 
                         <a href="{% url 'users:profile' %}"style="color:#fff">Profile</a>
                     </div>
                 {%endif%}
-                
-            {% else %}
-
 
            {% endif %}
            
-        {% if not user.is_authenticated and request.path == '/' %}
-            <div class="a"style="color:#fff">
-                <p style="margin-left:150px;color:#fff">Главная</p>
-            </div>
-            <div class="a"style="margin-right:150px;color:#fff">
-                <a href="{% url 'users:login_user' %}"style="color:#fff;">Войти в профиль</a> |
-                <a href="{% url 'users:register' %}"style="color:#fff;">Зарегистрироваться</a>
-            </div> 
-        {% endif %}
-        {% if not user.is_authenticated and request.path == '/login_user/'  %}
-        <div class="a">
-            <a href="{% url 'plumber:index' %}" style="margin-left:150px;color:#fff;">Главная</a> 
+            {% if not user.is_authenticated and request.path == '/' %}
+                <div class="a"style="color:#fff">
+                    <p style="margin-left:150px;color:#fff">Главная</p>
+                </div>
+                <div class="a"style="margin-right:150px;color:#fff">
+                    <a href="{% url 'users:login_user' %}"style="color:#fff;">Войти в профиль</a> |
+                    <a href="{% url 'users:register' %}"style="color:#fff;">Зарегистрироваться</a>
+                </div> 
+            {% endif %}
+
+            {% if not user.is_authenticated and request.path == '/login_user/'  %}
+                <div class="a">
+                    <a href="{% url 'plumber:index' %}" style="margin-left:150px;color:#fff;">Главная</a> 
+                </div>
+                <div class="a">       
+                    <a href="{% url 'users:register' %}"style="margin-right:150px;color:#fff;">Зарегистрироваться</a>
+                </div>    
+            {% elif request.path == '/register/' %}
+                <div class="a">
+                    <a href="{% url 'plumber:index' %}" style="margin-left:150px;color:#fff;">Главная</a>
+                </div>
+                <div class="a">
+                    <a href="{% url 'users:login_user' %}"style="float:right;margin-right:150px;color:#fff;">Войти в профиль</a>
+                </div>
+            {% endif %}
         </div>
-        <div class="a">       
-            <a href="{% url 'users:register' %}"style="margin-right:150px;color:#fff;">Зарегистрироваться</a>
-        </div>    
-        {% elif request.path == '/register/' %}
-        <div class="a">
-            <a href="{% url 'plumber:index' %}" style="margin-left:150px;">Главная</a>
-            <a href="{% url 'users:login_user' %}"style="float:right;margin-right:150px;color:#fff;">Войти в профиль</a>
-        </div>
-        {% endif %}
-        </div>
+
         {% block header %}
         {% endblock %}
+
     </div>
       
     <div class="sidebar">
