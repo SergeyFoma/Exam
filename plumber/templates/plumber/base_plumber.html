@@ -4,19 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="{% static '../css/style.css' %}">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header_testing"style="width:100%;height:150px;background-color:#39f;">
+    <div class="header">
+        <div class="header1">
+            <div class="header1_img">
+                <img src="../static/img/G3.png" alt="G3">
+            </div>
+            <div class="header1-h2">
+                <h2>TEST online</h2>
+            </div>
+            <div class="header1-h3">
+                <h3>Тестирование работников основных и совмещаемых профессий</h3>
+            </div>
+        </div>
         {% block header_testing %}
         {% endblock %}
     </div>
-    <div class="content"id="content"style="width:100%;min-height:900px;background-color:#fff;margin:0;">
+    <div class="content"id="content">
         {% block content %}
         {% endblock %}
     </div>
-    <div class="footer_testing"style="width:100%;height:150px;background-color:#39f;">
+    <div class="footer_testing">
         {% block footer_testing%}
         {% endblock %}
     </div>
