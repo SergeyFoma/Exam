@@ -14,6 +14,16 @@ class RegisterUserForm(UserCreationForm):
     class Meta:
         model=get_user_model()
         fields = ['username', 'email', 'first_name', 'last_name', 'password1', 'password2','workshop', 'profession']
+        labels={
+            'first_name': 'Имя',
+            'last_name': 'Фамилия',
+            'email': 'Email',
+        }
+        widgets={
+            'first_name': forms.TextInput(attrs={'class':'form-input'}),
+            'last_name': forms.TextInput(attrs={'class':'form-input'}),
+            'email': forms.TextInput(attrs={'class':'form-input'}),
+        }
 
 class LoginUserForm(AuthenticationForm):
     username=forms.CharField(label="login", widget=forms.TextInput(attrs={"class":"form-input"}))
@@ -23,10 +33,10 @@ class LoginUserForm(AuthenticationForm):
         fields=['username', 'password']
 
 class ProfileUserForm(forms.ModelForm):
-    username=forms.CharField(disabled=True, label='Login',widget=forms.TextInput())
-    email=forms.CharField(disabled=True,required=False, label='Email',widget=forms.TextInput())
-    workshop=forms.CharField(disabled=False,required=False, label='Подразделение', widget=forms.TextInput())
-    profession=forms.CharField(disabled=False,required=False, label='Профессия', widget=forms.TextInput())
+    username=forms.CharField(disabled=True, label='Login',widget=forms.TextInput(attrs={'class':'form-input'}))
+    email=forms.CharField(disabled=True,required=False, label='Email',widget=forms.TextInput(attrs={'class':'form-input'}))
+    workshop=forms.CharField(disabled=False,required=False, label='Подразделение', widget=forms.TextInput(attrs={'class':'form-input'}))
+    profession=forms.CharField(disabled=False,required=False, label='Профессия', widget=forms.TextInput(attrs={'class':'form-input'}))
     this_year=datetime.date.today().year
     date_birth=forms.DateField(widget=forms.SelectDateWidget(years=tuple(range(this_year-100, this_year-5))))
 
@@ -38,8 +48,8 @@ class ProfileUserForm(forms.ModelForm):
             'last_name': 'Фамилия',
         }
         widgets={
-            'first_name': forms.TextInput(),
-            'last_name': forms.TextInput(),
+            'first_name': forms.TextInput(attrs={'class':'form-input'}),
+            'last_name': forms.TextInput(attrs={'class':'form-input'}),
         }
 
 class UserPasswordChangeForm(PasswordChangeForm):

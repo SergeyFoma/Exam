@@ -368,6 +368,34 @@ hr {
   }
 
 
-
-
+.form-user {
+  padding: 20px; 
+  background-color: #fff;
+  width:400px;
+  margin: 20px auto;
+  border: 1px solid #171b41;
+}
+.form-user p {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:18px;
+  color: black;
+  margin-bottom: 5px;
+}
+.form-input {
+  width: 200px;
+  height: 20px;
+  border-radius:11px;
+  margin-bottom: 15px;
+  /*margin-left:50px;*/
+  padding: 2px 15px;
+}
+.h2 {
+  font-family: 'Alice';
+  font-weight:bold;
+  font-size:24px;
+  color: #171b41;
+  /*align-items: center;*/
+  margin-bottom: 15px;
+}
 
