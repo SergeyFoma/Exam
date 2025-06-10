@@ -1,11 +1,10 @@
 {% extends "plumber/base_plumber.html" %}
 
 {% block content %}
-    
 
     <div class="form-authoriz">
         <h2>Форма авторизации</h2>
-        <form action=""method='post'>
+        <form action=""method='post'style="margin-bottom:30px;">
             {% csrf_token %}
             <input type="hidden"name="next"value={{next}}>
             <div class="form-error">{{form.non_field_errors}}</div>
@@ -16,10 +15,12 @@
            
                 <div class="form-error">{{f.errors}}</div>
             {% endfor %}
-            <button type='submit'>Войти</button>
+            <button type='submit'class="form-button">Войти</button>
         </form>
 
-        <p><a href="{% url 'users:password_reset' %}">Забыли пароль? Перейдите по ссылке для восстановления пароля.</a></p>
+        <div class="form-a">
+            <p><a href="{% url 'users:password_reset' %}"><p>Забыли пароль?</p><p>Перейдите по ссылке для восстановления пароля.</p></a></p>
+        </div>
     </div>
     <h3>Ещё нет учётной записи? <a href="{% url 'users:register' %}">Зарегистрируйтесь</a> </h3>
 {% endblock %}
