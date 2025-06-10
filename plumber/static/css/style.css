@@ -279,8 +279,10 @@
     width: 100%;
     min-height:520px;
     background-color: rgb(230, 227, 248);
-    display: flex;
-    flex-direction: column; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*display: flex;
+    flex-direction: column; */
 }
 
 /*----------форма авторизации-------*/
@@ -297,7 +299,10 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.form-authoriz h2 {
+.form-authoriz-h2 {
+  font-family: 'Alice';
+  font-weight:bold;
+  font-size:24px;
   margin-bottom: 20px;
 }
 .form-a {
@@ -324,6 +329,10 @@
   font-size:18px;
   color: #fff;
 }
+.form-button:hover {
+  background-color: rgb(117, 53, 177);
+  box-shadow: 10px 5px 5px #535898;
+}
 h3 {
   font-family: 'Alice';
   font-weight:400;
@@ -332,10 +341,12 @@ h3 {
 }
 
 .content-a {
+  width:320px;
   margin: 0px auto;
   background-color: #fff;
   padding: 5px 15px;
   border: 1px solid #4B5193;
+  text-align: center;
 }
 .content-a a {
   font-family: 'Alice';
@@ -343,7 +354,18 @@ h3 {
   font-size:16px;
   color: #4B5193;
 }
-/*-----------------------------*/
+/*---------Форма регистрации------------*/
+
+.form-register {
+  width: 250px;
+  background-color: #fff;
+  margin: 0px auto;
+  padding: 5px 30px;
+  border: 1px solid #4B5193;
+  color:#4B5193;
+}
+
+/*---------------------------------*/
 .footer_testing {
   width:100%;
   height:40px;
@@ -420,7 +442,7 @@ hr {
     text-shadow: 0;
   }
 
-
+/*-----------Profile--------*/
 .form-user {
   padding: 20px; 
   background-color: #fff;
@@ -436,7 +458,7 @@ hr {
   margin-bottom: 5px;
 }
 .form-input {
-  width: 200px;
+  width: 220px;
   height: 20px;
   border: 1px solid #4B5193;
   border-radius:11px;
@@ -444,6 +466,12 @@ hr {
   /*margin-left:50px;*/
   padding: 2px 15px;
 }
+.form-label {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:18px;
+}
+
 .h2 {
   font-family: 'Alice';
   font-weight:bold;

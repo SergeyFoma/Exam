@@ -26,13 +26,18 @@
                 <h3>Тестирование работников основных и совмещаемых профессий</h3>
             </div>
         </div>
-        {% block header_testing %}
-        {% endblock %}
+        
+        <div class="header3">
+            <div class="a">
+                <a href="{% url 'plumber:index' %}"style="margin-left:150px;color:#fff">Главная</a>
+            </div>
+        </div>
     </div>
     <div class="content"id="content">
         {% block content %}
         {% endblock %}
     </div>
+    
     <div class="footer_testing">
         {% block footer_testing%}
         {% endblock %}
