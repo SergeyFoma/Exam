@@ -64,7 +64,7 @@
                 {% mashine_tag as mt %}
                     {% for i in mt %}
                         {%if o.name == i.prof.name%}
-                            <a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</a>
+                            <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</a></p>
                         {%endif%}
 
                     {% endfor %}
