@@ -13,9 +13,9 @@
 
     {%comment%}{{request.user.is_authenticated}}{%endcomment%}
         {%comment%}<p>Экзаменующийся: {{request.user.username}}</p>{%endcomment%}
-    <div class="test_conteiner"style="width:100%;display:flex;justify-content:center;">
-    <div class="test" style="width:900px;background-color: #39f;padding:0 10px 0 10px;">
-        <h2 style="text-align:center;">{{mash.name}}</h2>
+    <div class="test_conteiner">
+    <div class="test">
+        <h2 class="mash-h2">{{mash.name}}</h2>
         {% for i in que %}
         {%comment%}<p style="color:red">{{i.mash}}</p>{%endcomment%}
             <div class="ques_answ"style="border:1px solid gray;margin-bottom:5px;background:#fff">
@@ -24,7 +24,7 @@
                     <p><img src="{{i.image.url}}" alt=""></p>
                 {%endif%}
                 
-                <h2 style="margin-bottom:10px;text-align:center;">{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
+                <h2 class="questions-h2">{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
 
                 <form action="{%url 'plumber:answer'%}"method='get'>
                     {% for q in answ %}
@@ -50,7 +50,7 @@
         {%endfor%}
                                     
             {%comment%}<p><button type="submit"id="button"onclick="printMessage">Submit</button></p>{%endcomment%}
-            <p>Что бы узнать результат тестирования, нажмите на кнопку >>> <button type="submit"id="button"style="background:#05097a;color:#fff;height:40px;min-width:200px;font-size:16px;font-weight:bold;padding:5px;align-items:center;">Закончить тестирование</button></p>
+            <p style="color:#fff;">Что бы узнать результат тестирования, нажмите на кнопку >>> <button type="submit"id="button">Закончить тестирование</button></p>
         </form>
     </div>
 </div>

@@ -534,3 +534,48 @@ p {
 .pass-change a:hover {
   color: rgb(170, 33, 159);
 }
+
+/*----------testing-----------*/
+.test_conteiner {
+  width:100%;
+  display:flex;
+  justify-content:center;
+  
+}
+.test {
+  width:900px;
+  background-color:#4B5193;
+  padding:0 10px 0 10px;
+}
+.mash-h2 {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:24px;
+  color: #fff;
+  text-align: center;
+}
+.questions-h2 {
+  font-family: 'Alice';
+  font-weight:500;
+  font-size:22px;
+  margin-bottom:10px;
+  text-align:center;
+}
+#button {
+  background:#03053a;
+  color:#fff;
+  height:40px;
+  min-width:200px;
+  font-family: 'Alice';
+  font-weight:500;
+  font-size:22px;
+  padding:5px;
+  align-items:center;
+  cursor:pointer;
+  border: 2px solid #fff;
+}
+#button:hover {
+  color:rgb(245, 179, 212);
+  border: 2px solid rgb(245, 179, 212);
+  opacity: 0.8;
+}
