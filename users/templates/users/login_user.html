@@ -19,8 +19,10 @@
         </form>
 
         <div class="form-a">
-            <p><a href="{% url 'users:password_reset' %}"><p>Забыли пароль?</p><p>Перейдите по ссылке для восстановления пароля.</p></a></p>
+            <p>Забыли пароль?</p><a href="{% url 'users:password_reset' %}"><p>Перейдите по ссылке для восстановления пароля.</p></a>
         </div>
     </div>
-    <h3>Ещё нет учётной записи? <a href="{% url 'users:register' %}">Зарегистрируйтесь</a> </h3>
+    <div class="content-a">
+        <h3>Ещё нет учётной записи? <a href="{% url 'users:register' %}">Зарегистрируйтесь</a></h3>
+    </div>
 {% endblock %}

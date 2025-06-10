@@ -278,7 +278,7 @@
 .content {
     width: 100%;
     min-height:520px;
-    background-color: rgb(201, 192, 255);
+    background-color: rgb(230, 227, 248);
     display: flex;
     flex-direction: column; 
 }
@@ -291,7 +291,7 @@
   border: 2px solid red;*/
   background-image: url("../img/form.png");
   background-repeat: no-repeat;
-  color:green;
+  color:#4B5193;
   margin: 50px auto;
   text-align: center;
   padding-top: 30px;
@@ -302,14 +302,42 @@
 }
 .form-a {
   width:350px;
-  background: #D9D9D9;
+  background: rgb(230, 227, 248);
+  padding: 5px;
+  margin: 0px auto;
+}
+.form-a a {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:14px;
+  color: #4B5193;
 }
 .form-button {
   /*width:100px;*/
   padding: 5px 40px;
+  border: 1px solid #4B5193;
   border-radius: 11px;
   background-color: #4B5193;
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:18px;
   color: #fff;
+}
+h3 {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:14px;
+  color: #4B5193;
+}
+
+.content-a {
+  margin: 0px auto;
+}
+.content-a a {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:16px;
+  color: #4B5193;
 }
 /*-----------------------------*/
 .footer_testing {
@@ -406,6 +434,7 @@ hr {
 .form-input {
   width: 200px;
   height: 20px;
+  border: 1px solid #4B5193;
   border-radius:11px;
   margin-bottom: 15px;
   /*margin-left:50px;*/
