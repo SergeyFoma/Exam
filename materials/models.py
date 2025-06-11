@@ -18,10 +18,10 @@ class CategoryMaterials(models.Model):
 
 
 class UploadedFile(models.Model):
-    type_file=models.CharField(max_length=50, verbose_name="file or video", blank=True, null=True)
-    file = models.FileField(upload_to='uploads/')
+    type_file=models.CharField(max_length=50, verbose_name="Файл или видео", blank=True, null=True)
+    file = models.FileField(upload_to='uploads/', verbose_name="Файл")
     uploaded_at = models.DateTimeField(auto_now_add=True)
-    cat=models.ForeignKey(CategoryMaterials, on_delete=models.PROTECT,related_name='categ', blank=True, null=True)
+    cat=models.ForeignKey(CategoryMaterials, on_delete=models.PROTECT,related_name='categ', blank=True, null=True, verbose_name="Категория")
 
     class Meta:
         verbose_name='File'

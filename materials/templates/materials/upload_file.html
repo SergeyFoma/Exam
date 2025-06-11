@@ -1,24 +1,42 @@
+{% extends "base.html" %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>Upload and Download Files</title>
 </head>
 <body>
-    <h2>Upload Files</h2>
+
+
+{% block sideright %}
+<div class="form-register">
+    <h2 class="form-authoriz-h2">Загрузка файлов</h2>
 
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Upload</button>
+        <div class="form-error">{{form.non_field_errors}}</div>
+                {% for f in form %}               
+                    <p><label for="{{f.id_for_label}}"class="form-label">{{f.label}}</label></p>
+                    <p>{{f}}</p>
+            
+                    <div class="form-error">{{f.errors}}</div>
+                {% endfor %}
+        <button type="submit"class="form-button">Загрузить</button>
     </form>
+</div>
 
-    <h3>Uploaded Files:</h3>
+<div class="ul">
+    <h3>Загруженные файлы</h3>
     <ul>
         {% for file in files %}
-            <li><a href="{% url 'materials:download_file' file_id=file.id %}">file-name: {{ file.file.name }}</a></li>
+            <li><a href="{% url 'materials:download_file' file_id=file.id %}"><b>Название файла:</b> {{ file.file.name }}</a></li>
         {% empty %}
             <li>No files uploaded yet.</li>
         {% endfor %}
     </ul>
+</div>
+    
+
+{% endblock %}
 </body>
+
 </html>

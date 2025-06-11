@@ -187,20 +187,10 @@
     min-height: 2000px;
     background-color: #fff;
     padding-bottom: 10px;
-    /*position: fixed;*/
-    /*position: relative;*/
-    /*position: absolute;*/
-    /*z-index: 1;*/
-    /*display: grid; 
-    place-items: center;*/
-    /*display: flex;
-    flex-direction: column;*/
     padding-top:160px;
 }
 .sideright-text {
-  /*position: relative;*/
   width: 800px;
-  /*height: 500px;*/
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -308,7 +298,7 @@
 .form-a {
   width:450px;
   background: rgb(230, 227, 248);
-  /*padding: 5px;*/
+  padding: 3px 0px;
   margin: 0px auto;
   border: 1px solid #4B5193;
 }
@@ -316,10 +306,11 @@
   font-family: 'Alice';
   font-weight:400;
   font-size:14px;
-  color: #4B5193;
+  /*color: #4B5193;*/
+  color: rgb(152, 18, 179);
 }
 .form-a a:hover {
-  color: rgb(170, 33, 159);
+  color: rgb(218, 45, 166);
 }
 .form-a p {
   font-family: 'Alice';
@@ -363,10 +354,11 @@ h3 {
   font-family: 'Alice';
   font-weight:400;
   font-size:16px;
-  color: #4B5193;
+  /*color: #4B5193;*/
+  color: rgb(152, 18, 179);
 }
 .content-a a:hover {
-  color: rgb(170, 33, 159);
+  color: rgb(218, 45, 166);
 }
 /*---------Форма регистрации------------*/
 
@@ -473,11 +465,12 @@ hr {
   font-family: 'Alice';
   font-weight:400;
   font-size:16px;
-  color: #4B5193;
+  /*color: #4B5193;*/
+  color: rgb(152, 18, 179);
   margin-bottom: 5px;
 }
 .user-info a:hover {
-  color: rgb(170, 33, 159);
+  color: rgb(218, 45, 166);
 }
 .user-info h2 {
   font-family: 'Alice';
@@ -529,10 +522,11 @@ p {
   font-family: 'Alice';
   font-weight:400;
   font-size:16px;
-  color: #4B5193;
+  /*color: #4B5193;*/
+  color: rgb(152, 18, 179);
 }
 .pass-change a:hover {
-  color: rgb(170, 33, 159);
+  color: rgb(218, 45, 166);
 }
 
 /*----------testing-----------*/
@@ -578,4 +572,91 @@ p {
   color:rgb(245, 179, 212);
   border: 2px solid rgb(245, 179, 212);
   opacity: 0.8;
+}
+
+/*----------Загрузка файлов-------------*/
+.form-file-input {
+  width: 350px;
+  max-width: 100%;
+  /*color: #444;*/
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:13px;
+  color: #4B5193;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  /*border: 1px solid #555;*/
+  cursor:pointer;
+}
+.form-file-input::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: rgb(25, 112, 128);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  /*transition: background .2s ease-in-out;*/
+}
+
+.form-file-input::file-selector-button:hover {
+  /*background: #4B5193;*/
+  opacity:0.8;
+}
+.form-input-select {
+  width: 220px;
+  height: 20px;
+  border: 1px solid #4B5193;
+  background-color: #D9D9D9;
+}
+.ul {
+  width:500px;
+  margin:20px auto;
+  border: 1px solid #4B5193;
+  padding: 10px;
+}
+.ul h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ul ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  border: 1px solid #4B5193;
+  padding: 5px 10px;
+  background-color: #fff;
+}
+.ul ul li:hover {
+  border: 1px solid rgb(218, 45, 166);
+}
+.ul a {
+  text-decoration: none;
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:14px;
+  /*color: #4B5193;*/
+  color: rgb(152, 18, 179);
+}
+.ul a:hover {
+  color: rgb(218, 45, 166);
+}
+.ul h3 {
+  font-family: 'Alice';
+  font-weight:bold;
+  font-size:18px;
+  color: #4B5193;
+}
+/*-------------------*/
+a {
+  text-decoration: none;
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:16px;
+  color: rgb(152, 18, 179);
+  /*background-color: #D9D9D9;*/
+  /*padding: 0px 3px;*/
+}
+a:hover {
+  color: rgb(218, 45, 166);
 }
