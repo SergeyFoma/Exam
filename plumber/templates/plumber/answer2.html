@@ -6,10 +6,9 @@
 
 
 {% block content %}
-<div id="time" style="text-align: center;font-size: 2em;height:20px;background:#fff;"></div>
 
-<div class="test_conteiner"style="width:100%;display:flex;justify-content:center;background-color: #39f;">
-    <div class="test" style="width:900px;background-color: #fff;padding:0 10px 0 10px;margin-bottom:10px;margin-top:10px;">
+<div class="test_conteiner">
+    <div class="test">
         Username-{{request.user.username}}
         {{que.answers_set.count}}
 
@@ -44,24 +43,29 @@
         <h2>Правильные ответы выделены красным</h2>
         {%for q in que%}
         {%comment%}{{q.answers_set.count}}=====ответы{%endcomment%}
+        <div class="answer2">
             <h3 style="margin_bottom:10px">{{q.name}}</h3>
             {% for a in answers %}
+            
                 {% if a.ques.pk == q.pk %}
+                
                     {% if a.active %}
                         <p style="color:red"> {{a.num}}. {{a.answer}}</p>
                     {% else %}
                         <p>{{a.num}}. {{a.answer}}</p>
                     {% endif %}
+                
                 {% endif %}
+            
             {% endfor %}
-
+        </div>
         {%endfor%}
             
         <a href="{% url 'users:logout_user' %}">Выход(Logout)</a>
     </div>
 </div>
 
-<div id="time" style="text-align: center;font-size: 2em;height:20px;background:#fff;"></div>
+
 
 {%endblock%}
 
