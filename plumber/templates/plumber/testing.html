@@ -27,20 +27,20 @@
                 <h2 class="questions-h2">{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
 
                 <form action="{%url 'plumber:answer'%}"method='get'>
-                    {% for q in answ %}
+                    {% for q in answ %}<!--answ=Answers-->
                     
                         {%if q.ques.name == i.name%}{%comment%}Вопрос 1=Вопрос 1{%endcomment%}
                     
                                 {%if q.active%}
-                                    <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Верно">
-                                    <!--<label for="rad1">{{q.answer}}</label></p>-->
-                                    {{q.num}}. {{q.answer}}</p>
+                                    <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}}'value="Верно">
+                                    <label for="rad1">{{q.num}}.{{q.answer}}</label></p>
+                                    {%comment%}{{q.num}}. {{q.answer}}</p>{%endcomment%}
                                 {%else%}
-                                    <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}} 'value="Не верно">
-                                    <!--<label for="rad1">{{q.answer}}</label></p>-->
-                                    {{q.num}}. {{q.answer}}</p>
-                                    
+                                    <p style="margin-bottom:5px"><input type="radio"id='rad1'name='{{i.name}}'value="Не верно">
+                                    <label for="rad1">{{q.num}}.{{q.answer}}</label></p>
+                                                    
                                 {%endif%}
+                                
                         {%endif%}
 
                         

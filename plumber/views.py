@@ -83,6 +83,8 @@ def testing(request, t_slug):
 
 def answer(request):
     name=request.user.username
+    #lab=request.form.input_name.label
+    #print('lab=====',lab)
     #alist=[]
     for key, value in request.GET.items():
         #res2=f'{key}:{value}'

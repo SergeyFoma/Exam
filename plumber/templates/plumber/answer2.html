@@ -29,12 +29,12 @@
         <hr>
 
         <h2>Ответы пользователя</h2>
-            {% for a in ans %}
+            {% for a in ans %}{%comment%} ans = AnswersUser {%endcomment%}
             
                 {% if a.answer == "Верно" %}
-                    <p style="color:red">{{a.question}}{{a.answer}}</p>
+                    <p style="color:red">{{a.question}}--{{a.answer}}</p>
                 {% else %}
-                    <p>{{a.question}}{{a.answer}}</p>
+                    <p>{{a.question}}--{{a.answer}}</p>
                 {% endif %}
             {% endfor %}
 
@@ -44,7 +44,7 @@
         {%for q in que%}
         {%comment%}{{q.answers_set.count}}=====ответы{%endcomment%}
         <div class="answer2">
-            <h3 style="margin_bottom:10px">{{q.name}}</h3>
+            <h3 style="margin_bottom:10px">{{q.text}}</h3>
             {% for a in answers %}
             
                 {% if a.ques.pk == q.pk %}
