@@ -13,6 +13,9 @@ import subprocess
 from exam import settings
 from django.views.generic import ListView
 
+from bs4 import BeautifulSoup
+import requests
+
 # def index(request):
 #     pfus=UploadedFile.objects.all()
 #     context={
@@ -83,17 +86,23 @@ def testing(request, t_slug):
 
 def answer(request):
     name=request.user.username
-    #lab=request.form.input_name.label
-    #print('lab=====',lab)
-    #alist=[]
+    # url = 'http://127.0.0.1:8000/testing/nasosy-ppd/'
+    # response = requests.get(url)
+    # soup = BeautifulSoup(response.text, 'html.parser')
+    # # Найти первый элемент с тегом <title>
+    # # h2 = soup.find('label').text
+    # # print(h2)
+    # links = soup.find_all('label')
+    # for link in links:
+    #     print(link.get('href'))
+
     for key, value in request.GET.items():
         #res2=f'{key}:{value}'
         #alist.append(res2)
         #print('answer===', res2)
         answers=AnswersUser.objects.create(name_user=name, question=key, answer=value)
         answers.save()
-        
-
+    
         # with open(f'{name}.txt', 'a+', encoding='UTF-8')as f:
         #     f.write(res2+'\n')
     # context={

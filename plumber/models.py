@@ -43,6 +43,7 @@ class Answers(models.Model):
 
 class AnswersUser(models.Model):
     name_user=models.CharField(max_length=255)
+    otvet=models.TextField(null=True, blank=True)
     question=models.CharField(max_length=255)
     answer=models.CharField(max_length=255)
     date=models.DateTimeField(auto_now_add=True)

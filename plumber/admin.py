@@ -21,7 +21,7 @@ class AnswersAdmin(admin.ModelAdmin):
 
 @admin.register(AnswersUser)
 class AnswersUserAdmin(admin.ModelAdmin):
-    list_display=['name_user','question', 'answer', 'date']
+    list_display=['name_user', 'otvet','question', 'answer', 'date']
 
 
 
