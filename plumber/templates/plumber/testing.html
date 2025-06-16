@@ -8,9 +8,10 @@
 
 {% block content %}
 
+{% load plumber_tags %}
 
-<div id="time" style="text-align: center;font-size: 2em;">00:00</div>
-
+<div id="time">00:00</div>
+timing-{{que.count|timing:5}} TIM2=={{que_count}}
     {%comment%}{{request.user.is_authenticated}}{%endcomment%}
         {%comment%}<p>Экзаменующийся: {{request.user.username}}</p>{%endcomment%}
     <div class="test_conteiner">
@@ -50,51 +51,62 @@
         {%endfor%}
                                     
             {%comment%}<p><button type="submit"id="button"onclick="printMessage">Submit</button></p>{%endcomment%}
-            <p style="color:#fff;">Что бы узнать результат тестирования, нажмите на кнопку >>><button type="submit"id="button">Закончить тестирование</button></p>
+            <p style="color:#fff;">Что бы узнать результат тестирования, нажмите на кнопку >>><button type="submit"id="button"onclick="printMessage">Закончить тестирование</button></p>
             
         </form>
-
-        <script>
-            const btn = document.getElementById('button');
-
-            btn.addEventListener('click', () => {
-            // 👇️ hide button
-            btn.style.display = 'none';
-
-            // 👇️ show div
-            const box = document.getElementById('box');
-            box.style.display = 'block';
-            });
-        </script>
-        
+     
     </div>
 </div>
-
-<div id="time" style="text-align: center;font-size: 2em;height:20px;"></div>
-
-<script>
-    function printMessage() { 
-        alert("Время вышло!");
-        //window.location.replace("http://127.0.0.1:8000/answer/");   
-        document.getElementById('button').click();
-        }
-        setTimeout(printMessage, {{que.count}}000+600000);
-        //button.onclick=printMessage
-</script>
 
 <script>
     window.addEventListener("load", function() {
         const clock = document.getElementById("time");
         let time = -1, intervalId;
+        
         function incrementTime() {
           time++;
-          clock.textContent =
-            ("0" + Math.trunc(time / 60)).slice(-2) +
+          tim=("0" + Math.trunc(time / 60)).slice(-2) +
             ":" + ("0" + (time % 60)).slice(-2);
+/*console.log("TIM",typeof(tim))
+console.log("que", typeof(String({{que_count}})))
+console.log('00:'+'0'+String({{que_count}}-20))*/
+          if (tim === "00:"+"0"+String({{que_count}}-20)){
+              clock.style.color="red";
+          }
+          clock.textContent =
+            tim;
         }
         incrementTime();
         intervalId = setInterval(incrementTime, 1000);
       });
+</script>
+
+<script>
+    function printMessage() { 
+        
+        alert("Время вышло!");
+        //window.location.replace("http://127.0.0.1:8000/answer/");   
+        document.getElementById('button').click();
+        
+        }
+        setTimeout(printMessage, {{que_count}}*200);
+        clock = document.getElementById("time");
+
+        //button.onclick=printMessage
+    
+      
+</script>
+<script>
+    btn = document.getElementById('button');
+    btn.addEventListener('click', () => {
+    // 👇️ hide button
+    btn.style.display = 'none';
+    document.getElementById("time").style.display = 'none';
+
+    // 👇️ show div
+    const box = document.getElementById('box');
+    box.style.display = 'block';
+    });
 </script>
 
 {% endblock %}

@@ -665,7 +665,7 @@ a:hover {
 #time {
   text-align: center;
   font-size: 2em;
-  height:20px;
+  min-height:20px;
   background:#fff;
 }
 .test_conteiner {

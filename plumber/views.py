@@ -72,39 +72,21 @@ def testing(request, t_slug):
     #print(que)
     global answ
     answ=Answers.objects.filter(mash=mash).order_by('pk')
+   
     #print(type(mash))
     #que_count_list.append(que_count)
-
-    soup = BeautifulSoup('plumber:testing', 'html.parser')
-    print(soup.prettify())
-    print('label===',soup.find_all('label'))
-    
     context={
         'mash':mash,
         'que':que,
         'answ':answ,   
-        
+        'que_count':que_count,
     }
     return render(request, "plumber/testing.html", context) 
 
 
 def answer(request):
     name=request.user.username
-    # url = 'http://127.0.0.1:8000/testing/nasosy-ppd/'
-    # response = requests.get(url)
-    # soup = BeautifulSoup(response.text, 'html.parser')
-    # # Найти первый элемент с тегом <title>
-    # # h2 = soup.find('label').text
-    # # print(h2)
-    # links = soup.find_all('label')
-    # for link in links:
-    #     print(link.get('href'))
-    
-
     for key, value in request.GET.items():
-        #res2=f'{key}:{value}'
-        #alist.append(res2)
-        #print('answer===', res2)
         answers=AnswersUser.objects.create(name_user=name, question=key, answer=value)
         answers.save()
     
