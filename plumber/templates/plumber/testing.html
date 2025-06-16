@@ -26,7 +26,7 @@
                 
                 <h2 class="questions-h2">{{i.text}}</h2> {%comment%}Вопросы по теме{%endcomment%}
 
-                <form action="{%url 'plumber:answer'%}"method='get'>
+                <form action="{%url 'plumber:answer'%}"method='get'target="_blank">
                     {% for q in answ %}<!--answ=Answers-->
                     
                         {%if q.ques.name == i.name%}{%comment%}Вопрос 1=Вопрос 1{%endcomment%}
@@ -50,9 +50,23 @@
         {%endfor%}
                                     
             {%comment%}<p><button type="submit"id="button"onclick="printMessage">Submit</button></p>{%endcomment%}
-            <p style="color:#fff;">Что бы узнать результат тестирования, нажмите на кнопку >>> <button type="submit"id="button">Закончить тестирование</button></p>
+            <p style="color:#fff;">Что бы узнать результат тестирования, нажмите на кнопку >>><button type="submit"id="button">Закончить тестирование</button></p>
             
         </form>
+
+        <script>
+            const btn = document.getElementById('button');
+
+            btn.addEventListener('click', () => {
+            // 👇️ hide button
+            btn.style.display = 'none';
+
+            // 👇️ show div
+            const box = document.getElementById('box');
+            box.style.display = 'block';
+            });
+        </script>
+        
     </div>
 </div>
 

@@ -47,3 +47,5 @@ class AnswersUser(models.Model):
     question=models.CharField(max_length=255)
     answer=models.CharField(max_length=255)
     date=models.DateTimeField(auto_now_add=True)
+
+

@@ -74,6 +74,10 @@ def testing(request, t_slug):
     answ=Answers.objects.filter(mash=mash).order_by('pk')
     #print(type(mash))
     #que_count_list.append(que_count)
+
+    soup = BeautifulSoup('plumber:testing', 'html.parser')
+    print(soup.prettify())
+    print('label===',soup.find_all('label'))
     
     context={
         'mash':mash,
@@ -95,6 +99,7 @@ def answer(request):
     # links = soup.find_all('label')
     # for link in links:
     #     print(link.get('href'))
+    
 
     for key, value in request.GET.items():
         #res2=f'{key}:{value}'
