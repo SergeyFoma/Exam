@@ -69,8 +69,9 @@ timing-{{que.count|timing:5}} TIM2=={{que_count}}
             ":" + ("0" + (time % 60)).slice(-2);
 /*console.log("TIM",typeof(tim))
 console.log("que", typeof(String({{que_count}})))*/
-console.log('00:'+'0'+String({{que_count}}-15))
-          if (tim === "00:"+"0"+String({{que_count}}-15)){
+console.log(String({{que_count}}+5)+":00")
+console.log(20*60000+300000)
+          if (tim === String({{que_count}})+":00"){
               clock.style.color="red";
           }
           clock.textContent =
@@ -89,7 +90,7 @@ console.log('00:'+'0'+String({{que_count}}-15))
         document.getElementById('button').click();
         
         }
-        setTimeout(printMessage, {{que_count}}*1000);
+        setTimeout(printMessage, {{que_count}}*60000+300000);
         clock = document.getElementById("time");
 
         //button.onclick=printMessage
@@ -97,6 +98,7 @@ console.log('00:'+'0'+String({{que_count}}-15))
       
 </script>
 <script>
+    //Кнопка скрывается
     btn = document.getElementById('button');
     btn.addEventListener('click', () => {
     // 👇️ hide button
