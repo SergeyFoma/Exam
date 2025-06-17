@@ -1,4 +1,5 @@
 {% load static %}
+{% load plumber_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,9 +29,9 @@
         </div>
         
         <div class="header3">
-            <div class="a">
-                <a href="{% url 'plumber:index' %}"style="margin-left:150px;color:#fff">Главная</a>
-            </div>
+            {% if request.path|slice:":9" == '/testing/' %}
+                <h3 style="color:#fff;margin-left:100px;">{{request.user.first_name}} {{request.user.last_name}} {{request.user.workshop}} {{request.user.profession}}</h3>
+            {% endif %}
         </div>
     </div>
     <div class="content"id="content">
