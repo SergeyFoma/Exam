@@ -68,9 +68,9 @@ timing-{{que.count|timing:5}} TIM2=={{que_count}}
           tim=("0" + Math.trunc(time / 60)).slice(-2) +
             ":" + ("0" + (time % 60)).slice(-2);
 /*console.log("TIM",typeof(tim))
-console.log("que", typeof(String({{que_count}})))
-console.log('00:'+'0'+String({{que_count}}-20))*/
-          if (tim === "00:"+"0"+String({{que_count}}-20)){
+console.log("que", typeof(String({{que_count}})))*/
+console.log('00:'+'0'+String({{que_count}}-15))
+          if (tim === "00:"+"0"+String({{que_count}}-15)){
               clock.style.color="red";
           }
           clock.textContent =
@@ -89,7 +89,7 @@ console.log('00:'+'0'+String({{que_count}}-20))*/
         document.getElementById('button').click();
         
         }
-        setTimeout(printMessage, {{que_count}}*200);
+        setTimeout(printMessage, {{que_count}}*1000);
         clock = document.getElementById("time");
 
         //button.onclick=printMessage
