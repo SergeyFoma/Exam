@@ -8,7 +8,7 @@ class ProfessionsAdmin(admin.ModelAdmin):
 
 @admin.register(Mashine)
 class MashineAdmin(admin.ModelAdmin):
-    list_display=['name', 'slug', 'prof']
+    list_display=['id','name', 'slug', 'prof']
     prepopulated_fields={'slug':('name',)}
 
 @admin.register(Questions)
