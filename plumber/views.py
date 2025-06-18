@@ -60,10 +60,12 @@ def vibor(request):
     return render(request, "plumber/vibor.html", context)
 
 #que_count_list=[]
+mash=''
 que_count=int()
 answ=''
 que=''
 def testing(request, t_slug):
+    global mash
     mash=get_object_or_404(Mashine, slug=t_slug)
     global que
     que=Questions.objects.filter(mash=mash).order_by('pk')
@@ -133,6 +135,7 @@ def answer2(request):
         'que':que,
         #'que_count_list':que_count_list,
         'ans':ans,
+        'mash':mash,
     }
     return render(request, "plumber/answer2.html", context)
 
