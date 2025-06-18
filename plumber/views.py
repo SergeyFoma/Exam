@@ -119,8 +119,10 @@ def answer2(request):
     #     print(i)
     #print('IIII-',i)
     variance=round(ques_res/que_count*100,2) #отклонение
-    percent=round((answertrue/(answertrue+answerfalse)*100),2)-(100-variance)#правильных ответов
+    #percent=round((float(answertrue)/(float(answertrue)+float(answerfalse))*100),2)-(100-float(variance))#правильных ответов
     #que=Questions.objects.all()
+    percent_true=(answertrue*100)/que_count
+    
 
     context={
         'answ':answ,
@@ -128,7 +130,7 @@ def answer2(request):
         'answertrue':answertrue,
         'answerfalse':answerfalse,
         'variance':variance,
-        'percent':percent,
+        #'percent':percent,
         #'que_num':que_num,
         'ques_res':ques_res,
         'que_count':que_count,
@@ -136,6 +138,7 @@ def answer2(request):
         #'que_count_list':que_count_list,
         'ans':ans,
         'mash':mash,
+        'percent_true':percent_true,
     }
     return render(request, "plumber/answer2.html", context)
 
