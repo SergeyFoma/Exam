@@ -9,23 +9,24 @@
 
 <div class="test_conteiner">
     <div class="test">
-        <div id="time-text"style="width:100%;width:200px;"><p id="date">DATE:</p></div>
-        <p>{{request.user.last_name}} {{request.user.first_name}} {{request.user.profession}} {{request.user.workshop}}</p>
-        <p><b>{{mash.name}}</b></p>
+        <div class="result">
+            <div id="time-text"style="width:100%;width:200px;"><p id="date">DATE:</p></div>
+            <p>{{request.user.last_name}} {{request.user.first_name}} {{request.user.profession}} {{request.user.workshop}}</p>
+            <p><b>{{mash.name}}</b></p>
 
-        <hr>
+            <hr>
 
-        <h2>Результаты теста</h2>
-        <p>Всего вопросов - {{que_count}}</p>
-        <p>Решённых - {{ques_res}} - {{variance}}%</p>
-        <p>Правильных ответов - {{answertrue}} - {{percent_true}}%</p>
-        
-        {% if percent < 80 %}
-            <p>Тест не пройден. Правильных ответов должно быть не менее 80%.</p>
-        {% else %}
-            <p>Тест пройден</p>
-        {% endif %}
-       
+            <h2>Результаты теста</h2>
+            <p>Всего вопросов - {{que_count}}</p>
+            <p>Решённых - {{ques_res}} - {{variance}}%</p>
+            <p>Правильных ответов - {{answertrue}} - {{percent_true}}%</p>
+            
+            {% if percent < 80 %}
+                <p>Тест не пройден. Правильных ответов должно быть не менее 80%.</p>
+            {% else %}
+                <p>Тест пройден</p>
+            {% endif %}
+        </div>   
         
 
         {%comment%}<h2>Ответы пользователя</h2>
