@@ -18,6 +18,7 @@ from django.views.generic.edit import UpdateView
 from django.contrib.auth import get_user_model
 from django.views.generic import ListView
 
+
 # def register(request):
 #     if request.method=="POST":
 #         form=RegisterUserForm(request.POST)

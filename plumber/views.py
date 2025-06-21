@@ -13,8 +13,10 @@ import subprocess
 from exam import settings
 from django.views.generic import ListView
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
 import requests
+import lxml
+from datetime import datetime
 
 # def index(request):
 #     pfus=UploadedFile.objects.all()
@@ -147,3 +149,23 @@ def answer2(request):
 # def file_pdf(request):
 #     start_pdf=os.startfile('./files_pdf/one.pdf')
 #     return render(request, 'plumber/file_pdf.html', {'start_pdf':start_pdf})
+
+def parser(request):
+       #парсим страницу с результатом(answer2) и записываем в result.txt
+    now=datetime.now()
+
+    url = "http://127.0.0.1:8000/answer2/"
+    response = requests.get(url)
+    bs=BeautifulSoup(response.text,'lxml')
+
+    temp2=bs.find(class_='result').find('h2')
+    with open('resultat.txt','w+',encoding='UTF-8')as f:
+        f.write(f'{now.strftime("%d.%m.%Y")}\n{temp2.text}\n')
+
+    temp3=bs.find(class_='result').find_all('p')
+    for x in temp3:
+        with open('resultat.txt','a',encoding='UTF-8')as f:
+            f.write(f'{x.text}\n')
+    
+    #return render(request, "plumber/parser.html",context)
+    return redirect(reverse("users:logout_user"))
