@@ -18,6 +18,7 @@
 
         {%if request.user.is_superuser%}
             <p><a href="{% url 'materials:upload_file' %}">Загрузить файлы</a></p>
+            <p><a href="{% url 'admin:index' %}">Панель администратора</a></p>
         {% endif %}
 
 
