@@ -160,12 +160,12 @@ def parser(request):
 
     temp1=bs.find(class_='result').find('b')
     temp2=bs.find(class_='result').find('h2')
-    with open(f'./media/uploads/result/{request.user.last_name}-{temp1.text}.txt','w+',encoding='UTF-8')as f:
+    with open(f'./media/uploads/result/{request.user.last_name}-{temp1.text}-{request.user.username}.txt','w+',encoding='UTF-8')as f:
         f.write(f'{now.strftime("%d.%m.%Y")}\n{temp2.text}\n')
 
     temp3=bs.find(class_='result').find_all('p')
     for x in temp3:
-        with open(f'./media/uploads/result/{request.user.last_name}-{temp1.text}.txt','a',encoding='UTF-8')as f:
+        with open(f'./media/uploads/result/{request.user.last_name}-{temp1.text}-{request.user.username}.txt','a',encoding='UTF-8')as f:
             f.write(f'{x.text}\n')
     
     #return render(request, "plumber/parser.html",context)
