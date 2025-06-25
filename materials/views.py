@@ -1,10 +1,11 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse
 from materials.forms import UploadFileForm
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
 from .models import UploadedFile, CategoryMaterials
 from .forms import UploadFileForm
 
+from django.http import FileResponse
 import os
 import subprocess
 from exam import settings
@@ -58,4 +59,6 @@ def download_file(request, file_id):
     response = HttpResponse(uploaded_file.file, content_type='application/force-download')
     response['Content-Disposition'] = f'attachment; filename="{uploaded_file.file.name}"'
     return response
+
+
 

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from plumber.models import Questions, Answers, AnswersUser
 from django.shortcuts import redirect
-from django.http import HttpResponseRedirect, HttpResponse, FileResponse
+from django.http import HttpResponseRedirect, HttpResponse, FileResponse, Http404
 from django.urls import reverse, reverse_lazy 
 #from plumber.utils import redir
 from plumber.forms import TestForm
@@ -161,7 +161,7 @@ def parser(request):
     temp1=bs.find(class_='result').find('b')
     temp2=bs.find(class_='result').find('h2')
     with open(f'./media/uploads/result/{request.user.last_name}-{temp1.text}-{request.user.username}.txt','w+',encoding='UTF-8')as f:
-        f.write(f'{now.strftime("%d.%m.%Y")}\n{temp2.text}\n')
+        f.write(f'{request.user.last_name}-{request.user.username}. {now.strftime("%d.%m.%Y")}\n{temp2.text}\n')
 
     temp3=bs.find(class_='result').find_all('p')
     for x in temp3:
@@ -170,3 +170,25 @@ def parser(request):
     
     #return render(request, "plumber/parser.html",context)
     return redirect(reverse("users:logout_user"))
+
+def result(request):
+    context={
+
+    }
+    return render(request,"plumber/result.html",context)
+
+def download(request):
+    file_path = os.path.join(settings.MEDIA_ROOT)
+    path2="/uploads/result/"
+    path3=file_path+path2
+    print("file_path==========",file_path)
+    print("PATH3======",path3)
+    name="DerF-Сварочные работы-DERF.txt"
+    path4=path3+name
+    print("PATH4======",path4)
+    if os.path.exists(path4):
+        with open(path4, 'rb') as fh:
+            response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
+            response['Content-Disposition'] = 'inline; filename='+name 
+            return response
+    raise Http404

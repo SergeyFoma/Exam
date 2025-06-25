@@ -30,3 +30,4 @@ class UploadedFile(models.Model):
     def __str__(self):
         return self.type_file
 
+

@@ -10,5 +10,6 @@ urlpatterns=[
     path('category_post/<int:cat_id>/', views.category_post, name="category_post"),
 
     path('file_pdf/<int:ind_id>/', views.file_pdf, name='file_pdf'),
+    
 ]
 

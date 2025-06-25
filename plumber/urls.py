@@ -11,6 +11,8 @@ urlpatterns = [
     path('answer/', views.answer, name='answer'),
     path('answer2/', views.answer2, name='answer2'),
     path("parser/", views.parser, name='parser'),
+    path('result/',views.result,name="result"),
+    path('download/',views.download,name='download'),
     
 
     #path('file_pdf/<int:ind_id>/', views.file_pdf, name='file_pdf'),
