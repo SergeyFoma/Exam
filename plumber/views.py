@@ -172,23 +172,39 @@ def parser(request):
     return redirect(reverse("users:logout_user"))
 
 def result(request):
-    context={
-
-    }
-    return render(request,"plumber/result.html",context)
-
-def download(request):
     file_path = os.path.join(settings.MEDIA_ROOT)
     path2="/uploads/result/"
     path3=file_path+path2
-    print("file_path==========",file_path)
-    print("PATH3======",path3)
-    name="DerF-Сварочные работы-DERF.txt"
-    path4=path3+name
-    print("PATH4======",path4)
-    if os.path.exists(path4):
-        with open(path4, 'rb') as fh:
-            response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
-            response['Content-Disposition'] = 'inline; filename='+name 
-            return response
-    raise Http404
+    #print(path3)
+    pth=os.listdir(path3)
+    ilist=[]
+    for i in pth:
+        #print(i)
+        ilist.append(i)
+    print(ilist)
+    context={
+        'ilist':ilist,
+    }
+    return render(request,"plumber/result.html",context)
+
+def download(request, name):
+    file_path = os.path.join(settings.MEDIA_ROOT)
+    path2="/uploads/result/"
+    path3=file_path+path2
+    #print("file_path==========",file_path)
+    #print("PATH3======",path3)
+    #name="DerF-Сварочные работы-DERF.txt"
+    pth=os.listdir(path3)
+    name=''
+    for i in pth:
+        print("IIIII====",i)
+        name=i
+        print("NAME====",name)
+        path4=path3+name
+        print("PATH4======",path4)
+        if os.path.exists(path4):
+            with open(path4, 'rb') as fh:
+                response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
+                response['Content-Disposition'] = f'attachment; filename={name}' 
+                return response
+        raise Http404

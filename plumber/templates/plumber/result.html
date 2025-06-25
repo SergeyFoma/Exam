@@ -1,2 +1,7 @@
-<a href="/media/uploads/result/DerF-Насосное оборудование. Тест - 2.-DERF.txt"download>Скачать</a>
-<a href="{%url 'plumber:download'%}">Скачать</a>
+
+
+
+{%for i in ilist%}
+<p><a href="{% url 'plumber:download' name=i %}">{{i}}</a></p>
+{%endfor%}
+
