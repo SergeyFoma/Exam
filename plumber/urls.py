@@ -12,7 +12,8 @@ urlpatterns = [
     path('answer2/', views.answer2, name='answer2'),
     path("parser/", views.parser, name='parser'),
     path('result/',views.result,name="result"),
-    path('download/<str:name>/',views.download,name='download'),
+    #path('download/<str:file_path>/',views.download,name='download'),
+    #path('download/<str:filename>/',views.download,name='download'),
     #path('download/',views.download,name='download'),
     
 
