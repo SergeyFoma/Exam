@@ -176,9 +176,9 @@ def result(request):
     #print(file_path)
     path2="/uploads/result/"
     path3=file_path+path2
-    print('path3==',path3)
+    #print('path3==',path3)
     pth=os.listdir(path3)
-    print('pth===',pth)
+    #print('pth===',pth)
     ilist=[]
     pat="../media/uploads/result/"
     for i in pth:
@@ -194,12 +194,12 @@ def result(request):
 
 def delete_file(request,name):
     #name='asdfg'
-    file_path = f"C:/Users/Fomenko.SM/EXAM_PSO3/Exam4/Exam/media/uploads/result/{name}"
-    print('file_path===',file_path)
+    #file_path = f"C:/Users/Fomenko.SM/EXAM_PSO3/Exam4/Exam/media/uploads/result/{name}"
+    #print('file_path===',file_path)
     file_path2 = os.path.join(settings.MEDIA_ROOT)
     path3=file_path2 + f"/uploads/result/{name}"
-    print(path3)
-    print('file_path2===',file_path2)
+    #print(path3)
+    #print('file_path2===',file_path2)
     os.remove(path3)
    
     
