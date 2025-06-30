@@ -6,7 +6,7 @@ from django.urls import reverse, reverse_lazy
 #from plumber.utils import redir
 from plumber.forms import TestForm
 from django.shortcuts import get_object_or_404
-from plumber.models import Mashine, Professions
+from plumber.models import Mashine, Professions, FileResult
 from materials.models import UploadedFile
 import os
 import subprocess
@@ -160,35 +160,49 @@ def parser(request):
 
     temp1=bs.find(class_='result').find('b')
     temp2=bs.find(class_='result').find('h2')
-    with open(f'./media/uploads/result/{request.user.last_name}-{temp1.text}-{request.user.username}.txt','w+',encoding='UTF-8')as f:
-        f.write(f'{request.user.last_name}-{request.user.username}. {now.strftime("%d.%m.%Y")}\n{temp2.text}\n')
+    with open(f'./media/uploads/result/{request.user.last_name}-{request.user.first_name}-{temp1.text}-{request.user.username}.txt','w+',encoding='UTF-8')as f:
+        f.write(f'{request.user.last_name}-{request.user.first_name}-{request.user.username}. {now.strftime("%d.%m.%Y")}\n{temp2.text}\n')
 
     temp3=bs.find(class_='result').find_all('p')
     for x in temp3:
-        with open(f'./media/uploads/result/{request.user.last_name}-{temp1.text}-{request.user.username}.txt','a',encoding='UTF-8')as f:
+        with open(f'./media/uploads/result/{request.user.last_name}-{request.user.first_name}-{temp1.text}-{request.user.username}.txt','a',encoding='UTF-8')as f:
             f.write(f'{x.text}\n')
-    
+    #FileResult.objects.create(name=f'uploads/result/{request.user.last_name}-{request.user.first_name}-{temp1.text}-{request.user.username}.txt').save()
     #return render(request, "plumber/parser.html",context)
     return redirect(reverse("users:logout_user"))
 
 def result(request):
     file_path = os.path.join(settings.MEDIA_ROOT)
+    #print(file_path)
     path2="/uploads/result/"
     path3=file_path+path2
-  
+    print('path3==',path3)
     pth=os.listdir(path3)
+    print('pth===',pth)
     ilist=[]
     pat="../media/uploads/result/"
     for i in pth:
-        print(i)
+        #print(file_path+path2+i)
         ilist.append(pat+i)
-
-    print(ilist)
+        #os.remove(os.path.join(settings.MEDIA_ROOT)+"/uploads/result/"+i)
+    #print(ilist)
     context={
         'ilist':ilist,
     }
     return render(request,"plumber/result.html",context)
 
-# def download(request, name):
-#     file_path = os.path.join(settings.MEDIA_ROOT)
-#     path2="/uploads/result/"
+
+def delete_file(request,name):
+    #name='asdfg'
+    file_path = f"C:/Users/Fomenko.SM/EXAM_PSO3/Exam4/Exam/media/uploads/result/{name}"
+    print('file_path===',file_path)
+    file_path2 = os.path.join(settings.MEDIA_ROOT)
+    path3=file_path2 + f"/uploads/result/{name}"
+    print(path3)
+    print('file_path2===',file_path2)
+    os.remove(path3)
+   
+    
+    return render(request,"plumber/delete_file.html",{'name':name})
+
+

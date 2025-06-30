@@ -1,5 +1,5 @@
 from django.contrib import admin
-from plumber.models import Questions, Answers, AnswersUser, Mashine, Professions
+from plumber.models import Questions, Answers, AnswersUser, Mashine, Professions, FileResult
 
 @admin.register(Professions)
 class ProfessionsAdmin(admin.ModelAdmin):
@@ -22,6 +22,10 @@ class AnswersAdmin(admin.ModelAdmin):
 @admin.register(AnswersUser)
 class AnswersUserAdmin(admin.ModelAdmin):
     list_display=['name_user', 'otvet','question', 'answer', 'date']
+
+@admin.register(FileResult)
+class FileResultAdmin(admin.ModelAdmin):
+    list_display=['name',]
 
 
 

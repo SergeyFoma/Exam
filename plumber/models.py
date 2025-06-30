@@ -49,3 +49,5 @@ class AnswersUser(models.Model):
     date=models.DateTimeField(auto_now_add=True)
 
 
+class FileResult(models.Model):
+    name=models.FileField(upload_to="uploads/result/")
