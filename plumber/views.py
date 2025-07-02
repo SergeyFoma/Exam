@@ -30,7 +30,7 @@ class Index(ListView):
     template_name='plumber/index.html'
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = 'Главная страница'
+        context["title"] = 'Test online. Тестирование работников основных и смежных профессий'
         return context
     def get_queryset(self):
         return UploadedFile.objects.all()
@@ -67,6 +67,7 @@ que_count=int()
 answ=''
 que=''
 def testing(request, t_slug):
+    title='Test online. Страница тестирования.'
     global mash
     mash=get_object_or_404(Mashine, slug=t_slug)
     global que
@@ -84,6 +85,7 @@ def testing(request, t_slug):
         'que':que,
         'answ':answ,   
         'que_count':que_count,
+        'title':title,
     }
     return render(request, "plumber/testing.html", context) 
 
@@ -103,6 +105,7 @@ def answer(request):
     return redirect(reverse("plumber:answer2"))
 
 def answer2(request):
+    title="Test online. Результаты теста."
     # for i in answ:
     #     print(i.answer)
     #print('QUE_COUNT_LIST===',que_count_list[0:])
@@ -141,6 +144,7 @@ def answer2(request):
         'ans':ans,
         'mash':mash,
         'percent_true':percent_true,
+        'title':title,
     }
     return render(request, "plumber/answer2.html", context)
 

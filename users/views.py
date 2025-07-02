@@ -89,6 +89,7 @@ class Profile(LoginRequiredMixin, UpdateView, ListView):
     model=get_user_model()
     form_class = ProfileUserForm
     template_name="users/profile.html" 
+    extra_context={"title":"Страница пользователя"}
     success_url = reverse_lazy("users:profile")
     #context_object_name = 'professia'
 

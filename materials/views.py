@@ -14,6 +14,7 @@ from exam import settings
 c_id=int()
 def category_post(request, cat_id):
     cat_post=get_object_or_404(CategoryMaterials, id=cat_id)
+    title=cat_post.name
     # print('cat_id===',cat_id)
     # print(cat_post)
     global c_id
@@ -21,6 +22,7 @@ def category_post(request, cat_id):
         
     context = {
         'cat_post':cat_post,
+        'title':title,
     }
     return render(request, "materials/category_post.html", context)
 
