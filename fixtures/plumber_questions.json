@@ -1318,5 +1318,105 @@
     "image": "",
     "mash": 4
   }
+},
+{
+  "model": "plumber.questions",
+  "pk": 133,
+  "fields": {
+    "name": "sppk-1",
+    "text": "1. К какому виду оборудования относится клапан СППК?",
+    "image": "questions/2025/07/03/сппк.png",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 134,
+  "fields": {
+    "name": "sppk-2",
+    "text": "2. Расшифруйте аббревиатуру СППК.",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 135,
+  "fields": {
+    "name": "sppk-3",
+    "text": "3. Какие данные должны быть нанесены на бирке клапана?",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 136,
+  "fields": {
+    "name": "sppk-4",
+    "text": "4. Порядок приёма клапана в ремонт.",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 137,
+  "fields": {
+    "name": "sppk-5",
+    "text": "5. При каком давлении проверяется герметичность затвора клапана.",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 138,
+  "fields": {
+    "name": "sppk-6",
+    "text": "6. Какие виды работ, согласно РУПК-78, выполняются при ревизии клапана?",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 139,
+  "fields": {
+    "name": "sppk-7",
+    "text": "7. Как производится проверка пружины клапана СППК?",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 140,
+  "fields": {
+    "name": "sppk-8",
+    "text": "8. Что такое максимальный прогиб пружины?",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 141,
+  "fields": {
+    "name": "sppk-9",
+    "text": "Что обозначает маркировка предохранительного клапана СППК4Р-100-16?",
+    "image": "",
+    "mash": 5
+  }
+},
+{
+  "model": "plumber.questions",
+  "pk": 142,
+  "fields": {
+    "name": "sppk-10",
+    "text": "10. Нарушена герметичность затвора (протечка в затворе превышает допустимую). Какова причина данной неисправности?",
+    "image": "",
+    "mash": 5
+  }
 }
 ]
