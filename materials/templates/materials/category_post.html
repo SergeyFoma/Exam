@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
+
 {% load plumber_tags %}
+{% load filename %}
+
 
 {% block header %}
 
@@ -12,27 +15,40 @@
 {% endblock %}
 
 {% block sideright %}
+<div class="sideright-block-content">
+    <div class="category-materials">
+        <h2 style="text-align: center;margin-bottom: 10px;">{{cat_post}}</h2> 
+        <p style="text-align: center;"><img src="{{cat_post.photo.url}}" alt=""style="width:300px;"></p>
 
-<h3>{{cat_post}}</h3> 
-<p><img src="{{cat_post.photo.url}}" alt=""style="width:300px;"></p>
+        <div class="">
+            {% up_fil as uf %}
+            
 
-{% up_fil as uf %}
+            {% for u in uf %}
+                {% if u.type_file == "video" %}
+                    {% if u.cat == cat_post %}
+                        <div>
+                            
+                            <a href="{% url 'materials:file_pdf' ind_id=u.id %}">Открыть в отдельном окне {{u.file|filename}}</a>
+                        </div>
+                        <video width="420" height="240" controls>
+                            <source src="/media/{{u.file}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        {%comment%}<video src="/media/{{u.file}}" autoplay controls></video>{%endcomment%}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
 
-{% for u in uf %}
-    {% if u.type_file == "video" %}
-        {% if u.cat == cat_post %}
-            <p><a href="{% url 'materials:file_pdf' ind_id=u.id %}">{{u.cat}} {{u.file}}</a></p>
-        {% endif %}
-    {% endif %}
-{% endfor %}
-
-{% for u in uf %}
-    {% if u.type_file == "file" %}
-        {% if u.cat == cat_post %}
-            <p><a href="{% url 'materials:file_pdf' ind_id=u.id %}">{{u.cat}} {{u.file}}</a></p>
-        {% endif %}
-    {% endif %}
-{% endfor %}
-
+            {% for u in uf %}
+                {% if u.type_file == "file" %}
+                    {% if u.cat == cat_post %}
+                        <p><a href="{% url 'materials:file_pdf' ind_id=u.id %}">{{u.file}}</a></p>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
 {% endblock %}
 

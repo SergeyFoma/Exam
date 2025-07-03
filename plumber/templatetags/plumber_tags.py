@@ -24,3 +24,4 @@ def category_tag():
 def timing(a,b):
     tim2=int(a)+int(b)
     return tim2
+

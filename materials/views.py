@@ -19,7 +19,8 @@ def category_post(request, cat_id):
     # print(cat_post)
     global c_id
     c_id=cat_id
-        
+
+    #video_path = os.path.join(settings.MEDIA_ROOT)    
     context = {
         'cat_post':cat_post,
         'title':title,
