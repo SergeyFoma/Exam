@@ -27,7 +27,7 @@
             {% for u in uf %}
                 {% if u.type_file == "video" %}
                     {% if u.cat == cat_post %}
-                        <div>
+                        <div class="file-video"style="width=420;border:1px solid blue;text-align:center;margin-bottom:5px;">
                             
                             <a href="{% url 'materials:file_pdf' ind_id=u.id %}">Открыть в отдельном окне {{u.file|filename}}</a>
                         </div>
@@ -43,7 +43,9 @@
             {% for u in uf %}
                 {% if u.type_file == "file" %}
                     {% if u.cat == cat_post %}
-                        <p><a href="{% url 'materials:file_pdf' ind_id=u.id %}">{{u.file}}</a></p>
+                        <div class="file-video"style="width=420;border:1px solid blue;text-align:center;margin-bottom:5px;">
+                            <a href="{% url 'materials:file_pdf' ind_id=u.id %}">{{u.file|filename}}</a>
+                        </div>
                     {% endif %}
                 {% endif %}
             {% endfor %}
