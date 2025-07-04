@@ -232,6 +232,14 @@
   /*margin-bottom: 10px;*/
 }
 
+.sideright .file-video {
+  width:420px;
+  border:1px solid #4B5193;
+  color: #4B5193;
+  text-align:center;
+  margin-bottom:5px;
+}
+
 
 .info_test {
     width: 80%;
