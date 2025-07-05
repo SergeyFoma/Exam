@@ -1,15 +1,19 @@
+{% extends "plumber/base_plumber.html" %}
 
+{% block content %}
 
+    <div class="ul">
+        <ul>
+            {%for i in ilist%}
+            
+            <li><a href="{{i}}"download>Скачать файл - {{i|slice:"24:"}}</a></li>
+            <li><a href="{% url 'plumber:delete_file' name=i|slice:'24:'%}">Удалить файл - {{i|slice:"24:"}}</a></li>
+                    
+            {%endfor%} 
+        </ul>
+    </div> 
 
-{%for i in ilist%}
-
-<p><a href="{{i}}"download>Скачать файл - {{i|slice:"24:"}}</a></p>
-<p><a href="{% url 'plumber:delete_file' name=i|slice:'24:'%}">Удалить файл - {{i|slice:"24:"}}</a></p>
-           
-{%endfor%}
-
-<hr>
-
+{% endblock %}
 
 
 
