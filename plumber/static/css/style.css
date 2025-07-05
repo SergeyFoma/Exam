@@ -235,9 +235,13 @@
 .sideright .file-video {
   width:420px;
   border:1px solid #4B5193;
+  border-radius: 11px;
   color: #4B5193;
   text-align:center;
   margin-bottom:5px;
+}
+.sideright .file-video img{
+  border:1px solid red;
 }
 
 
