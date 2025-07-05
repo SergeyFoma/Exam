@@ -115,7 +115,7 @@ def answer2(request):
     # print(que_num)
     ans=AnswersUser.objects.all().order_by('pk')
 
-    answers=Answers.objects.all().order_by('pk')
+    answers=Answers.objects.all().order_by('pk').select_related("ques")
     answertrue=AnswersUser.objects.filter(answer='Верно').count()
     answerfalse=AnswersUser.objects.filter(answer='Не верно').count()
     ques_res=answertrue+answerfalse #решенных вопросов
