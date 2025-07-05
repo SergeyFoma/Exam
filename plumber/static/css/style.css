@@ -699,3 +699,23 @@ a:hover {
   font-size:18px;
   color: #4B5193;
 }
+
+.a-item {
+  width: 300px;
+  /*height:40px;*/
+  background-image: url("../img/button-exit.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 11px;
+  border: 1px solid darkblue;
+  text-align:center;
+  display: grid; 
+  place-items: center;
+  padding: 5px 10px;
+}
+.a-item a {
+  color: rgb(247, 22, 59);
+  font-family: 'Alice';
+  font-weight:bold;
+  font-size:24px;
+}

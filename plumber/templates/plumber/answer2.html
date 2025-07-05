@@ -65,7 +65,9 @@
         {%endfor%}
             
         {%comment%}<a href="{% url 'users:logout_user' %}">Выход(Logout)</a>{%endcomment%}
-        <a href="{% url 'plumber:parser' %}">Выход</a>
+        <div class='a-item'>
+            <a href="{% url 'plumber:parser' %}">Выход</a>
+        </div>
     </div>
 </div>
 

@@ -27,7 +27,7 @@
             {% for u in uf %}
                 {% if u.type_file == "video" %}
                     {% if u.cat == cat_post %}
-                        <div class="file-video"">
+                        <div class="file-video">
                             
                             <a href="{% url 'materials:file_pdf' ind_id=u.id %}">Открыть в отдельном окне {{u.file|filename}}</a>
                         </div>
