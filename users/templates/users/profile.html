@@ -68,6 +68,7 @@
                         {%if o.name == i.prof.name%}
                             <p><a href="{% url 'plumber:testing' t_slug=i.slug %}">{{i.name}}</a></p>
                         {%endif%}
+                        
 
                     {% endfor %}
             </div>

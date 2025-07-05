@@ -14,7 +14,7 @@ def up_fil():
 
 @register.simple_tag
 def mashine_tag():
-    return Mashine.objects.all()
+    return Mashine.objects.all().select_related('prof')
 
 @register.simple_tag
 def category_tag():

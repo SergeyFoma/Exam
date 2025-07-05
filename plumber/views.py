@@ -76,7 +76,7 @@ def testing(request, t_slug):
     que_count=Questions.objects.filter(mash=mash).count()
     #print(que)
     global answ
-    answ=Answers.objects.filter(mash=mash).order_by('pk')
+    answ=Answers.objects.filter(mash=mash).order_by('pk').select_related("ques")
    
     #print(type(mash))
     #que_count_list.append(que_count)
