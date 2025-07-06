@@ -127,7 +127,7 @@ def answer2(request):
     #percent=round((float(answertrue)/(float(answertrue)+float(answerfalse))*100),2)-(100-float(variance))#правильных ответов
     #que=Questions.objects.all()
     percent_true=(answertrue*100)/que_count
-    
+    print('request.path==',request.path)
 
     context={
         'answ':answ,
@@ -158,7 +158,8 @@ def parser(request):
        #парсим страницу с результатом(answer2) и записываем в result.txt
     now=datetime.now()
 
-    url = "http://127.0.0.1:8000/answer2/"
+    #url = "http://127.0.0.1:8000/answer2/"
+    url = "https://test-online.ru:8000/answer2/"
     response = requests.get(url)
     bs=BeautifulSoup(response.text,'lxml')
 
