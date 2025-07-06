@@ -15,6 +15,7 @@ def up_fil():
 @register.simple_tag
 def mashine_tag():
     return Mashine.objects.all().select_related('prof')
+    #return Mashine.objects.values("name", "prof__name")
 
 @register.simple_tag
 def category_tag():
