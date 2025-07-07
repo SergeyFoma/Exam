@@ -85,11 +85,36 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.a {
+.a-left-menu {
   font-family: 'Alice';
   font-weight:400;
   font-size:18px;
   color: #fff;
+}
+.a-left-menu a {
+  margin-left:150px;
+  color:#fff
+}
+.a-left-menu p {
+  margin-left:150px;
+  color:#fff
+}
+.a-right-menu {
+  font-family: 'Alice';
+  font-weight:400;
+  font-size:18px;
+  color: #fff;
+  margin-right:150px;
+}
+.a-right-menu a {
+  float:right;
+  /*margin-right:150px;*/
+  color:#fff;
+}
+
+.header3 h3 {
+  color:#fff;
+  margin-left:100px;
 }
 
 .sidebar {

@@ -30,8 +30,34 @@
         
         <div class="header3">
             {% if request.path|slice:":9" == '/testing/' %}
-                <h3 style="color:#fff;margin-left:100px;">{{request.user.first_name}} {{request.user.last_name}} {{request.user.workshop}} {{request.user.profession}}</h3>
+                <h3>{{request.user.first_name}} {{request.user.last_name}} {{request.user.workshop}} {{request.user.profession}}</h3>
+            {% elif request.path == '/result/' %}
+                <div class="a-left-menu">
+                        <a href="{% url 'plumber:index' %}">Главная</a>
+                    </div>
+                    <div class="a-right-menu">
+                        <a href="{% url 'users:profile' %}">| Профиль</a>
+                        <a href="{% url 'users:logout_user' %}">Выход |</a> 
+                        
+                    </div>
             {% endif %}
+
+            {% if not user.is_authenticated and request.path == '/login_user/'  %}
+                <div class="a-left-menu">
+                    <a href="{% url 'plumber:index' %}">Главная</a> 
+                </div>
+                <div class="a-right-menu">       
+                    <a href="{% url 'users:register' %}">Зарегистрироваться</a>
+                </div>    
+            {% elif request.path == '/register/' %}
+                <div class="a-left-menu">
+                    <a href="{% url 'plumber:index' %}">Главная</a>
+                </div>
+                <div class="a-right-menu">
+                    <a href="{% url 'users:login_user' %}">Войти в профиль</a>
+                </div>
+            {% endif %}
+
         </div>
     </div>
     <div class="content"id="content">
