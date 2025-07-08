@@ -1,5 +1,24 @@
-
-
+@media only screen and (max-width:1220px) {
+    .sideright-text {
+        width: 90%;
+        margin: 0 auto;
+        /*border:1px solid red;*/
+    }
+    #slider {
+        width:90%;
+    }
+    .materials-img {
+        width:90%;
+    }
+    .img-hover {
+        width:90%;
+        /*height:5%;*/
+    }
+    .img-block {
+        width:90%;
+        height: 80%;
+    }
+}
 @media only screen and (max-width:1000px) {
     .header { 
         background-color: #4B5193;
@@ -19,8 +38,9 @@
     .header1_img {
       /*display: none;*/
     }
+
   }
-  @media only screen and (max-width:720px) {
+  @media only screen and (max-width:850px) {
     
     .header1 {
         width: 100%;
@@ -32,9 +52,108 @@
         /*background-color: brown;*/
     }
     .header1-h3 {
+      /*display: none;*/
+    }
+    .header1-img {
+      display: none;
+    }
+
+    .a-right-menu {
+        /*border:1px solid red;*/
+        margin-right: 1px;
+    }
+    .a-left-menu {
+        /*border:1px solid red;*/
+        margin-left: 1px;
+    }
+  }
+  @media only screen and (max-width:810px) {
+    
+    .header1 {
+        width: 100%;
+        min-height: 100px;
+        text-align: center;
+        /*display: flex;
+        flex-direction: column;*/
+        /*border-bottom: 2px solid red;*/
+        /*background-color: brown;*/
+    }
+    .header1-h2 {
+        /*border:1px solid red;*/
+        width:92%;
+    }
+    .header1-h3 {
       display: none;
     }
     .header1-img {
       display: none;
     }
+
+    .a-right-menu {
+        /*border:1px solid red;*/
+        margin-right: 1px;
+    }
+    .a-left-menu {
+        /*border:1px solid red;*/
+        margin-left: 1px;
+    }
+    .sideleft {
+        display: none;
+    }
   }
+
+@media only screen and (max-width:650px) {
+    .sidebar {
+        background-color: #fff;
+    }
+    .sideright {
+        width: 100%;
+    }
+    .header {
+        /*display: none;*/
+        height:38px;
+        /*border:1px solid rgb(177, 235, 101);
+        z-index:0;*/
+    }
+    .header1-h2 {
+        height:30px;
+    }
+    .header1-h2 h2 {
+        font-family: 'Jacques Francois Shadow';
+        font-weight:400;
+        font-size:32px;
+        color: #fff;
+        align-items: center;
+    }
+    .header3 {
+        margin-top:-64px;
+    }
+    .a-right-menu a {
+        font-family: 'Alice';
+        font-weight:400;
+        font-size:14px;
+        float:right;
+        /*margin-right:150px;*/
+        color:#fff;
+      }
+      .a-left-menu p {
+        font-family: 'Alice';
+        font-weight:400;
+        font-size:14px;
+        float:right;
+        /*margin-right:150px;*/
+        color:#fff;
+    }
+    .sideright-content {
+        width:95%;
+    }
+    .a-item {
+        width: 90%;
+    }
+    .a-item a {
+        color: rgb(247, 22, 59);
+        font-family: 'Alice';
+        font-weight:bold;
+        font-size:20px;
+      }
+}
