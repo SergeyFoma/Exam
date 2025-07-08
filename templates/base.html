@@ -10,6 +10,7 @@
     <!--<meta name="robots" content="index, follow">-->
     <title>{{title}}</title>
     <link rel="stylesheet" href="{% static './css/style.css' %}">
+    <link rel="stylesheet" href="{% static './css/responsive.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
@@ -18,124 +19,125 @@
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
     <!--<script src="{% static 'js/but_time.js' %}"></script>-->
 </head>
-<body>
-    
-    <div class="header"style="position:fixed;z-index:10;width:100%;">
-        
-        <div class="header1">
-            <div class="header1_img">
-                <img src="/static/img/G3.png" alt="G3">
-            </div>
-            <div class="header1-h2">
-                <h2>TEST online</h2>
-            </div>
-            <div class="header1-h3">
-                <h3>Тестирование работников основных и совмещаемых профессий</h3>
-            </div>
+<div>
+    <div class="container">
+        <div class="header">
             
-            <!--<img src="/media/users/default.png" alt=""style="width:70px;height:70px;border-radius:50%;float:left;margin-left:150px;margin-bottom:5px;">
-            <h1 style="font-size:34px;color:rgb(4, 4, 92);">Тест online</h1>
-            <p><span style="color:rgb(3, 3, 88);">Тестирование работников основных и совмещаемых профессий.</span></p>-->
-        </div>
-        {%comment%}
-        <div class="header2">
-            {%if user.is_authenticated%}
-                <h4>{{request.user.first_name}} {{request.user.last_name}}</h4>
-            {%endif%}
-        
-            
-        </div>
-        {%endcomment%}
-        <div class="header3">
-            
-            {% if user.is_authenticated %}
-            
-                {% if request.path == "/answer2/" %}
-                    <div class="a-right-menu">
-                        <a href="{% url 'users:logout_user' %}">Выход(answer2)</a>
-                    </div>
-                {% elif request.path == "/profile/" %}
-                    <div class="a-left-menu">
-                        <a href="{% url 'plumber:index' %}">Главная</a>
-                    </div>
-                    <div class="a-right-menu">
-                        <a href="{% url 'users:logout_user' %}">Выйти из профиля</a>
-                    </div>
-                
-                {%else%}
-                    <div class="a-left-menu">
-                        <a href="{% url 'plumber:index' %}">Главная</a>
-                    </div>
-                    <div class="a-right-menu">
-                        <a href="{% url 'users:profile' %}">| Профиль</a> 
-                        <a href="{% url 'users:logout_user' %}">Выход |</a> 
-                     
-                    </div>
-                {%endif%}
-
-           {% endif %}
-           
-            {% if not user.is_authenticated and request.path == '/' %}
-                <div class="a-left-menu">
-                    <p>Главная</p>
+            <div class="header1">
+                <div class="header1-img">
+                    <img src="/static/img/G3.png" alt="G3">
                 </div>
-                <div class="a-right-menu">
-                    <a href="{% url 'users:login_user' %}">| Войти в профиль</a> <a href="{% url 'users:register' %}">Зарегистрироваться |</a>
-                </div> 
-            {% endif %}
-
-        </div>
-
-        {% block header %}
-        {% endblock %}
-
-    </div>
-      
-    <div class="sidebar">
-        <div class="sideleft">
-            <div class="sideleft-h2">
-                <h2>Материалы для подготовки</h2>
+                <div class="header1-h2">
+                    <h2>TEST online</h2>
+                </div>
+                <div class="header1-h3">
+                    <h3>Тестирование работников основных и совмещаемых профессий</h3>
+                </div>
+                
+                <!--<img src="/media/users/default.png" alt=""style="width:70px;height:70px;border-radius:50%;float:left;margin-left:150px;margin-bottom:5px;">
+                <h1 style="font-size:34px;color:rgb(4, 4, 92);">Тест online</h1>
+                <p><span style="color:rgb(3, 3, 88);">Тестирование работников основных и совмещаемых профессий.</span></p>-->
             </div>
-            {% category_tag as ct %}
-            {% for c in ct %}
-                {%comment%}<a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p>
-                    <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
-
-
+            {%comment%}
+            <div class="header2">
                 {%if user.is_authenticated%}
-                    <div class="materials-img">
-                        <a href="{{c.get_absolute_url}}"><p class="p-a">{{c.name}}</p>
-                        <div class="img-hover">
-                            <p><img src="{{ c.photo.url }}" alt=""class="img-block"></p></a>
-                        </div>
-                    </div>
-                {%else%}
-                    <div class="materials-img">
-                        <p class="p-a">{{c.name}}</p>
-                        <div class="img-hover">
-                            <p><img src="{{ c.photo.url }}" alt=""class="img-block"></p>
-                        </div>
-                    </div>
+                    <h4>{{request.user.first_name}} {{request.user.last_name}}</h4>
                 {%endif%}
-
-            {% endfor %}
-
-                {% block sideleft %}
-                {% endblock %}
             
+                
+            </div>
+            {%endcomment%}
+            <div class="header3">
+                
+                {% if user.is_authenticated %}
+                
+                    {% if request.path == "/answer2/" %}
+                        <div class="a-right-menu">
+                            <a href="{% url 'users:logout_user' %}">Выход(answer2)</a>
+                        </div>
+                    {% elif request.path == "/profile/" %}
+                        <div class="a-left-menu">
+                            <a href="{% url 'plumber:index' %}">Главная</a>
+                        </div>
+                        <div class="a-right-menu">
+                            <a href="{% url 'users:logout_user' %}">Выйти из профиля</a>
+                        </div>
+                    
+                    {%else%}
+                        <div class="a-left-menu">
+                            <a href="{% url 'plumber:index' %}">Главная</a>
+                        </div>
+                        <div class="a-right-menu">
+                            <a href="{% url 'users:profile' %}">| Профиль</a> 
+                            <a href="{% url 'users:logout_user' %}">Выход |</a> 
+                        
+                        </div>
+                    {%endif%}
+
+            {% endif %}
+            
+                {% if not user.is_authenticated and request.path == '/' %}
+                    <div class="a-left-menu">
+                        <p>Главная</p>
+                    </div>
+                    <div class="a-right-menu">
+                        <a href="{% url 'users:login_user' %}">| Войти в профиль</a> <a href="{% url 'users:register' %}">Зарегистрироваться |</a>
+                    </div> 
+                {% endif %}
+
+            </div>
+
+            {% block header %}
+            {% endblock %}
+
         </div>
-        <div class="sideright">
-            
+        
+        <div class="sidebar">
+            <div class="sideleft">
+                <div class="sideleft-h2">
+                    <h2>Материалы для подготовки</h2>
+                </div>
+                {% category_tag as ct %}
+                {% for c in ct %}
+                    {%comment%}<a href="{% url 'materials:category_post' cat_id=c.id %}"><p>{{c.name}}</p>
+                        <p><img src="{{ c.photo.url }}" alt=""style="width:250px;"></a></p>{%endcomment%}
 
-            {% block sideright %}
+
+                    {%if user.is_authenticated%}
+                        <div class="materials-img">
+                            <a href="{{c.get_absolute_url}}"><p class="p-a">{{c.name}}</p>
+                            <div class="img-hover">
+                                <p><img src="{{ c.photo.url }}" alt=""class="img-block"></p></a>
+                            </div>
+                        </div>
+                    {%else%}
+                        <div class="materials-img">
+                            <p class="p-a">{{c.name}}</p>
+                            <div class="img-hover">
+                                <p><img src="{{ c.photo.url }}" alt=""class="img-block"></p>
+                            </div>
+                        </div>
+                    {%endif%}
+
+                {% endfor %}
+
+                    {% block sideleft %}
+                    {% endblock %}
+                
+            </div>
+            <div class="sideright">
+                
+
+                {% block sideright %}
+                {% endblock %}
+            </div>
+        </div>
+        <div class="footer">
+            <h3>TECT online - все права защищены законом.</h3>
+            
+            {% block footer %}
             {% endblock %}
         </div>
-    </div>
-    <div class="footer">
-        <h3>TECT online - все права защищены законом.</h3>
-        
-        {% block footer %}
-        {% endblock %}
-    </div>
+    </div><!--container-->
 </body>
 </html>
