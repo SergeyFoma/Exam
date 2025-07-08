@@ -39,15 +39,7 @@
                 <h1 style="font-size:34px;color:rgb(4, 4, 92);">Тест online</h1>
                 <p><span style="color:rgb(3, 3, 88);">Тестирование работников основных и совмещаемых профессий.</span></p>-->
             </div>
-            {%comment%}
-            <div class="header2">
-                {%if user.is_authenticated%}
-                    <h4>{{request.user.first_name}} {{request.user.last_name}}</h4>
-                {%endif%}
             
-                
-            </div>
-            {%endcomment%}
             <div class="header3">
                 
                 {% if user.is_authenticated %}
