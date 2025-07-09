@@ -1,5 +1,6 @@
 from django.db import models
 from datetime import datetime
+from django.urls import reverse
 
 class Professions(models.Model):
     name=models.CharField(max_length=150,verbose_name='Название профессии')
@@ -21,6 +22,9 @@ class Mashine(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        return reverse('plumber:testing', kwargs={'t_slug':self.slug})
+
 class Questions(models.Model):
     name=models.CharField(max_length=255, blank=True, null=True)
     text=models.TextField()
@@ -33,6 +37,9 @@ class Questions(models.Model):
 
     def __str__(self):
         return self.name
+
+    # def get_absolute_url(self):
+    #     return reverse('plumber:testing', kwargs={'name':self.name})
 
 class Answers(models.Model):
     num=models.IntegerField()

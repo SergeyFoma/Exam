@@ -19,11 +19,22 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from django.contrib.sitemaps.views import sitemap
+from plumber.sitemaps import PlumberSitemap, MashineSitemap
+
+from django.views.decorators.cache import cache_page
+
+sitemaps={
+    'plum_site':PlumberSitemap,
+    'que_site':MashineSitemap,
+}
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("plumber.urls", namespace="plumber")),
     path('', include("users.urls", namespace="users")),
     path('', include("materials.urls", namespace='materials')),
+    path('sitemap.xml', cache_page(86400)(sitemap), {'sitemaps':sitemaps}, name='django.contrib.sitemaps.views.sitemap')
 ]
 
 if settings.DEBUG:
