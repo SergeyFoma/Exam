@@ -1,9 +1,5 @@
 {% extends "plumber/base_plumber.html" %}
 
-{% block header_testing %}
-{% endblock %}
-
-
 
 {% block content %}
 
@@ -12,7 +8,7 @@
         <div class="result">
             <div id="time-text"style="width:100%;width:200px;"><p id="date"></p></div>
             
-            <p>{{request.user.last_name}} {{request.user.first_name}} {{request.user.profession}} {{request.user.workshop}}</p>
+            <p>{{request.user.last_name}} {{request.user.first_name}} {{request.user.profession}} {{request.user.workshop}} {{request.user.profession}}</p>
             <p><b>{{mash.name}}</b></p>
             
 

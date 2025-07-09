@@ -35,17 +35,12 @@
                     <h3>Тестирование работников основных и совмещаемых профессий</h3>
                 </div>
             
-            </div>
+            </div><!--header1-->
             
             <div class="header3">
                 
                 {% if user.is_authenticated %}
-                
-                    {% if request.path == "/answer2/" %}
-                        <div class="a-right-menu">
-                            <a href="{% url 'users:logout_user' %}">Выход(answer2)</a>
-                        </div>
-                    {% elif request.path == "/profile/" %}
+                    {% if request.path == "/profile/" %}
                         <div class="a-left-menu">
                             <a href="{% url 'plumber:index' %}">Главная</a>
                         </div>
@@ -71,16 +66,16 @@
                         <p>Главная</p>
                     </div>
                     <div class="a-right-menu">
-                        <a href="{% url 'users:login_user' %}">| Войти в профиль</a> <a href="{% url 'users:register' %}">Зарегистрироваться |</a>
+                        <a href="{% url 'users:login_user' %}">| Войти в профиль</a> <a href="{% url 'users:register' %}">Регистрация |</a>
                     </div> 
                 {% endif %}
 
-            </div>
+            </div><!--header3-->
 
             {% block header %}
             {% endblock %}
 
-        </div>
+        </div><!--header-->
         
         <div class="sidebar">
             <div class="sideleft">
@@ -114,14 +109,13 @@
                     {% block sideleft %}
                     {% endblock %}
                 
-            </div>
+            </div><!--sideleft-->
             <div class="sideright">
-                
-
                 {% block sideright %}
                 {% endblock %}
             </div>
-        </div>
+
+        </div><!--sidebar-->
         <div class="footer">
             <h3>TECT online - все права защищены законом.</h3>
             

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/responsive.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
@@ -18,17 +19,17 @@
     <div class="container">
         <div class="header">
             <div class="header1">
-                    <div class="header1-img">
-                        <img src="/static/img/G3.png" alt="G3">
-                    </div>
-                    <div class="header1-h2">
-                        <h2>TEST online</h2>
-                    </div>
-                    <div class="header1-h3">
-                        <h3>Тестирование работников основных и совмещаемых профессий</h3>
-                    </div>
-                
+                <div class="header1-img">
+                    <img src="/static/img/G3.png" alt="G3">
                 </div>
+                <div class="header1-h2">
+                    <h2>TEST online</h2>
+                </div>
+                <div class="header1-h3">
+                    <h3>Тестирование работников основных и совмещаемых профессий</h3>
+                </div>
+            
+            </div><!--header1-->
             
             <div class="header3">
                 {% if request.path|slice:":9" == '/testing/' %}
@@ -49,7 +50,7 @@
                         <a href="{% url 'plumber:index' %}">Главная</a> 
                     </div>
                     <div class="a-right-menu">       
-                        <a href="{% url 'users:register' %}">Зарегистрироваться</a>
+                        <a href="{% url 'users:register' %}">Регистрация</a>
                     </div>    
                 {% elif request.path == '/register/' %}
                     <div class="a-left-menu">
@@ -58,6 +59,11 @@
                     <div class="a-right-menu">
                         <a href="{% url 'users:login_user' %}">Войти в профиль</a>
                     </div>
+                {% elif request.path == "/answer2/" %}
+                    
+                        <div class=""style="margin: 0 auto;">
+                            <p style="color:#fff;">{{request.user.first_name}} {{request.user.last_name}} {{request.user.profession}} {{request.user.workshop}}</p>
+                        </div>
                 {% endif %}
 
             </div><!--Header3-->
