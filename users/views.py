@@ -40,7 +40,6 @@ class RegisterUser(CreateView):
 
 
 
-
 # def login_user(request):
 #     if request.method=='POST':
 #         form=LoginUserForm(data=request.POST)
@@ -68,6 +67,8 @@ class LoginUser(LoginView):
     def get_success_url(self):
         return reverse_lazy("users:profile")
 
+    
+
 # @login_required
 # def profile(request):
 #     mashine=Mashine.objects.all()
@@ -89,7 +90,10 @@ class Profile(LoginRequiredMixin, UpdateView, ListView):
     model=get_user_model()
     form_class = ProfileUserForm
     template_name="users/profile.html" 
-    extra_context={"title":"Страница пользователя"}
+    extra_context={
+        "title":"Страница пользователя",
+        "content_description":"Профиль пользователя. Слесарь, сварщик, стропальщик",
+        }
     success_url = reverse_lazy("users:profile")
     #context_object_name = 'professia'
 
@@ -102,6 +106,10 @@ class Profile(LoginRequiredMixin, UpdateView, ListView):
     def get_queryset(self):
         return Professions.objects.all()
 
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     context['content_description'] = 'Страница регистрации работников, для тестирования'
+    #     return context
     # def get_context_data(self, **kwargs):
     #     # Получаем базовый контекст
     #     context = super().get_context_data(**kwargs)

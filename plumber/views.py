@@ -31,6 +31,7 @@ class Index(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["title"] = 'Test online. Тестирование работников основных и смежных профессий'
+        context['content_description'] = 'Тесты для слесарей-ремонтников НПО, стропальщиков и сварщиков'
         return context
     def get_queryset(self):
         return UploadedFile.objects.all()
@@ -67,7 +68,6 @@ que_count=int()
 answ=''
 que=''
 def testing(request, t_slug):
-    title='Test online. Страница тестирования.'
     global mash
     mash=get_object_or_404(Mashine, slug=t_slug)
     global que
@@ -77,9 +77,9 @@ def testing(request, t_slug):
     #print(que)
     global answ
     answ=Answers.objects.filter(mash=mash).order_by('pk').select_related("ques")
-   
     #print(type(mash))
     #que_count_list.append(que_count)
+    title=f'Test online. Страница тестирования.{mash}'
     context={
         'mash':mash,
         'que':que,
