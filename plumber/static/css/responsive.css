@@ -1,3 +1,10 @@
+@media only screen and (max-width:1320px) {
+    .test_conteiner {
+        width:80%;
+        margin-left: auto;
+    }
+}
+
 @media only screen and (max-width:1220px) {
     .sideright-text {
         width: 90%;
@@ -32,11 +39,8 @@
         min-height: 100px;
         text-align: center;
     }
-    .header1-h3 {
-      /*display: none;*/
-    }
-    .header1_img {
-      /*display: none;*/
+    .test_conteiner {
+        width: 70%;
     }
 
   }
@@ -78,7 +82,7 @@
         /*border-bottom: 2px solid red;*/
         /*background-color: brown;*/
     }
-    .header1-h2 {
+    .header1-h1 {
         /*border:1px solid red;*/
         width:92%;
     }
@@ -118,10 +122,10 @@
     .header1 {
         border-bottom: 0px solid #fff;
     }
-    .header1-h2 {
+    .header1-h1 {
         height:30px;
     }
-    .header1-h2 h2 {
+    .header1-h1 h1 {
         font-family: 'Jacques Francois Shadow';
         font-weight:400;
         font-size:32px;
@@ -187,6 +191,25 @@
     .content-a{
         width:100%;
     }
+    .test_conteiner {
+        width: 60%;
+    }
+    
+
+
+}
+
+@media only screen and (max-width:552px) {
+    .tim {
+        margin-left: 10px;
+        width:30%;
+    }
+    #time {
+        font-size: 14px;
+    }
+    #time-text {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width:370px) {
@@ -211,5 +234,9 @@
         
         font-size:12px;
         
+    }
+    .tim {
+        margin-left: 0px;
+        /*width:30%;*/
     }
 }

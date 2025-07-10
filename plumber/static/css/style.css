@@ -715,12 +715,33 @@ a:hover {
   color: rgb(218, 45, 166);
 }
 
-/*---------answer2----------*/
+/*---------testing----------*/
+#time-text {
+  /*position:fixed;
+  z-index:12;
+  width:100%;
+  width:200px;
+  margin-left:30px;*/
+  margin-bottom: 10px;
+}
+.tim {
+  position:fixed;
+  z-index:10;
+  width:150px;
+  margin-top:60px;
+  margin-left:30px;
+}
 #time {
   text-align: center;
   font-size: 2em;
   min-height:20px;
   background:#fff;
+
+  /*position:fixed;
+  z-index:10;
+  width:150px;
+  margin-top:60px;
+  margin-left:30px;*/
 }
 .test_conteiner {
   width:100%;
@@ -734,6 +755,16 @@ a:hover {
   padding:0 10px 0 10px;
   margin-bottom:10px;
   margin-top:10px;
+}
+
+.mash-h2 {
+  color:black;
+  margin-bottom:20px;
+}
+.ques_answ {
+  border:1px solid gray;
+  margin-bottom:5px;
+  background:#fff;
 }
 .answer2 {
   margin-bottom:15px;

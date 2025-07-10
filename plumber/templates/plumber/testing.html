@@ -4,17 +4,19 @@
 {% block content %}
 
 {% load plumber_tags %}
-<div id="time-text"style="position:fixed;z-index:12;width:100%;width:200px;margin-left:30px;"><p id="date">DATE:</p><h3>Время для прохождения теста - {{que.count|timing:5}} минут.</h3></div>
-<div id="time"style="position:fixed;z-index:10;width:100%;width:150px;margin-top:60px;margin-left:30px;">00:00</div>
+<div class='tim'>
+<div id="time-text"><p id="date"></p><h3>Время для прохождения теста - {{que.count|timing:5}} минут.</h3></div>
+<div id="time">00:00</div>
+</div>
 
     {%comment%}{{request.user.is_authenticated}}{%endcomment%}
         {%comment%}<p>Экзаменующийся: {{request.user.username}}</p>{%endcomment%}
     <div class="test_conteiner">
     <div class="test">
-        <h2 class="mash-h2"style="color:black;margin-bottom:20px;">{{mash.name}}</h2>
+        <h2 class="mash-h2">{{mash.name}}</h2>
         {% for i in que %}<!--Questions-->
         {%comment%}<p style="color:red">{{i.mash}}</p>{%endcomment%}
-            <div class="ques_answ"style="border:1px solid gray;margin-bottom:5px;background:#fff">
+            <div class="ques_answ">
 
                 {% if i.image %}
                     <p><img src="{{i.image.url}}" alt=""></p>
