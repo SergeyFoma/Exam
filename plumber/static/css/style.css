@@ -708,8 +708,6 @@ a {
   font-weight:400;
   font-size:16px;
   color: rgb(152, 18, 179);
-  /*background-color: #D9D9D9;*/
-  /*padding: 0px 3px;*/
 }
 a:hover {
   color: rgb(218, 45, 166);
@@ -717,11 +715,6 @@ a:hover {
 
 /*---------testing----------*/
 #time-text {
-  /*position:fixed;
-  z-index:12;
-  width:100%;
-  width:200px;
-  margin-left:30px;*/
   margin-bottom: 10px;
 }
 .tim {
@@ -736,18 +729,11 @@ a:hover {
   font-size: 2em;
   min-height:20px;
   background:#fff;
-
-  /*position:fixed;
-  z-index:10;
-  width:150px;
-  margin-top:60px;
-  margin-left:30px;*/
 }
 .test_conteiner {
   width:100%;
   display:flex;
   justify-content:center;
-  /*background-color: #4B5193;*/
 }
 .test {
   width:900px;
