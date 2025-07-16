@@ -1,5 +1,6 @@
 {% load static %}
 {% load plumber_tags %}
+{% load cache %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,6 +88,7 @@
         </div><!--header-->
         
         <div class="sidebar">
+            {% cache 30 sideleft %}
             <div class="sideleft">
                 <div class="sideleft-h2">
                     <h2>Материалы для подготовки</h2>
@@ -119,6 +121,7 @@
                     {% endblock %}
                 
             </div><!--sideleft-->
+            {% endcache %}
             <div class="sideright">
                 {% block sideright %}
                 {% endblock %}

@@ -10,6 +10,8 @@ from django.contrib.auth.views import (
     )
 from django.urls import reverse, reverse_lazy
 
+from django.views.decorators.cache import cache_page
+
 app_name="users"
 
 urlpatterns =[
@@ -18,7 +20,7 @@ urlpatterns =[
     #path('login_user/', views.login_user, name='login_user'),
     path('login_user/', views.LoginUser.as_view(), name="login_user"),
     #path('profile/', views.profile, name='profile'),
-    path('profile/', views.Profile.as_view(), name='profile'),
+    path('profile/', cache_page(30)(views.Profile.as_view()), name='profile'),
     path('logout_user/', views.logout_user, name='logout_user'),
 
     # path('password-change/', PasswordChangeView.as_view(success_url = reverse_lazy("users:password_change_done"),

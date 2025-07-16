@@ -51,16 +51,22 @@ INSTALLED_APPS = [
 SITE_ID=1
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+   #"django.middleware.cache.UpdateCacheMiddleware",
     'django.middleware.common.CommonMiddleware',
+   #"django.middleware.cache.FetchFromCacheMiddleware",
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
+CACHE_MIDDLEWARE_ALIAS='default'
+CACHE_MIDDLEWARE_SECONDS=10
+CACHE_MIDDLEWARE_KEY_PREFIX='Exam'
 
 
 ROOT_URLCONF = 'exam.urls'
@@ -105,6 +111,12 @@ DATABASES = {
 #         "PORT": "5432",
 #     }
 # }
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.redis.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379",
+    }
+}
 
 
 # Password validation
