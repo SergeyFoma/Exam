@@ -103,8 +103,9 @@ def parser(request):
        #парсим страницу с результатом(answer2) и записываем в result.txt
     now=datetime.now()
 
-    url = "http://127.0.0.1:8000/answer2/"
+    #url = "http://127.0.0.1:8000/answer2/"
     #url = "https://test-online.ru:8000/answer2/"
+    url = "https://tests-on.ru/answer2/"
     response = requests.get(url)
     bs=BeautifulSoup(response.text,'lxml')
 
