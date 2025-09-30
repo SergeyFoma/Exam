@@ -14,7 +14,7 @@
   "fields": {
     "name": "Насосы шестеренчатые",
     "slug": "nasosy-shesterenchatye",
-    "photo": "category/2025/05/19/нмш_OSKB8tE.png"
+    "photo": "category/2025/07/01/нмш.png"
   }
 },
 {
@@ -51,6 +51,24 @@
     "name": "Насосы типа К",
     "slug": "nasosy-tipa-k",
     "photo": "category/2025/05/27/к.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 7,
+  "fields": {
+    "name": "Насосы полупогружные",
+    "slug": "nasosy-polupogruzhnye",
+    "photo": "category/2025/06/09/12НА.png"
+  }
+},
+{
+  "model": "materials.categorymaterials",
+  "pk": 8,
+  "fields": {
+    "name": "Стропальщик",
+    "slug": "stropalshik",
+    "photo": "category/2025/07/01/strop.png"
   }
 }
 ]

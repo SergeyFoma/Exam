@@ -1,0 +1,282 @@
+[
+{
+  "model": "materials.uploadedfile",
+  "pk": 8,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/АЦНС38.pdf",
+    "uploaded_at": "2025-07-01T02:40:22.979Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 9,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/Карты_ТО_Тр_КР_насосов_ЦНС.pdf",
+    "uploaded_at": "2025-07-01T02:41:09.581Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 10,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/ЦНС_105_-_300_Паспорт.pdf",
+    "uploaded_at": "2025-07-01T02:41:51.004Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 11,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/МОНТАЖ_ПОДШИПНИКОВЫХ_ОПОР.pdf",
+    "uploaded_at": "2025-07-01T02:42:53.357Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 12,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/ЦНС-2.mp4",
+    "uploaded_at": "2025-07-01T02:43:34.224Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 13,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/ЦНС-устройство_и_принцип_работы.mp4",
+    "uploaded_at": "2025-07-01T02:44:26.396Z",
+    "cat": 1
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 14,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/ВНД.12.888.1.00РЭ.pdf",
+    "uploaded_at": "2025-07-01T02:45:02.704Z",
+    "cat": 7
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 15,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/Д_630-125.pdf",
+    "uploaded_at": "2025-07-01T02:45:27.793Z",
+    "cat": 5
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 16,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/д.png",
+    "uploaded_at": "2025-07-01T02:45:42.057Z",
+    "cat": 5
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 17,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/Карта_ремонта_насоса__Д_630.pdf",
+    "uploaded_at": "2025-07-01T02:46:02.485Z",
+    "cat": 5
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 18,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Насосы_типа_Д.mp4",
+    "uploaded_at": "2025-07-01T02:46:27.536Z",
+    "cat": 5
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 19,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Насосы_типа_Д_-_2.mp4",
+    "uploaded_at": "2025-07-01T02:47:21.126Z",
+    "cat": 5
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 20,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Насосы_типа_Д_-3.mp4",
+    "uploaded_at": "2025-07-01T02:47:35.360Z",
+    "cat": 5
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 21,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/КММ-24316_БПН-1.pdf",
+    "uploaded_at": "2025-07-01T02:48:17.921Z",
+    "cat": 6
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 22,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Насос_К.mp4",
+    "uploaded_at": "2025-07-01T02:48:36.779Z",
+    "cat": 6
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 23,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/НД_неиспраности.pdf",
+    "uploaded_at": "2025-07-01T02:49:12.228Z",
+    "cat": 3
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 24,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/НДМ.pdf",
+    "uploaded_at": "2025-07-01T02:49:32.167Z",
+    "cat": 3
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 25,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/НМШ.pdf",
+    "uploaded_at": "2025-07-01T02:50:07.926Z",
+    "cat": 2
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 26,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Шестеренчатые_насосы.mp4",
+    "uploaded_at": "2025-07-01T02:50:25.992Z",
+    "cat": 2
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 27,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/СППК.mp4",
+    "uploaded_at": "2025-07-01T02:51:00.631Z",
+    "cat": 4
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 28,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/СППК_РУПК-78.pdf",
+    "uploaded_at": "2025-07-01T02:51:16.545Z",
+    "cat": 4
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 29,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/СППК-настройка.mp4",
+    "uploaded_at": "2025-07-01T02:51:31.589Z",
+    "cat": 4
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 30,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Стропальщик.mp4",
+    "uploaded_at": "2025-07-01T02:53:44.719Z",
+    "cat": 8
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 31,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Стропальщик_-_сигналы.mp4",
+    "uploaded_at": "2025-07-01T02:54:01.049Z",
+    "cat": 8
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 32,
+  "fields": {
+    "type_file": "video",
+    "file": "uploads/Несчастный_случай_-_1.mp4",
+    "uploaded_at": "2025-07-01T02:54:28.005Z",
+    "cat": 8
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 33,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/Инстр_ОТ_ИОТР_032-21_ВР_при_рем_ревизии_и_тарир_пруж_предохр_клапан.pdf",
+    "uploaded_at": "2025-07-03T02:58:58.569Z",
+    "cat": 4
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 34,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/SPPK.pdf",
+    "uploaded_at": "2025-07-03T03:00:30.411Z",
+    "cat": 4
+  }
+},
+{
+  "model": "materials.uploadedfile",
+  "pk": 35,
+  "fields": {
+    "type_file": "file",
+    "file": "uploads/SPPK2.pdf",
+    "uploaded_at": "2025-07-03T06:54:05.664Z",
+    "cat": 4
+  }
+}
+]

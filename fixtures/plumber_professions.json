@@ -4,7 +4,8 @@
   "pk": 1,
   "fields": {
     "name": "Слесарь-ремонтник НПО",
-    "slug": "slesar-remontnik-npo"
+    "slug": "slesar-remontnik-npo",
+    "image": "professions/2025/06/09/слесарь.png"
   }
 },
 {
@@ -12,7 +13,8 @@
   "pk": 2,
   "fields": {
     "name": "Электрогазосварщик",
-    "slug": "elektrogazosvarshik"
+    "slug": "elektrogazosvarshik",
+    "image": "professions/2025/06/09/сварщик.png"
   }
 },
 {
@@ -20,7 +22,8 @@
   "pk": 3,
   "fields": {
     "name": "Стропальщик",
-    "slug": "stropalshik"
+    "slug": "stropalshik",
+    "image": "professions/2025/06/09/стропальщик.png"
   }
 }
 ]
