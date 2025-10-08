@@ -44,7 +44,7 @@
                 {% if u.type_file == "file" %}
                     {% if u.cat == cat_post %}
                         <div class="file-video">
-                            <a href="{% url 'materials:file_pdf' ind_id=u.id %}"><p>{{u.file|filename}}</p><p><img src="/static/img/pdf.png" alt="pdf"width="50px"></p></a>
+                            <a href="{% url 'materials:file_pdf' ind_id=u.id %}"target="_blank"><p>{{u.file|filename}}</p><p><img src="/static/img/pdf.png" alt="pdf"width="50px"></p></a>
                         </div>
                     {% endif %}
                 {% endif %}

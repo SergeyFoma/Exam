@@ -32,13 +32,16 @@ def file_pdf(request, ind_id):
     pfu=get_object_or_404(UploadedFile,id=ind_id)
     st=str(pfu.file)
     path1=str(settings.MEDIA_ROOT)
+    print('path1', path1)
     path2='uploads'
     pf=os.listdir(path1+'/'+path2)
     for i in pf:
         if path2+'/'+i == st:
             start_pdf=subprocess.Popen([path1+'/'+path2+'/'+i], shell=True)
+            fil=FileResponse(open(path1+'/'+path2+'/'+i, 'rb'), content_type='application/pdf')
+            return fil
             #return redirect(reverse("plumber:index"))
-            return redirect(reverse('materials:category_post', kwargs={'cat_id':c_id}))
+            #return redirect(reverse('materials:category_post', kwargs={'cat_id':c_id}))
 
 # def file_pdf(request):
 #     path = 'C:/Users/Fomenko.SM/EXAM_PSO3/Exam/media/uploads/паспорт__КМС_100-80-180_зав_0293_Электромаш_GOLkTwi.pdf'
